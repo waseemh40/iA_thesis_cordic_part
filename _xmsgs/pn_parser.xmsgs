@@ -8,70 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/carry_look_ahead_block.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/carry_look_ahead_block_extended.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_32bits.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_top_level.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_add_sub.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_adder.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/four_bits_CLA_adder.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/last_normalized.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_hyper_mode.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_linear_module.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_rotation_mode.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_vector_mode.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/sixteen_bits_add_sub.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/sixteen_bits_adder.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_forty_bits_adder.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_linear_combinatorial.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

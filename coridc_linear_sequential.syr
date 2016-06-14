@@ -5,7 +5,7 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Parameter xsthdpdir set to xst
@@ -126,8 +126,8 @@ Parsing architecture <Behavioral> of entity <forty_bit_add_sub>.
 Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" into library work
 Parsing entity <coridc_linear_sequential>.
 Parsing architecture <Behavioral> of entity <coridc_linear_sequential>.
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" Line 107: Actual for formal port mode is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" Line 113: Actual for formal port operand_a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" Line 108: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" Line 114: Actual for formal port operand_a is neither a static name nor a globally static expression
 
 =========================================================================
 *                            HDL Elaboration                            *
@@ -151,14 +151,16 @@ Elaborating entity <forty_bit_add_sub> (architecture <Behavioral>) from library 
 
 Synthesizing Unit <coridc_linear_sequential>.
     Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd".
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 95: Output port <over_flow> of the instance <adder_y> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 95: Output port <carry_out> of the instance <adder_y> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 103: Output port <over_flow> of the instance <adder_z> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 103: Output port <carry_out> of the instance <adder_z> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 111: Output port <over_flow> of the instance <adder_result> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 111: Output port <carry_out> of the instance <adder_result> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 96: Output port <over_flow> of the instance <adder_y> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 96: Output port <carry_out> of the instance <adder_y> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 104: Output port <over_flow> of the instance <adder_z> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 104: Output port <carry_out> of the instance <adder_z> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 112: Output port <over_flow> of the instance <adder_result> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 112: Output port <carry_out> of the instance <adder_result> is unconnected or connected to loadless signal.
     Found 5-bit register for signal <loop_var>.
     Found 1-bit register for signal <opr_done>.
+    Found 1-bit register for signal <rslt_sign>.
+    Found 1-bit register for signal <ovf>.
     Found 40-bit register for signal <x_current>.
     Found 40-bit register for signal <x_last>.
     Found 40-bit register for signal <x_last_shftd>.
@@ -168,10 +170,9 @@ INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequen
     Found 40-bit register for signal <z_last>.
     Found 40-bit register for signal <my_one_shftd>.
     Found 32-bit register for signal <result>.
+    Found 40-bit register for signal <result_dummy>.
     Found 1-bit register for signal <shamt_oprnd_1>.
     Found 1-bit register for signal <shamt_oprnd_2>.
-    Found 1-bit register for signal <rslt_sign>.
-    Found 40-bit register for signal <result_dummy>.
     Found 3-bit register for signal <state>.
     Found finite state machine <FSM_0> for signal <state>.
     -----------------------------------------------------------------------
@@ -187,13 +188,13 @@ INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequen
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 5-bit adder for signal <loop_var[4]_GND_4_o_add_8_OUT> created at line 241.
+    Found 5-bit adder for signal <loop_var[4]_GND_4_o_add_8_OUT> created at line 247.
 INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal y_add_result may hinder XST clustering optimizations.
 INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal z_add_result may hinder XST clustering optimizations.
     Summary:
 	inferred   1 Adder/Subtractor(s).
-	inferred 401 D-type flip-flop(s).
-	inferred  39 Multiplexer(s).
+	inferred 402 D-type flip-flop(s).
+	inferred  41 Multiplexer(s).
 	inferred   1 Finite State Machine(s).
 Unit <coridc_linear_sequential> synthesized.
 
@@ -235,13 +236,14 @@ HDL Synthesis Report
 Macro Statistics
 # Adders/Subtractors                                   : 1
  5-bit adder                                           : 1
-# Registers                                            : 15
- 1-bit register                                        : 4
+# Registers                                            : 16
+ 1-bit register                                        : 5
  32-bit register                                       : 1
  40-bit register                                       : 9
  5-bit register                                        : 1
-# Multiplexers                                         : 46
- 32-bit 2-to-1 multiplexer                             : 1
+# Multiplexers                                         : 48
+ 1-bit 2-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 2
  40-bit 2-to-1 multiplexer                             : 44
  5-bit 2-to-1 multiplexer                              : 1
 # FSMs                                                 : 1
@@ -273,10 +275,11 @@ Advanced HDL Synthesis Report
 Macro Statistics
 # Counters                                             : 1
  5-bit up counter                                      : 1
-# Registers                                            : 396
- Flip-Flops                                            : 396
-# Multiplexers                                         : 115
- 1-bit 2-to-1 multiplexer                              : 72
+# Registers                                            : 397
+ Flip-Flops                                            : 397
+# Multiplexers                                         : 117
+ 1-bit 2-to-1 multiplexer                              : 73
+ 32-bit 2-to-1 multiplexer                             : 1
  40-bit 2-to-1 multiplexer                             : 43
 # FSMs                                                 : 1
 # Xors                                                 : 401
@@ -340,7 +343,7 @@ WARNING:Xst:2677 - Node <z_current_2> of sequential type is unconnected in block
 WARNING:Xst:2677 - Node <z_current_3> of sequential type is unconnected in block <coridc_linear_sequential>.
 WARNING:Xst:2677 - Node <z_last_2> of sequential type is unconnected in block <coridc_linear_sequential>.
 WARNING:Xst:2677 - Node <z_last_3> of sequential type is unconnected in block <coridc_linear_sequential>.
-FlipFlop z_last_39 has been replicated 1 time(s)
+FlipFlop z_last_39 has been replicated 2 time(s)
 
 Final Macro Processing ...
 
@@ -348,8 +351,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 376
- Flip-Flops                                            : 376
+# Registers                                            : 378
+ Flip-Flops                                            : 378
 
 =========================================================================
 
@@ -372,22 +375,22 @@ Top Level Output File Name         : coridc_linear_sequential.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 899
-#      LUT2                        : 150
-#      LUT3                        : 77
-#      LUT4                        : 102
-#      LUT5                        : 157
-#      LUT6                        : 393
-#      MUXF7                       : 20
-# FlipFlops/Latches                : 376
-#      FDE                         : 43
+# BELS                             : 907
+#      LUT2                        : 151
+#      LUT3                        : 78
+#      LUT4                        : 103
+#      LUT5                        : 161
+#      LUT6                        : 391
+#      MUXF7                       : 23
+# FlipFlops/Latches                : 378
+#      FDE                         : 2
 #      FDR                         : 3
-#      FDRE                        : 330
+#      FDRE                        : 373
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 99
+# IO Buffers                       : 100
 #      IBUF                        : 66
-#      OBUF                        : 33
+#      OBUF                        : 34
 
 Device utilization summary:
 ---------------------------
@@ -396,20 +399,20 @@ Selected Device : 7a100tcsg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             376  out of  126800     0%  
- Number of Slice LUTs:                  879  out of  63400     1%  
-    Number used as Logic:               879  out of  63400     1%  
+ Number of Slice Registers:             378  out of  126800     0%  
+ Number of Slice LUTs:                  884  out of  63400     1%  
+    Number used as Logic:               884  out of  63400     1%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    880
-   Number with an unused Flip Flop:     504  out of    880    57%  
-   Number with an unused LUT:             1  out of    880     0%  
-   Number of fully used LUT-FF pairs:   375  out of    880    42%  
-   Number of unique control sets:        11
+ Number of LUT Flip Flop pairs used:    886
+   Number with an unused Flip Flop:     508  out of    886    57%  
+   Number with an unused LUT:             2  out of    886     0%  
+   Number of fully used LUT-FF pairs:   376  out of    886    42%  
+   Number of unique control sets:        12
 
 IO Utilization: 
- Number of IOs:                         100
- Number of bonded IOBs:                 100  out of    210    47%  
+ Number of IOs:                         101
+ Number of bonded IOBs:                 101  out of    210    48%  
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
@@ -435,7 +438,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clk                                | BUFGP                  | 376   |
+clk                                | BUFGP                  | 378   |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -458,7 +461,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
   Clock period: 3.518ns (frequency: 284.212MHz)
-  Total number of paths / destination ports: 14969 / 708
+  Total number of paths / destination ports: 15028 / 712
 -------------------------------------------------------------------------
 Delay:               3.518ns (Levels of Logic = 6)
   Source:            x_last_shftd_29 (FF)
@@ -474,7 +477,7 @@ Delay:               3.518ns (Levels of Logic = 6)
      LUT2:I0->O            2   0.097   0.516  adder_y/Mmux_b_feed221 (adder_y/b_feed<29>)
      LUT6:I3->O            2   0.097   0.299  adder_y/adder/CLA_block/C_OUT<7>_SW0 (N77)
      LUT6:I5->O            2   0.097   0.515  adder_y/adder/seventh_4bits/c<2>1_SW1 (N131)
-     LUT6:I3->O            2   0.097   0.515  adder_y/adder/eighth_4bits/c<2>1_SW1 (N204)
+     LUT6:I3->O            2   0.097   0.515  adder_y/adder/eighth_4bits/c<2>1_SW1 (N195)
      LUT6:I3->O            9   0.097   0.332  adder_y/adder/eighth_4bits/c<2>1 (adder_y/adder/eighth_4bits/c<2>)
      LUT6:I5->O            1   0.097   0.000  adder_y/adder/eighth_4bits/Mxor_sum<3>_xo<0>1 (y_add_result<31>)
      FDRE:D                    0.008          y_current_31
@@ -484,7 +487,7 @@ Delay:               3.518ns (Levels of Logic = 6)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 29207 / 501
+  Total number of paths / destination ports: 29457 / 504
 -------------------------------------------------------------------------
 Offset:              7.128ns (Levels of Logic = 10)
   Source:            operand_a<0> (PAD)
@@ -504,7 +507,7 @@ Offset:              7.128ns (Levels of Logic = 10)
      LUT6:I0->O            8   0.097   0.726  norm_1/adder/CLA_block/C_OUT<6>1 (norm_1/adder/c_group<6>)
      LUT6:I0->O            6   0.097   0.579  norm_1/adder/CLA_block/C_OUT<7>1 (norm_1/adder/c_group<7>)
      LUT4:I0->O            1   0.097   0.556  norm_1/adder/eighth_4bits/c<2>1 (norm_1/adder/eighth_4bits/c<2>)
-     LUT6:I2->O            1   0.097   0.000  Mmux__n0243331 (_n0243<39>)
+     LUT6:I2->O            1   0.097   0.000  Mmux__n0240331 (_n0240<39>)
      FDRE:D                    0.008          x_last_39
     ----------------------------------------
     Total                      7.128ns (0.882ns logic, 6.246ns route)
@@ -512,7 +515,7 @@ Offset:              7.128ns (Levels of Logic = 10)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 33 / 33
+  Total number of paths / destination ports: 34 / 34
 -------------------------------------------------------------------------
 Offset:              0.640ns (Levels of Logic = 1)
   Source:            result_31 (FF)
@@ -545,13 +548,13 @@ clk            |    3.518|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 17.00 secs
-Total CPU time to Xst completion: 16.58 secs
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 14.83 secs
  
 --> 
 
 
-Total memory usage is 515724 kilobytes
+Total memory usage is 515808 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   35 (   0 filtered)

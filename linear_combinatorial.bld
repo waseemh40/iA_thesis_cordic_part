@@ -1,0 +1,44 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /home/waseemh/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild
+-intstyle ise -dd _ngo -nt timestamp -i -bm norm_linear_module.bmm -p
+xc7a100t-csg324-3 linear_combinatorial.ngc linear_combinatorial.ngd
+
+Reading NGO file
+"/home/waseemh/Xilinx_Proj/iA_cordic_6stage/linear_combinatorial.ngc" ...
+Loading design module
+"/home/waseemh/Xilinx_Proj/iA_cordic_6stage/linear_combinatorial.ngc"...
+WARNING:NgdBuild:578 - Design contains no instances.
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Processing BMM file "norm_linear_module.bmm" ...
+
+WARNING::53 - File 'norm_linear_module.bmm' is empty or has no BMM content.
+
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   1
+
+Total memory usage is 461400 kilobytes
+
+Writing NGD file "linear_combinatorial.ngd" ...
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   5 sec
+
+Writing NGDBUILD log file "linear_combinatorial.bld"...

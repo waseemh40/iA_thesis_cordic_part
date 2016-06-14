@@ -1,0 +1,10 @@
+Command line:
+   tb_cordic_tan_combinatorial_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  35418
+
+Tue Jun 14 16:01:36 2016
+
+
+ Elaboration Time: 0.09 sec

@@ -174,15 +174,11 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="coridc_linear_sequential_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="coridc_linear_sequential_map.ncd" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="coridc_linear_sequential_map.ngm" xil_pn:subbranch="Map"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coridc_linear_sequential_map.xrpt"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coridc_linear_sequential_ngdbuild.xrpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="coridc_linear_sequential_pad.csv" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="coridc_linear_sequential_pad.txt" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coridc_linear_sequential_par.xrpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="coridc_linear_sequential_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="coridc_linear_sequential_summary.html"/>
-    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="coridc_linear_sequential_summary.xml"/>
-    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="coridc_linear_sequential_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coridc_linear_sequential_xst.xrpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="coridc_seq_tan.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="coridc_seq_tan.cmd_log"/>
@@ -266,6 +262,22 @@
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="linear_combinatorial.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="linear_combinatorial.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="linear_combinatorial.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="linear_combinatorial.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="linear_combinatorial.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="linear_combinatorial.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="linear_combinatorial.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="linear_combinatorial.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="linear_combinatorial.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="linear_combinatorial.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="linear_combinatorial_envsettings.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="linear_combinatorial_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="linear_combinatorial_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="linear_combinatorial_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="linear_combinatorial_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="linear_combinatorial_xst.xrpt"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="sixteen_bits_add_sub.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="sixteen_bits_add_sub.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="sixteen_bits_add_sub.ngc"/>
@@ -284,13 +296,13 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_linear_32bit_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cordic_mul_sequ_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_mul_sequ_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_rot_seq_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cordic_rot_seq_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_cordic_rot_seq_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_rot_seq_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cordic_seq_tan_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_seq_tan_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_tan_combinatorial_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cordic_tan_combinatorial_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_cordic_tan_combinatorial_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_tan_combinatorial_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_forty_bits_add_sub_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_forty_bits_add_sub_isim_beh.exe"/>
@@ -313,8 +325,8 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1465831320" xil_pn:in_ck="2701795618449500712" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1465831320">
-      <status xil_pn:value="SuccessfullyRun"/>
+    <transform xil_pn:end_ts="1465831320" xil_pn:in_ck="-1665927925430033834" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1465917024">
+      <status xil_pn:value="ExecutingRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="carry_look_ahead_block.vhd"/>
       <outfile xil_pn:name="carry_look_ahead_block_extended.vhd"/>
@@ -349,21 +361,23 @@
       <outfile xil_pn:name="tb_hyper_seq_module.vhd"/>
       <outfile xil_pn:name="tb_linear_crodic_q_2_14.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1465829045" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7728698910672188795" xil_pn:start_ts="1465829045">
+    <transform xil_pn:end_ts="1465912889" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7323177918436706852" xil_pn:start_ts="1465912889">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1465829045" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7612735281382593497" xil_pn:start_ts="1465829045">
+    <transform xil_pn:end_ts="1465912889" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5213309153148595714" xil_pn:start_ts="1465912889">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1465489316" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6970925552198037707" xil_pn:start_ts="1465489316">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1465831327" xil_pn:in_ck="2701795618449500712" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1465831327">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="carry_look_ahead_block.vhd"/>
       <outfile xil_pn:name="carry_look_ahead_block_extended.vhd"/>
       <outfile xil_pn:name="cordic_hyperbolic_seq.vhd"/>
@@ -397,77 +411,95 @@
       <outfile xil_pn:name="tb_hyper_seq_module.vhd"/>
       <outfile xil_pn:name="tb_linear_crodic_q_2_14.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1465831330" xil_pn:in_ck="2701795618449500712" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6044036727700607558" xil_pn:start_ts="1465831327">
+    <transform xil_pn:end_ts="1465912893" xil_pn:in_ck="2701795618449500712" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6838468985706107144" xil_pn:start_ts="1465912889">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tb_cordic_rot_seq_beh.prj"/>
-      <outfile xil_pn:name="tb_cordic_rot_seq_isim_beh.exe"/>
+      <outfile xil_pn:name="tb_cordic_tan_combinatorial_beh.prj"/>
+      <outfile xil_pn:name="tb_cordic_tan_combinatorial_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1465831551" xil_pn:in_ck="-8611273773717848082" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1665278668211364461" xil_pn:start_ts="1465831550">
+    <transform xil_pn:end_ts="1465912893" xil_pn:in_ck="-8611273773717848082" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2007551371749528933" xil_pn:start_ts="1465912893">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tb_cordic_rot_seq_isim_beh.wdb"/>
+      <outfile xil_pn:name="tb_cordic_tan_combinatorial_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1462402594" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1462402594">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1465559527" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1154853310530268499" xil_pn:start_ts="1465559527">
+    <transform xil_pn:end_ts="1465916900" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4985029334309751135" xil_pn:start_ts="1465916900">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1465559527" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-6970925552198037707" xil_pn:start_ts="1465559527">
+    <transform xil_pn:end_ts="1465916900" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="2908888326481165831" xil_pn:start_ts="1465916900">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1465559527" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1465559527">
+    <transform xil_pn:end_ts="1465916900" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1465916900">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1465559527" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4769711330129103759" xil_pn:start_ts="1465559527">
+    <transform xil_pn:end_ts="1465916900" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-6015283297009390079" xil_pn:start_ts="1465916900">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1465559527" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1465559527">
+    <transform xil_pn:end_ts="1465916900" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1465916900">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1465559527" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2687328189135287425" xil_pn:start_ts="1465559527">
+    <transform xil_pn:end_ts="1465916900" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="9187608998416554257" xil_pn:start_ts="1465916900">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1465559551" xil_pn:in_ck="-6746179418167055157" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-1838417277224883780" xil_pn:start_ts="1465559527">
+    <transform xil_pn:end_ts="1465916942" xil_pn:in_ck="-1403481915080588999" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-4626314645287436338" xil_pn:start_ts="1465916930">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="cordic_hyperbolic_seq.lso"/>
-      <outfile xil_pn:name="cordic_hyperbolic_seq.ngc"/>
-      <outfile xil_pn:name="cordic_hyperbolic_seq.ngr"/>
-      <outfile xil_pn:name="cordic_hyperbolic_seq.prj"/>
-      <outfile xil_pn:name="cordic_hyperbolic_seq.stx"/>
-      <outfile xil_pn:name="cordic_hyperbolic_seq.syr"/>
-      <outfile xil_pn:name="cordic_hyperbolic_seq.xst"/>
-      <outfile xil_pn:name="cordic_hyperbolic_seq_xst.xrpt"/>
       <outfile xil_pn:name="forty_bit_add_sub.ngr"/>
       <outfile xil_pn:name="forty_bit_adder.ngr"/>
+      <outfile xil_pn:name="linear_combinatorial.lso"/>
+      <outfile xil_pn:name="linear_combinatorial.ngc"/>
+      <outfile xil_pn:name="linear_combinatorial.ngr"/>
+      <outfile xil_pn:name="linear_combinatorial.prj"/>
+      <outfile xil_pn:name="linear_combinatorial.stx"/>
+      <outfile xil_pn:name="linear_combinatorial.syr"/>
+      <outfile xil_pn:name="linear_combinatorial.xst"/>
+      <outfile xil_pn:name="linear_combinatorial_xst.xrpt"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1465218939" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3762510652283016950" xil_pn:start_ts="1465218939">
+    <transform xil_pn:end_ts="1465916944" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1154612320046534890" xil_pn:start_ts="1465916944">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1465916951" xil_pn:in_ck="-5677023458737443813" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-1562342770834015934" xil_pn:start_ts="1465916944">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="linear_combinatorial.bld"/>
+      <outfile xil_pn:name="linear_combinatorial.ngd"/>
+      <outfile xil_pn:name="linear_combinatorial_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1465916960" xil_pn:in_ck="8151158712500194339" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1465916951">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="linear_combinatorial_map.map"/>
+      <outfile xil_pn:name="linear_combinatorial_map.mrp"/>
     </transform>
   </transforms>
 

@@ -2,8 +2,8 @@ Release 14.7 ngdbuild P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 Command Line: /home/waseemh/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild
--intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3
-coridc_linear_sequential.ngc coridc_linear_sequential.ngd
+-intstyle ise -dd _ngo -nt timestamp -i -bm norm_linear_module.bmm -p
+xc7a100t-csg324-3 coridc_linear_sequential.ngc coridc_linear_sequential.ngd
 
 Reading NGO file
 "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.ngc" ...
@@ -13,6 +13,11 @@ Done.
 Resolving constraint associations...
 Checking Constraint Associations...
 Done...
+
+Processing BMM file "norm_linear_module.bmm" ...
+
+WARNING::53 - File 'norm_linear_module.bmm' is empty or has no BMM content.
+
 
 Checking expanded design ...
 
@@ -27,10 +32,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 461384 kilobytes
+Total memory usage is 464632 kilobytes
 
 Writing NGD file "coridc_linear_sequential.ngd" ...
-Total REAL time to NGDBUILD completion:  6 sec
-Total CPU time to NGDBUILD completion:   5 sec
+Total REAL time to NGDBUILD completion:  7 sec
+Total CPU time to NGDBUILD completion:   7 sec
 
 Writing NGDBUILD log file "coridc_linear_sequential.bld"...
