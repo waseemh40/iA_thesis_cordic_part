@@ -1,4 +1,4 @@
-Running: /home/waseemh/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_cordic_tan_combinatorial_isim_beh.exe -prj /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_cordic_tan_combinatorial_beh.prj work.tb_cordic_tan_combinatorial 
+Running: /home/waseemh/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_linear_combinatorial_isim_beh.exe -prj /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_linear_combinatorial_beh.prj work.tb_linear_combinatorial 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
@@ -6,35 +6,27 @@ Determining compilation order of HDL files
 Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/four_bits_CLA_adder.vhd" into library work
 Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/carry_look_ahead_block_extended.vhd" into library work
 Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_adder.vhd" into library work
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_linear_module.vhd" into library work
 Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_add_sub.vhd" into library work
-Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" into library work
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 275: Actual for formal port mode is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 284: Actual for formal port mode is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 292: Actual for formal port mode is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 300: Actual for formal port mode is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 309: Actual for formal port mode is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 317: Actual for formal port mode is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 325: Actual for formal port mode is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 333: Actual for formal port mode is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 341: Actual for formal port mode is neither a static name nor a globally static expression
-Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_cordic_tan_combinatorial.vhd" into library work
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/linear_combinatorial.vhd" into library work
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/linear_combinatorial.vhd" Line 121: Actual for formal port mode is neither a static name nor a globally static expression
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_linear_combinatorial.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 97052 KB
-Fuse CPU Usage: 1230 ms
+Fuse Memory Usage: 95908 KB
+Fuse CPU Usage: 1150 ms
 Compiling package standard
 Compiling package std_logic_1164
-Compiling package numeric_std
 Compiling architecture behavioral of entity four_bits_CLA_adder [four_bits_cla_adder_default]
 Compiling architecture behavioral of entity carry_look_ahead_block_extended [carry_look_ahead_block_extended_...]
 Compiling architecture behavioral of entity forty_bit_adder [forty_bit_adder_default]
+Compiling architecture behavioral of entity norm_linear_module [norm_linear_module_default]
 Compiling architecture behavioral of entity forty_bit_add_sub [forty_bit_add_sub_default]
-Compiling architecture behavioral of entity cordic_tan_combinatorial [cordic_tan_combinatorial_default]
-Compiling architecture behavior of entity tb_cordic_tan_combinatorial
+Compiling architecture behavioral of entity linear_combinatorial [linear_combinatorial_default]
+Compiling architecture behavior of entity tb_linear_combinatorial
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 14 VHDL Units
-Built simulation executable /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_cordic_tan_combinatorial_isim_beh.exe
-Fuse Memory Usage: 669008 KB
-Fuse CPU Usage: 1380 ms
-GCC CPU Usage: 780 ms
+Compiled 15 VHDL Units
+Built simulation executable /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_linear_combinatorial_isim_beh.exe
+Fuse Memory Usage: 661816 KB
+Fuse CPU Usage: 1210 ms
+GCC CPU Usage: 770 ms

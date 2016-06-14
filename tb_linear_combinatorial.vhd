@@ -76,27 +76,16 @@ BEGIN
           ovf => ovf
         );
 
-   -- Clock process definitions
-   clk_process :process
-   begin
-		clk <= '0';
-		wait for clk_period/2;
-		clk <= '1';
-		wait for clk_period/2;
-   end process;
- 
+operand_a <="00000000000000000011000000000000" after 5 ns,"00000000000011011100000000000000" after 100 ns,"00000000111111110011000000000000" after 500 ns,"00000000111100001011001100110011" after 600ns,"00000000011111110100010100011110" after 700 ns,"00000000000000110101100110011001" after 800 ns;
+operand_b <="00000000000000000010000000000000" after 5 ns,"00000000000011011000000000000000" after 100 ns,"00000000111111110011000000000000" after 500 ns,"00000000011010101010100011110101" after 600ns,"00000000011111110100010100011110" after 700 ns,"00000000000000110101100110011001" after 900 ns; 
+--0.1875*0.125
+--13.75*13.5 
+--255*255
+--240.6999969482421875*106.6599884033203125
+--127.27*127.27
+--(-3.35)*127.27
+--(-3.35)^2
 
-   -- Stimulus process
-   stim_proc: process
-   begin		
-      -- hold reset state for 100 ns.
-      wait for 100 ns;	
 
-      wait for clk_period*10;
-
-      -- insert stimulus here 
-
-      wait;
-   end process;
 
 END;

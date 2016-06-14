@@ -300,9 +300,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_rot_seq_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cordic_seq_tan_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_seq_tan_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_tan_combinatorial_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cordic_tan_combinatorial_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_cordic_tan_combinatorial_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_tan_combinatorial_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_forty_bits_add_sub_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_forty_bits_add_sub_isim_beh.exe"/>
@@ -312,6 +310,10 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_forty_bits_adder_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_hyper_seq_module_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_hyper_seq_module_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_linear_combinatorial_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_linear_combinatorial_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_linear_combinatorial_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_linear_combinatorial_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_linear_crodic_q_2_14_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_linear_crodic_q_2_14_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
@@ -325,8 +327,8 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1465831320" xil_pn:in_ck="-1665927925430033834" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1465917024">
-      <status xil_pn:value="ExecutingRun"/>
+    <transform xil_pn:end_ts="1465917902" xil_pn:in_ck="3434115394922952345" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1465917902">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="carry_look_ahead_block.vhd"/>
       <outfile xil_pn:name="carry_look_ahead_block_extended.vhd"/>
@@ -343,6 +345,7 @@
       <outfile xil_pn:name="forty_bit_adder.vhd"/>
       <outfile xil_pn:name="four_bits_CLA_adder.vhd"/>
       <outfile xil_pn:name="last_normalized.vhd"/>
+      <outfile xil_pn:name="linear_combinatorial.vhd"/>
       <outfile xil_pn:name="norm_hyper_mode.vhd"/>
       <outfile xil_pn:name="norm_linear_module.vhd"/>
       <outfile xil_pn:name="norm_rotation_mode.vhd"/>
@@ -359,25 +362,24 @@
       <outfile xil_pn:name="tb_forty_bits_add_sub.vhd"/>
       <outfile xil_pn:name="tb_forty_bits_adder.vhd"/>
       <outfile xil_pn:name="tb_hyper_seq_module.vhd"/>
+      <outfile xil_pn:name="tb_linear_combinatorial.vhd"/>
       <outfile xil_pn:name="tb_linear_crodic_q_2_14.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1465912889" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7323177918436706852" xil_pn:start_ts="1465912889">
+    <transform xil_pn:end_ts="1465917225" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4343044124794946007" xil_pn:start_ts="1465917225">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1465912889" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5213309153148595714" xil_pn:start_ts="1465912889">
+    <transform xil_pn:end_ts="1465917225" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1437044372632277383" xil_pn:start_ts="1465917225">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1465489316" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6970925552198037707" xil_pn:start_ts="1465489316">
+    <transform xil_pn:end_ts="1465917024" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="2908888326481165831" xil_pn:start_ts="1465917024">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1465831327" xil_pn:in_ck="2701795618449500712" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1465831327">
+    <transform xil_pn:end_ts="1465917912" xil_pn:in_ck="3434115394922952345" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1465917912">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="carry_look_ahead_block.vhd"/>
       <outfile xil_pn:name="carry_look_ahead_block_extended.vhd"/>
       <outfile xil_pn:name="cordic_hyperbolic_seq.vhd"/>
@@ -393,6 +395,7 @@
       <outfile xil_pn:name="forty_bit_adder.vhd"/>
       <outfile xil_pn:name="four_bits_CLA_adder.vhd"/>
       <outfile xil_pn:name="last_normalized.vhd"/>
+      <outfile xil_pn:name="linear_combinatorial.vhd"/>
       <outfile xil_pn:name="norm_hyper_mode.vhd"/>
       <outfile xil_pn:name="norm_linear_module.vhd"/>
       <outfile xil_pn:name="norm_rotation_mode.vhd"/>
@@ -409,97 +412,36 @@
       <outfile xil_pn:name="tb_forty_bits_add_sub.vhd"/>
       <outfile xil_pn:name="tb_forty_bits_adder.vhd"/>
       <outfile xil_pn:name="tb_hyper_seq_module.vhd"/>
+      <outfile xil_pn:name="tb_linear_combinatorial.vhd"/>
       <outfile xil_pn:name="tb_linear_crodic_q_2_14.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1465912893" xil_pn:in_ck="2701795618449500712" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6838468985706107144" xil_pn:start_ts="1465912889">
+    <transform xil_pn:end_ts="1465917914" xil_pn:in_ck="3434115394922952345" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2592300539511597790" xil_pn:start_ts="1465917912">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tb_cordic_tan_combinatorial_beh.prj"/>
-      <outfile xil_pn:name="tb_cordic_tan_combinatorial_isim_beh.exe"/>
+      <outfile xil_pn:name="tb_linear_combinatorial_beh.prj"/>
+      <outfile xil_pn:name="tb_linear_combinatorial_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1465912893" xil_pn:in_ck="-8611273773717848082" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2007551371749528933" xil_pn:start_ts="1465912893">
+    <transform xil_pn:end_ts="1465917914" xil_pn:in_ck="-3335460588141188720" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6776579749385462033" xil_pn:start_ts="1465917914">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tb_cordic_tan_combinatorial_isim_beh.wdb"/>
+      <outfile xil_pn:name="tb_linear_combinatorial_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1462402594" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1462402594">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1465916900" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4985029334309751135" xil_pn:start_ts="1465916900">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1465916900" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="2908888326481165831" xil_pn:start_ts="1465916900">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1465916900" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1465916900">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1465916900" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-6015283297009390079" xil_pn:start_ts="1465916900">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1465916900" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1465916900">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1465916900" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="9187608998416554257" xil_pn:start_ts="1465916900">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1465916942" xil_pn:in_ck="-1403481915080588999" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-4626314645287436338" xil_pn:start_ts="1465916930">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="forty_bit_add_sub.ngr"/>
-      <outfile xil_pn:name="forty_bit_adder.ngr"/>
-      <outfile xil_pn:name="linear_combinatorial.lso"/>
-      <outfile xil_pn:name="linear_combinatorial.ngc"/>
-      <outfile xil_pn:name="linear_combinatorial.ngr"/>
-      <outfile xil_pn:name="linear_combinatorial.prj"/>
-      <outfile xil_pn:name="linear_combinatorial.stx"/>
-      <outfile xil_pn:name="linear_combinatorial.syr"/>
-      <outfile xil_pn:name="linear_combinatorial.xst"/>
-      <outfile xil_pn:name="linear_combinatorial_xst.xrpt"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
-    </transform>
     <transform xil_pn:end_ts="1465916944" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1154612320046534890" xil_pn:start_ts="1465916944">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1465916951" xil_pn:in_ck="-5677023458737443813" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-1562342770834015934" xil_pn:start_ts="1465916944">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_ngo"/>
-      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
-      <outfile xil_pn:name="linear_combinatorial.bld"/>
-      <outfile xil_pn:name="linear_combinatorial.ngd"/>
-      <outfile xil_pn:name="linear_combinatorial_ngdbuild.xrpt"/>
-    </transform>
-    <transform xil_pn:end_ts="1465916960" xil_pn:in_ck="8151158712500194339" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1465916951">
-      <status xil_pn:value="FailedRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
-      <outfile xil_pn:name="linear_combinatorial_map.map"/>
-      <outfile xil_pn:name="linear_combinatorial_map.mrp"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
   </transforms>
 

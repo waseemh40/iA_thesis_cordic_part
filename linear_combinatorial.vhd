@@ -114,7 +114,7 @@ GEN_Y_ADDERS:
 	--z adders
 GEN_Z_ADDERS: 
    for I in 0 to 15 generate
-      y_adder : entity work.forty_bit_add_sub
+      z_adder : entity work.forty_bit_add_sub
 		port map
 			( operand_a 	=> z_sig(I),
            operand_b 	=> my_one(I),
@@ -178,12 +178,5 @@ z_sig(12)	<= z_addr_rslt(11);
 z_sig(13)	<= z_addr_rslt(12);
 z_sig(14)	<= z_addr_rslt(13);
 z_sig(15)	<= z_addr_rslt(14);
-process (clk)
-begin
-	if rising_edge (clk) then
-		null;
-	end if;
-end process;
-
 end Behavioral;
 

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-06-14T17:08:19</DateModified>
+  <DateModified>2016-06-14T17:18:24</DateModified>
   <ModuleName>linear_combinatorial</ModuleName>
-  <SummaryTimeStamp>2016-06-14T17:07:22</SummaryTimeStamp>
+  <SummaryTimeStamp>2016-06-14T17:09:20</SummaryTimeStamp>
   <SavedFilePath>/home/waseemh/Xilinx_Proj/iA_cordic_6stage/iseconfig/cordic_hyperbolic_seq.xreport</SavedFilePath>
   <ImplementationReportsDirectory>/home/waseemh/Xilinx_Proj/iA_cordic_6stage/</ImplementationReportsDirectory>
   <DateInitialized>2016-06-14T17:08:19</DateInitialized>
