@@ -1,0 +1,6 @@
+DESIGN cordic_pkg
+VIEW _package.vhd
+NO_GRAPHIC 0
+DESIGN cordic_pkg
+VIEW _package_body.vhd
+NO_GRAPHIC 31

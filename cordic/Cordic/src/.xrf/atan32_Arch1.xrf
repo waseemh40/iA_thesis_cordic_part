@@ -1,0 +1,27 @@
+DESIGN atan32
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN atan32
+VIEW symbol.sb
+GRAPHIC 65,0 21 0 
+DESIGN atan32
+VIEW symbol.sb
+GRAPHIC 63,0 29 0 
+DESIGN atan32
+VIEW symbol.sb
+GRAPHIC 13,0 34 1 
+DESIGN atan32
+VIEW symbol.sb
+GRAPHIC 48,0 38 0 
+DESIGN atan32
+VIEW symbol.sb
+GRAPHIC 53,0 39 0 
+DESIGN atan32
+VIEW symbol.sb
+GRAPHIC 1,0 42 0 
+DESIGN atan32
+VIEW symbol.sb
+GRAPHIC 1,0 43 0 
+DESIGN atan32
+VIEW @arch1.vhd
+GRAPHIC 1,0 47 0 

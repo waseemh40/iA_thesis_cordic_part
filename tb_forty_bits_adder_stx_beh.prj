@@ -1,0 +1,4 @@
+vhdl isim_temp "four_bits_CLA_adder.vhd"
+vhdl isim_temp "carry_look_ahead_block_extended.vhd"
+vhdl isim_temp "thirty2_bit_adder.vhd"
+vhdl isim_temp "tb_thirty2_bits_adder.vhd"

@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.syr" 
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.syr" 
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.syr" 
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.syr" 

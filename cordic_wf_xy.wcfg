@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_cordic_iA_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="tb_cordic_ia" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tb_cordic_ia/angle" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">angle[15:0]</obj_property>
+      <obj_property name="ObjectShortName">angle[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_ia/uut/angle_shifted" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">angle_shifted[15:0]</obj_property>
+      <obj_property name="ObjectShortName">angle_shifted[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_ia/uut/angle_shifted" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">angle_shifted[15:0]</obj_property>
+      <obj_property name="ObjectShortName">angle_shifted[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_ia/sin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sin[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_ia/cos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cos[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cos[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_ia/uut/sin_8_bit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sin_8_bit[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sin_8_bit[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_ia/uut/cos_8_bit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cos_8_bit[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cos_8_bit[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

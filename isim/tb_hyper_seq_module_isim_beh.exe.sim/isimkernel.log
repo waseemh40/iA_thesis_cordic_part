@@ -1,0 +1,30 @@
+Command line:
+   tb_hyper_seq_module_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51014
+
+Mon Jun 13 16:40:30 2016
+
+
+ Elaboration Time: 0.06 sec
+
+ Current Memory Usage: 198.926 Meg
+
+ Total Signals          : 496
+ Total Nets             : 1726
+ Total Signal Drivers   : 758
+ Total Blocks           : 57
+ Total Primitive Blocks : 47
+ Total Processes        : 743
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 2930
+Total Line Count : 887
+Total Line Count : 887
+
+ Total Simulation Time: 4.59 sec
+
+ Current Memory Usage: 274.428 Meg
+
+Mon Jun 13 16:42:18 2016
+

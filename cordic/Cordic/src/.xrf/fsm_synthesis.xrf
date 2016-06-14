@@ -1,0 +1,183 @@
+DESIGN fsm
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 91,0 21 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 89,0 25 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 48,0 31 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 53,0 32 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 59,0 33 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 64,0 34 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 69,0 35 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 74,0 36 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 79,0 37 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 1,0 40 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 1,0 41 0 
+DESIGN fsm
+VIEW synthesis.sm
+NO_GRAPHIC 45
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 25,0 64 1 
+DESIGN fsm
+VIEW synthesis.sm
+NO_GRAPHIC 66
+DESIGN fsm
+VIEW synthesis.sm
+NO_GRAPHIC 69
+DESIGN fsm
+VIEW synthesis.sm
+NO_GRAPHIC 69
+DESIGN fsm
+VIEW symbol.sb
+NO_GRAPHIC 86
+DESIGN fsm
+VIEW synthesis.sm
+NO_GRAPHIC 86
+DESIGN fsm
+VIEW synthesis.sm
+NO_GRAPHIC 89
+DESIGN fsm
+VIEW synthesis.sm
+NO_GRAPHIC 90
+DESIGN fsm
+VIEW synthesis.sm
+NO_GRAPHIC 93
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 37,0 94 0 RESET_STATE
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 22,0 95 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 22,0 98 1 
+DESIGN fsm
+VIEW synthesis.sm
+NO_GRAPHIC 99
+DESIGN fsm
+VIEW synthesis.sm
+NO_GRAPHIC 99
+DESIGN fsm
+VIEW synthesis.sm
+NO_GRAPHIC 106
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 37,0 113 0 STATE_LABEL
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 74,0 114 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 69,0 114 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 69,0 115 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 45,0 115 0 TRANSITION_CONDITION
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 37,0 117 0 TRANSITION_FAILED
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 45,0 119 0 STATE_LABEL
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 84,0 120 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 79,0 120 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 79,0 121 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 53,0 121 0 TRANSITION_CONDITION
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 45,0 123 0 TRANSITION_FAILED
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 53,0 125 0 STATE_LABEL
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 94,0 126 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 89,0 126 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 89,0 127 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 37,0 127 0 TRANSITION_CONDITION
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 53,0 129 0 TRANSITION_FAILED
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 37,0 132 0 TRANSITION_FAILED
+DESIGN fsm
+VIEW synthesis.sm
+NO_GRAPHIC 137
+DESIGN fsm
+VIEW synthesis.sm
+NO_GRAPHIC 139
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 22,0 143 1 
+DESIGN fsm
+VIEW synthesis.sm
+NO_GRAPHIC 145
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 37,0 148 0 STATE_ACTION
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 44,0 149 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 43,0 149 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 45,0 152 0 STATE_ACTION
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 52,0 153 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 51,0 153 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 53,0 156 0 STATE_ACTION
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 60,0 157 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 59,0 157 0 
+DESIGN fsm
+VIEW synthesis.sm
+GRAPHIC 21,0 161 0 

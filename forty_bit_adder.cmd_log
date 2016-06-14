@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_adder.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_adder.syr" 

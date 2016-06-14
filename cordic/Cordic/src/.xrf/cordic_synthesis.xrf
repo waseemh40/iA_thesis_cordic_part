@@ -1,0 +1,350 @@
+DESIGN cordic
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 50,0 21 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 13,0 30 1 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 92,0 34 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 57,0 35 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 63,0 36 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 69,0 37 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 74,0 38 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 79,0 39 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 84,0 40 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 1,0 43 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 1,0 44 0 
+DESIGN cordic
+VIEW synthesis.bd
+NO_GRAPHIC 48
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 1013,0 67 0 
+DESIGN cordic
+VIEW synthesis.bd
+NO_GRAPHIC 70
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 0,0 73 2 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 9,0 78 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 12,0 79 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 14,0 80 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 16,0 81 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 18,0 82 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 20,0 83 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 22,0 84 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 28,0 85 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 31,0 86 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 33,0 87 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 35,0 88 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2853,0 89 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2851,0 90 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2961,0 91 0 
+DESIGN cordic
+VIEW synthesis.bd
+NO_GRAPHIC 92
+DESIGN cordic
+VIEW synthesis.bd
+NO_GRAPHIC 93
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 1,0 94 0 
+DESIGN cordic
+VIEW synthesis.bd
+NO_GRAPHIC 94
+LIBRARY cordic
+DESIGN addsub
+VIEW synthesis.vhd
+GRAPHIC 255,0 98 0 
+DESIGN addsub
+VIEW symbol.sb
+GRAPHIC 14,0 99 1 
+DESIGN addsub
+VIEW symbol.sb
+GRAPHIC 52,0 103 0 
+DESIGN addsub
+VIEW symbol.sb
+GRAPHIC 57,0 104 0 
+DESIGN addsub
+VIEW symbol.sb
+GRAPHIC 62,0 105 0 
+DESIGN addsub
+VIEW symbol.sb
+GRAPHIC 67,0 106 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 377,0 109 0 
+DESIGN atan32
+VIEW symbol.sb
+GRAPHIC 14,0 110 1 
+DESIGN atan32
+VIEW symbol.sb
+GRAPHIC 48,0 114 0 
+DESIGN atan32
+VIEW symbol.sb
+GRAPHIC 53,0 115 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 497,0 118 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 48,0 120 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 53,0 121 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 59,0 122 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 64,0 123 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 69,0 124 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 74,0 125 0 
+DESIGN fsm
+VIEW symbol.sb
+GRAPHIC 79,0 126 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 149,0 129 0 
+DESIGN shiftn
+VIEW symbol.sb
+GRAPHIC 14,0 130 1 
+DESIGN shiftn
+VIEW symbol.sb
+GRAPHIC 52,0 134 0 
+DESIGN shiftn
+VIEW symbol.sb
+GRAPHIC 57,0 135 0 
+DESIGN shiftn
+VIEW symbol.sb
+GRAPHIC 62,0 136 0 
+LIBRARY Cordic
+DESIGN cordic
+VIEW synthesis.bd
+NO_GRAPHIC 139
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 377,0 145 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 497,0 146 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 149,0 147 0 
+DESIGN cordic
+VIEW synthesis.bd
+NO_GRAPHIC 150
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 621,0 153 0 
+DESIGN cordic
+VIEW synthesis.bd
+NO_GRAPHIC 163
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 680,0 164 0 
+DESIGN cordic
+VIEW synthesis.bd
+NO_GRAPHIC 174
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 739,0 175 0 
+DESIGN cordic
+VIEW synthesis.bd
+NO_GRAPHIC 185
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 808,0 186 0 
+DESIGN cordic
+VIEW synthesis.bd
+NO_GRAPHIC 189
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 837,0 190 0 
+DESIGN cordic
+VIEW synthesis.bd
+NO_GRAPHIC 199
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 886,0 200 0 
+DESIGN cordic
+VIEW synthesis.bd
+NO_GRAPHIC 203
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2326,0 204 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 255,0 208 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 262,0 209 1 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2833,0 213 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2829,0 214 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 1676,0 215 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2955,0 216 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 312,0 218 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 319,0 219 1 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2845,0 223 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2841,0 224 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 1608,0 225 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2963,0 226 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 410,0 228 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 417,0 229 1 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 435,0 233 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 402,0 234 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 1506,0 235 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2855,0 236 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 377,0 238 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 384,0 239 1 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 394,0 243 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 402,0 244 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 497,0 246 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 536,0 248 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 544,0 249 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 552,0 250 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 1996,0 251 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 640,0 252 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 650,0 253 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 1644,0 254 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 149,0 256 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 156,0 257 1 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 895,0 261 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2841,0 262 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2011,0 263 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 194,0 265 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 201,0 266 1 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 215,0 270 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2829,0 271 0 
+DESIGN cordic
+VIEW synthesis.bd
+GRAPHIC 2023,0 272 0 
+DESIGN cordic
+VIEW synthesis.bd
+NO_GRAPHIC 275

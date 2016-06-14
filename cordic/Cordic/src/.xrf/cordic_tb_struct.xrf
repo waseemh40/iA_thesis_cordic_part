@@ -1,0 +1,194 @@
+DESIGN cordic_tb
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN cordic_tb
+VIEW symbol.sb
+GRAPHIC 50,0 21 0 
+DESIGN cordic_tb
+VIEW symbol.sb
+GRAPHIC 13,0 24 1 
+DESIGN cordic_tb
+VIEW symbol.sb
+GRAPHIC 1,0 28 0 
+DESIGN cordic_tb
+VIEW symbol.sb
+GRAPHIC 1,0 29 0 
+DESIGN cordic_tb
+VIEW struct.bd
+NO_GRAPHIC 33
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 205,0 52 0 
+DESIGN cordic_tb
+VIEW struct.bd
+NO_GRAPHIC 61
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 0,0 64 2 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 293,0 69 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 497,0 70 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 281,0 71 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 309,0 72 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 259,0 73 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 287,0 74 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 301,0 75 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 267,0 76 0 
+DESIGN cordic_tb
+VIEW struct.bd
+NO_GRAPHIC 77
+DESIGN cordic_tb
+VIEW struct.bd
+NO_GRAPHIC 78
+LIBRARY Cordic
+DESIGN clockgen
+VIEW rtl.vhd
+GRAPHIC 756,0 80 0 
+DESIGN clockgen
+VIEW symbol.sb
+GRAPHIC 14,0 81 1 
+DESIGN clockgen
+VIEW symbol.sb
+GRAPHIC 51,0 85 0 
+DESIGN clockgen
+VIEW symbol.sb
+GRAPHIC 56,0 86 0 
+DESIGN clockgen
+VIEW symbol.sb
+GRAPHIC 61,0 87 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 164,0 90 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 14,0 91 1 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 92,0 95 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 57,0 96 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 63,0 97 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 69,0 98 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 74,0 99 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 79,0 100 0 
+DESIGN cordic
+VIEW symbol.sb
+GRAPHIC 84,0 101 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 40,0 104 0 
+DESIGN cordic_tester
+VIEW interface
+GRAPHIC 14,0 105 1 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 364,0 111 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 311,0 112 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 261,0 113 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 374,0 114 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 303,0 115 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 295,0 116 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 269,0 117 0 
+LIBRARY Cordic
+DESIGN cordic_tb
+VIEW struct.bd
+NO_GRAPHIC 120
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 756,0 123 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 164,0 124 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 40,0 125 0 
+DESIGN cordic_tb
+VIEW struct.bd
+NO_GRAPHIC 128
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 467,0 130 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 756,0 134 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 763,0 135 1 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 627,0 139 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 633,0 140 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 164,0 143 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 171,0 144 1 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 627,0 148 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 493,0 149 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 295,0 150 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 303,0 151 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 311,0 152 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 269,0 153 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 261,0 154 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 40,0 156 0 
+DESIGN cordic_tb
+VIEW struct.bd
+GRAPHIC 47,0 157 1 
+DESIGN cordic_tb
+VIEW struct.bd
+NO_GRAPHIC 172

@@ -1,0 +1,6 @@
+vhdl work "four_bits_CLA_adder.vhd"
+vhdl work "carry_look_ahead_block_extended.vhd"
+vhdl work "forty_bit_adder.vhd"
+vhdl work "last_normalized.vhd"
+vhdl work "forty_bit_add_sub.vhd"
+vhdl work "cordic_linear_32bits.vhd"

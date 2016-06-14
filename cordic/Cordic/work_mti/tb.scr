@@ -1,0 +1,6 @@
+vsim Cordic.cordic_tb
+set StdArithNoWarnings 1
+set PrefMain(font) {Courier 9 roman normal}
+run 0 ns;
+set StdArithNoWarnings 0
+run 1 ms

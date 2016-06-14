@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/sixteen_bits_add_sub.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/sixteen_bits_add_sub.syr" 

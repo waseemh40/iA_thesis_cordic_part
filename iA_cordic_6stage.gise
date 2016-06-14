@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="iA_cordic_6stage.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cordic_hyperbolic_seq.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cordic_hyperbolic_seq.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="cordic_hyperbolic_seq.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="cordic_hyperbolic_seq.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cordic_hyperbolic_seq.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cordic_hyperbolic_seq.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cordic_hyperbolic_seq.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cordic_hyperbolic_seq.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cordic_hyperbolic_seq_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cordic_hyperbolic_seq_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cordic_hyperbolic_seq_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="cordic_linear.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cordic_linear.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cordic_linear.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="cordic_linear.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="cordic_linear.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="cordic_linear.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="cordic_linear.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="cordic_linear.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="cordic_linear.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="cordic_linear.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cordic_linear.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="cordic_linear.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cordic_linear.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cordic_linear.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="cordic_linear.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="cordic_linear.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="cordic_linear.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="cordic_linear.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cordic_linear.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="cordic_linear_32bits.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cordic_linear_32bits.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cordic_linear_32bits.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="cordic_linear_32bits.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="cordic_linear_32bits.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="cordic_linear_32bits.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="cordic_linear_32bits.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="cordic_linear_32bits.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="cordic_linear_32bits.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="cordic_linear_32bits.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cordic_linear_32bits.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="cordic_linear_32bits.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cordic_linear_32bits.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cordic_linear_32bits.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="cordic_linear_32bits.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="cordic_linear_32bits.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="cordic_linear_32bits.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="cordic_linear_32bits.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cordic_linear_32bits.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cordic_linear_32bits_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="cordic_linear_32bits_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="cordic_linear_32bits_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="cordic_linear_32bits_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="cordic_linear_32bits_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="cordic_linear_32bits_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="cordic_linear_32bits_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cordic_linear_32bits_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cordic_linear_32bits_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="cordic_linear_32bits_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="cordic_linear_32bits_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cordic_linear_32bits_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cordic_linear_32bits_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cordic_linear_32bits_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="cordic_linear_32bits_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="cordic_linear_32bits_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cordic_linear_32bits_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cordic_linear_divider_32bits.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cordic_linear_divider_32bits.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="cordic_linear_divider_32bits.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="cordic_linear_divider_32bits.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cordic_linear_divider_32bits.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cordic_linear_divider_32bits.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cordic_linear_divider_32bits.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cordic_linear_divider_32bits.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cordic_linear_divider_32bits_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cordic_linear_divider_32bits_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cordic_linear_divider_32bits_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="cordic_linear_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="cordic_linear_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="cordic_linear_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="cordic_linear_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="cordic_linear_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cordic_linear_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cordic_linear_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="cordic_linear_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="cordic_linear_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cordic_linear_par.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="cordic_linear_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="cordic_linear_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cordic_linear_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cordic_seq_rot.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cordic_seq_rot.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="cordic_seq_rot.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="cordic_seq_rot.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cordic_seq_rot.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cordic_seq_rot.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cordic_seq_rot.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cordic_seq_rot.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cordic_seq_rot_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cordic_seq_rot_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cordic_seq_rot_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cordic_tan_combinatorial.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cordic_tan_combinatorial.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="cordic_tan_combinatorial.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="cordic_tan_combinatorial.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cordic_tan_combinatorial.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cordic_tan_combinatorial.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cordic_tan_combinatorial.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cordic_tan_combinatorial.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cordic_tan_combinatorial_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cordic_top_level.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cordic_top_level.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="cordic_top_level.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="cordic_top_level.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cordic_top_level.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cordic_top_level.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cordic_top_level.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cordic_top_level.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cordic_top_level_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cordic_top_level_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cordic_top_level_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="coridc_linear_sequential.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="coridc_linear_sequential.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="coridc_linear_sequential.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="coridc_linear_sequential.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="coridc_linear_sequential.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="coridc_linear_sequential.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="coridc_linear_sequential.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="coridc_linear_sequential.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="coridc_linear_sequential.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="coridc_linear_sequential.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="coridc_linear_sequential.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="coridc_linear_sequential.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="coridc_linear_sequential.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="coridc_linear_sequential.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="coridc_linear_sequential.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="coridc_linear_sequential.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="coridc_linear_sequential.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="coridc_linear_sequential.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="coridc_linear_sequential.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="coridc_linear_sequential_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="coridc_linear_sequential_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="coridc_linear_sequential_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="coridc_linear_sequential_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="coridc_linear_sequential_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="coridc_linear_sequential_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coridc_linear_sequential_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coridc_linear_sequential_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="coridc_linear_sequential_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="coridc_linear_sequential_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coridc_linear_sequential_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="coridc_linear_sequential_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="coridc_linear_sequential_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="coridc_linear_sequential_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="coridc_linear_sequential_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coridc_linear_sequential_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="coridc_seq_tan.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="coridc_seq_tan.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="coridc_seq_tan.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="coridc_seq_tan.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="coridc_seq_tan.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="coridc_seq_tan.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="coridc_seq_tan.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="coridc_seq_tan.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="coridc_seq_tan.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="coridc_seq_tan.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="coridc_seq_tan.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="coridc_seq_tan.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="coridc_seq_tan.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="coridc_seq_tan.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="coridc_seq_tan.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="coridc_seq_tan.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="coridc_seq_tan.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="coridc_seq_tan.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="coridc_seq_tan.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="coridc_seq_tan_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="coridc_seq_tan_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="coridc_seq_tan_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="coridc_seq_tan_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="coridc_seq_tan_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="coridc_seq_tan_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coridc_seq_tan_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coridc_seq_tan_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="coridc_seq_tan_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="coridc_seq_tan_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coridc_seq_tan_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="coridc_seq_tan_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="coridc_seq_tan_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="coridc_seq_tan_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coridc_seq_tan_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="forty_bit_add_sub.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="forty_bit_add_sub.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="forty_bit_add_sub.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="forty_bit_add_sub.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="forty_bit_add_sub.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="forty_bit_add_sub.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="forty_bit_add_sub.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="forty_bit_add_sub.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="forty_bit_add_sub.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="forty_bit_add_sub.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="forty_bit_add_sub.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="forty_bit_add_sub.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="forty_bit_add_sub.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="forty_bit_add_sub.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="forty_bit_add_sub.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="forty_bit_add_sub.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="forty_bit_add_sub.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="forty_bit_add_sub.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="forty_bit_add_sub.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="forty_bit_add_sub_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="forty_bit_add_sub_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="forty_bit_add_sub_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="forty_bit_add_sub_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="forty_bit_add_sub_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="forty_bit_add_sub_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="forty_bit_add_sub_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="forty_bit_add_sub_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="forty_bit_add_sub_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="forty_bit_add_sub_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="forty_bit_add_sub_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="forty_bit_add_sub_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="forty_bit_add_sub_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="forty_bit_add_sub_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="forty_bit_add_sub_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="forty_bit_adder.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="forty_bit_adder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="forty_bit_adder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="forty_bit_adder.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="forty_bit_adder.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="forty_bit_adder.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="forty_bit_adder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="forty_bit_adder.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="forty_bit_adder_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="forty_bit_adder_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="sixteen_bits_add_sub.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="sixteen_bits_add_sub.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="sixteen_bits_add_sub.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="sixteen_bits_add_sub.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sixteen_bits_add_sub.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="sixteen_bits_add_sub.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="sixteen_bits_add_sub.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="sixteen_bits_add_sub.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="sixteen_bits_add_sub_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sixteen_bits_add_sub_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cordic_divider_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_divider_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cordic_iA_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_iA_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cordic_linear_32bit_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_linear_32bit_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cordic_mul_sequ_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_mul_sequ_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_rot_seq_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cordic_rot_seq_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_cordic_rot_seq_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_rot_seq_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cordic_seq_tan_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_seq_tan_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cordic_tan_combinatorial_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_tan_combinatorial_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_forty_bits_add_sub_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_forty_bits_add_sub_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_forty_bits_add_sub_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_forty_bits_add_sub_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_forty_bits_adder_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_forty_bits_adder_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_hyper_seq_module_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_hyper_seq_module_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_linear_crodic_q_2_14_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_linear_crodic_q_2_14_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1462406622" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1462406622">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1465831320" xil_pn:in_ck="2701795618449500712" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1465831320">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="carry_look_ahead_block.vhd"/>
+      <outfile xil_pn:name="carry_look_ahead_block_extended.vhd"/>
+      <outfile xil_pn:name="cordic_hyperbolic_seq.vhd"/>
+      <outfile xil_pn:name="cordic_linear.vhd"/>
+      <outfile xil_pn:name="cordic_linear_32bits.vhd"/>
+      <outfile xil_pn:name="cordic_linear_divider_32bits.vhd"/>
+      <outfile xil_pn:name="cordic_seq_rot.vhd"/>
+      <outfile xil_pn:name="cordic_seq_tan.vhd"/>
+      <outfile xil_pn:name="cordic_tan_combinatorial.vhd"/>
+      <outfile xil_pn:name="cordic_top_level.vhd"/>
+      <outfile xil_pn:name="coridc_linear_sequential.vhd"/>
+      <outfile xil_pn:name="forty_bit_add_sub.vhd"/>
+      <outfile xil_pn:name="forty_bit_adder.vhd"/>
+      <outfile xil_pn:name="four_bits_CLA_adder.vhd"/>
+      <outfile xil_pn:name="last_normalized.vhd"/>
+      <outfile xil_pn:name="norm_hyper_mode.vhd"/>
+      <outfile xil_pn:name="norm_linear_module.vhd"/>
+      <outfile xil_pn:name="norm_rotation_mode.vhd"/>
+      <outfile xil_pn:name="norm_vector_mode.vhd"/>
+      <outfile xil_pn:name="sixteen_bits_add_sub.vhd"/>
+      <outfile xil_pn:name="sixteen_bits_adder.vhd"/>
+      <outfile xil_pn:name="tb_cordic_divider.vhd"/>
+      <outfile xil_pn:name="tb_cordic_iA.vhd"/>
+      <outfile xil_pn:name="tb_cordic_linear_32bit.vhd"/>
+      <outfile xil_pn:name="tb_cordic_mul_sequ.vhd"/>
+      <outfile xil_pn:name="tb_cordic_rot_seq.vhd"/>
+      <outfile xil_pn:name="tb_cordic_seq_tan.vhd"/>
+      <outfile xil_pn:name="tb_cordic_tan_combinatorial.vhd"/>
+      <outfile xil_pn:name="tb_forty_bits_add_sub.vhd"/>
+      <outfile xil_pn:name="tb_forty_bits_adder.vhd"/>
+      <outfile xil_pn:name="tb_hyper_seq_module.vhd"/>
+      <outfile xil_pn:name="tb_linear_crodic_q_2_14.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1465829045" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7728698910672188795" xil_pn:start_ts="1465829045">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1465829045" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7612735281382593497" xil_pn:start_ts="1465829045">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1465489316" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6970925552198037707" xil_pn:start_ts="1465489316">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1465831327" xil_pn:in_ck="2701795618449500712" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1465831327">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="carry_look_ahead_block.vhd"/>
+      <outfile xil_pn:name="carry_look_ahead_block_extended.vhd"/>
+      <outfile xil_pn:name="cordic_hyperbolic_seq.vhd"/>
+      <outfile xil_pn:name="cordic_linear.vhd"/>
+      <outfile xil_pn:name="cordic_linear_32bits.vhd"/>
+      <outfile xil_pn:name="cordic_linear_divider_32bits.vhd"/>
+      <outfile xil_pn:name="cordic_seq_rot.vhd"/>
+      <outfile xil_pn:name="cordic_seq_tan.vhd"/>
+      <outfile xil_pn:name="cordic_tan_combinatorial.vhd"/>
+      <outfile xil_pn:name="cordic_top_level.vhd"/>
+      <outfile xil_pn:name="coridc_linear_sequential.vhd"/>
+      <outfile xil_pn:name="forty_bit_add_sub.vhd"/>
+      <outfile xil_pn:name="forty_bit_adder.vhd"/>
+      <outfile xil_pn:name="four_bits_CLA_adder.vhd"/>
+      <outfile xil_pn:name="last_normalized.vhd"/>
+      <outfile xil_pn:name="norm_hyper_mode.vhd"/>
+      <outfile xil_pn:name="norm_linear_module.vhd"/>
+      <outfile xil_pn:name="norm_rotation_mode.vhd"/>
+      <outfile xil_pn:name="norm_vector_mode.vhd"/>
+      <outfile xil_pn:name="sixteen_bits_add_sub.vhd"/>
+      <outfile xil_pn:name="sixteen_bits_adder.vhd"/>
+      <outfile xil_pn:name="tb_cordic_divider.vhd"/>
+      <outfile xil_pn:name="tb_cordic_iA.vhd"/>
+      <outfile xil_pn:name="tb_cordic_linear_32bit.vhd"/>
+      <outfile xil_pn:name="tb_cordic_mul_sequ.vhd"/>
+      <outfile xil_pn:name="tb_cordic_rot_seq.vhd"/>
+      <outfile xil_pn:name="tb_cordic_seq_tan.vhd"/>
+      <outfile xil_pn:name="tb_cordic_tan_combinatorial.vhd"/>
+      <outfile xil_pn:name="tb_forty_bits_add_sub.vhd"/>
+      <outfile xil_pn:name="tb_forty_bits_adder.vhd"/>
+      <outfile xil_pn:name="tb_hyper_seq_module.vhd"/>
+      <outfile xil_pn:name="tb_linear_crodic_q_2_14.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1465831330" xil_pn:in_ck="2701795618449500712" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6044036727700607558" xil_pn:start_ts="1465831327">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_cordic_rot_seq_beh.prj"/>
+      <outfile xil_pn:name="tb_cordic_rot_seq_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1465831551" xil_pn:in_ck="-8611273773717848082" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1665278668211364461" xil_pn:start_ts="1465831550">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_cordic_rot_seq_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1462402594" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1462402594">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1465559527" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1154853310530268499" xil_pn:start_ts="1465559527">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1465559527" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-6970925552198037707" xil_pn:start_ts="1465559527">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1465559527" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1465559527">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1465559527" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4769711330129103759" xil_pn:start_ts="1465559527">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1465559527" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1465559527">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1465559527" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2687328189135287425" xil_pn:start_ts="1465559527">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1465559551" xil_pn:in_ck="-6746179418167055157" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-1838417277224883780" xil_pn:start_ts="1465559527">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="cordic_hyperbolic_seq.lso"/>
+      <outfile xil_pn:name="cordic_hyperbolic_seq.ngc"/>
+      <outfile xil_pn:name="cordic_hyperbolic_seq.ngr"/>
+      <outfile xil_pn:name="cordic_hyperbolic_seq.prj"/>
+      <outfile xil_pn:name="cordic_hyperbolic_seq.stx"/>
+      <outfile xil_pn:name="cordic_hyperbolic_seq.syr"/>
+      <outfile xil_pn:name="cordic_hyperbolic_seq.xst"/>
+      <outfile xil_pn:name="cordic_hyperbolic_seq_xst.xrpt"/>
+      <outfile xil_pn:name="forty_bit_add_sub.ngr"/>
+      <outfile xil_pn:name="forty_bit_adder.ngr"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1465218939" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3762510652283016950" xil_pn:start_ts="1465218939">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+  </transforms>
+
+</generated_project>

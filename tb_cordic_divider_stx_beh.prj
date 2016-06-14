@@ -1,0 +1,7 @@
+vhdl isim_temp "four_bits_CLA_adder.vhd"
+vhdl isim_temp "carry_look_ahead_block_extended.vhd"
+vhdl isim_temp "forty_bit_adder.vhd"
+vhdl isim_temp "normalization_module.vhd"
+vhdl isim_temp "forty_bit_add_sub.vhd"
+vhdl isim_temp "cordic_linear_divider_32bits.vhd"
+vhdl isim_temp "tb_cordic_divider.vhd"

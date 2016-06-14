@@ -1,0 +1,8 @@
+vcom -reportprogress 300 -93 -quiet -work Cordic -just p {../hdl/*.vhd}
+vcom -reportprogress 300 -93 -quiet -work Cordic -just b {../hdl/*.vhd}
+vcom -reportprogress 300 -93 -quiet -work Cordic -just e {../hdl/*.vhd}
+vcom -reportprogress 300 -93 -quiet -work Cordic -just a {../hdl/*.vhd}
+
+
+
+

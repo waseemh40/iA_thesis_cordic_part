@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_cordic_tan_combinatorial_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="tb_cordic_tan_combinatorial" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_cordic_tan_combinatorial/x_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_tan_combinatorial/y_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_tan_combinatorial/angle_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">angle_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">angle_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_tan_combinatorial/sqrt_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sqrt_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sqrt_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_tan_combinatorial/uut/z_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z_0[39:0]</obj_property>
+      <obj_property name="ObjectShortName">z_0[39:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_tan_combinatorial/uut/z_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z_1[39:0]</obj_property>
+      <obj_property name="ObjectShortName">z_1[39:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_tan_combinatorial/uut/z_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z_2[39:0]</obj_property>
+      <obj_property name="ObjectShortName">z_2[39:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_tan_combinatorial/uut/z_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z_3[39:0]</obj_property>
+      <obj_property name="ObjectShortName">z_3[39:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_tan_combinatorial/uut/z_4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z_4[39:0]</obj_property>
+      <obj_property name="ObjectShortName">z_4[39:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_tan_combinatorial/uut/z_5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z_5[39:0]</obj_property>
+      <obj_property name="ObjectShortName">z_5[39:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_tan_combinatorial/uut/z_6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z_6[39:0]</obj_property>
+      <obj_property name="ObjectShortName">z_6[39:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_tan_combinatorial/uut/z_7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z_7[39:0]</obj_property>
+      <obj_property name="ObjectShortName">z_7[39:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_tan_combinatorial/uut/z_8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z_8[39:0]</obj_property>
+      <obj_property name="ObjectShortName">z_8[39:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_tan_combinatorial/uut/z_9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z_9[39:0]</obj_property>
+      <obj_property name="ObjectShortName">z_9[39:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

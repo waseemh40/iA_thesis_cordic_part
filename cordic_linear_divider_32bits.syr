@@ -1,0 +1,468 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: cordic_linear_divider_32bits.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "cordic_linear_divider_32bits.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "cordic_linear_divider_32bits"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : cordic_linear_divider_32bits
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/four_bits_CLA_adder.vhd" into library work
+Parsing entity <four_bits_CLA_adder>.
+Parsing architecture <Behavioral> of entity <four_bits_cla_adder>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/carry_look_ahead_block_extended.vhd" into library work
+Parsing entity <carry_look_ahead_block_extended>.
+Parsing architecture <Behavioral> of entity <carry_look_ahead_block_extended>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_adder.vhd" into library work
+Parsing entity <forty_bit_adder>.
+Parsing architecture <Behavioral> of entity <forty_bit_adder>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/normalization_module.vhd" into library work
+Parsing entity <normalization_module>.
+Parsing architecture <Behavioral> of entity <normalization_module>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_add_sub.vhd" into library work
+Parsing entity <forty_bit_add_sub>.
+Parsing architecture <Behavioral> of entity <forty_bit_add_sub>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" into library work
+Parsing entity <cordic_linear_divider_32bits>.
+Parsing architecture <Behavioral> of entity <cordic_linear_divider_32bits>.
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 179: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 187: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 195: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 204: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 212: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 220: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 228: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 236: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 244: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 252: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 260: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 268: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 276: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 284: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 295: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 303: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 304: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 311: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 312: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 319: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 320: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 328: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 329: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 336: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 337: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 344: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 345: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 352: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 353: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 360: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 361: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 368: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 369: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 376: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 377: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 384: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 385: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 392: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 393: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 400: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 401: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 408: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" Line 409: Actual for formal port mode is neither a static name nor a globally static expression
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <cordic_linear_divider_32bits> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <normalization_module> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <forty_bit_add_sub> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <forty_bit_adder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <four_bits_CLA_adder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <carry_look_ahead_block_extended> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <cordic_linear_divider_32bits>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd".
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 167: Output port <over_flow> of the instance <adder_y1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 167: Output port <carry_out> of the instance <adder_y1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 176: Output port <over_flow> of the instance <adder_y2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 176: Output port <carry_out> of the instance <adder_y2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 184: Output port <over_flow> of the instance <adder_y3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 184: Output port <carry_out> of the instance <adder_y3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 192: Output port <over_flow> of the instance <adder_y4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 192: Output port <carry_out> of the instance <adder_y4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 201: Output port <over_flow> of the instance <adder_y5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 201: Output port <carry_out> of the instance <adder_y5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 209: Output port <over_flow> of the instance <adder_y6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 209: Output port <carry_out> of the instance <adder_y6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 217: Output port <over_flow> of the instance <adder_y7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 217: Output port <carry_out> of the instance <adder_y7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 225: Output port <over_flow> of the instance <adder_y8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 225: Output port <carry_out> of the instance <adder_y8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 233: Output port <over_flow> of the instance <adder_y9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 233: Output port <carry_out> of the instance <adder_y9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 241: Output port <over_flow> of the instance <adder_y10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 241: Output port <carry_out> of the instance <adder_y10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 249: Output port <over_flow> of the instance <adder_y11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 249: Output port <carry_out> of the instance <adder_y11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 257: Output port <over_flow> of the instance <adder_y12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 257: Output port <carry_out> of the instance <adder_y12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 265: Output port <over_flow> of the instance <adder_y13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 265: Output port <carry_out> of the instance <adder_y13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 273: Output port <over_flow> of the instance <adder_y14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 273: Output port <carry_out> of the instance <adder_y14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 281: Output port <over_flow> of the instance <adder_y15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 281: Output port <carry_out> of the instance <adder_y15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 291: Output port <over_flow> of the instance <adder_z1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 291: Output port <carry_out> of the instance <adder_z1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 300: Output port <over_flow> of the instance <adder_z2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 300: Output port <carry_out> of the instance <adder_z2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 308: Output port <over_flow> of the instance <adder_z3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 308: Output port <carry_out> of the instance <adder_z3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 316: Output port <over_flow> of the instance <adder_z4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 316: Output port <carry_out> of the instance <adder_z4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 325: Output port <over_flow> of the instance <adder_z5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 325: Output port <carry_out> of the instance <adder_z5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 333: Output port <over_flow> of the instance <adder_z6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 333: Output port <carry_out> of the instance <adder_z6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 341: Output port <over_flow> of the instance <adder_z7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 341: Output port <carry_out> of the instance <adder_z7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 349: Output port <over_flow> of the instance <adder_z8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 349: Output port <carry_out> of the instance <adder_z8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 357: Output port <over_flow> of the instance <adder_z9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 357: Output port <carry_out> of the instance <adder_z9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 365: Output port <over_flow> of the instance <adder_z10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 365: Output port <carry_out> of the instance <adder_z10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 373: Output port <over_flow> of the instance <adder_z11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 373: Output port <carry_out> of the instance <adder_z11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 381: Output port <over_flow> of the instance <adder_z12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 381: Output port <carry_out> of the instance <adder_z12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 389: Output port <over_flow> of the instance <adder_z13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 389: Output port <carry_out> of the instance <adder_z13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 397: Output port <over_flow> of the instance <adder_z14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 397: Output port <carry_out> of the instance <adder_z14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 405: Output port <over_flow> of the instance <adder_z15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_linear_divider_32bits.vhd" line 405: Output port <carry_out> of the instance <adder_z15> is unconnected or connected to loadless signal.
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <cordic_linear_divider_32bits> synthesized.
+
+Synthesizing Unit <normalization_module>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/normalization_module.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <normalization_module> synthesized.
+
+Synthesizing Unit <forty_bit_add_sub>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_add_sub.vhd".
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal result<39> may hinder XST clustering optimizations.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <forty_bit_add_sub> synthesized.
+
+Synthesizing Unit <forty_bit_adder>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_adder.vhd".
+    Summary:
+	no macro.
+Unit <forty_bit_adder> synthesized.
+
+Synthesizing Unit <four_bits_CLA_adder>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/four_bits_CLA_adder.vhd".
+    Summary:
+Unit <four_bits_CLA_adder> synthesized.
+
+Synthesizing Unit <carry_look_ahead_block_extended>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/carry_look_ahead_block_extended.vhd".
+    Summary:
+	no macro.
+Unit <carry_look_ahead_block_extended> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 34
+ 40-bit 2-to-1 multiplexer                             : 34
+# Xors                                                 : 2400
+ 1-bit xor2                                            : 2400
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <adder_y15> is unconnected in block <cordic_linear_divider_32bits>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 34
+ 40-bit 2-to-1 multiplexer                             : 34
+# Xors                                                 : 2400
+ 1-bit xor2                                            : 2400
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <cordic_linear_divider_32bits> ...
+
+Optimizing unit <forty_bit_add_sub> ...
+
+Optimizing unit <forty_bit_adder> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block cordic_linear_divider_32bits, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : cordic_linear_divider_32bits.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 10
+#      GND                         : 1
+#      LUT2                        : 5
+#      LUT5                        : 2
+#      LUT6                        : 2
+# IO Buffers                       : 52
+#      IBUF                        : 20
+#      OBUF                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                    9  out of  63400     0%  
+    Number used as Logic:                 9  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      9
+   Number with an unused Flip Flop:       9  out of      9   100%  
+   Number with an unused LUT:             0  out of      9     0%  
+   Number of fully used LUT-FF pairs:     0  out of      9     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          96
+ Number of bonded IOBs:                  52  out of    210    24%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 1.985ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 500 / 25
+-------------------------------------------------------------------------
+Delay:               1.985ns (Levels of Logic = 5)
+  Source:            operand_a<26> (PAD)
+  Destination:       result<17> (PAD)
+
+  Data Path: operand_a<26> to result<17>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.001   0.683  operand_a_26_IBUF (operand_a_26_IBUF)
+     LUT5:I0->O            1   0.097   0.295  norm_1/type_shift<22>_SW0 (N4)
+     LUT6:I5->O            5   0.097   0.398  norm_1/type_shift<22> (dummy_out_1)
+     LUT2:I0->O            9   0.097   0.316  Mmux_temp23 (result_10_OBUF)
+     OBUF:I->O                 0.000          result_10_OBUF (result<10>)
+    ----------------------------------------
+    Total                      1.985ns (0.292ns logic, 1.693ns route)
+                                       (14.7% logic, 85.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.61 secs
+ 
+--> 
+
+
+Total memory usage is 506440 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   44 (   0 filtered)
+Number of infos    :   61 (   0 filtered)
+

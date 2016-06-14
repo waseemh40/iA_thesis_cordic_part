@@ -1,0 +1,357 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: forty_bit_add_sub.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "forty_bit_add_sub.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "forty_bit_add_sub"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : forty_bit_add_sub
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/four_bits_CLA_adder.vhd" into library work
+Parsing entity <four_bits_CLA_adder>.
+Parsing architecture <Behavioral> of entity <four_bits_cla_adder>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/carry_look_ahead_block_extended.vhd" into library work
+Parsing entity <carry_look_ahead_block_extended>.
+Parsing architecture <Behavioral> of entity <carry_look_ahead_block_extended>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_adder.vhd" into library work
+Parsing entity <forty_bit_adder>.
+Parsing architecture <Behavioral> of entity <forty_bit_adder>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_add_sub.vhd" into library work
+Parsing entity <forty_bit_add_sub>.
+Parsing architecture <Behavioral> of entity <forty_bit_add_sub>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <forty_bit_add_sub> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <forty_bit_adder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <four_bits_CLA_adder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <carry_look_ahead_block_extended> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <forty_bit_add_sub>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_add_sub.vhd".
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal result<39> may hinder XST clustering optimizations.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <forty_bit_add_sub> synthesized.
+
+Synthesizing Unit <forty_bit_adder>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_adder.vhd".
+    Summary:
+	no macro.
+Unit <forty_bit_adder> synthesized.
+
+Synthesizing Unit <four_bits_CLA_adder>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/four_bits_CLA_adder.vhd".
+    Summary:
+Unit <four_bits_CLA_adder> synthesized.
+
+Synthesizing Unit <carry_look_ahead_block_extended>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/carry_look_ahead_block_extended.vhd".
+    Summary:
+	no macro.
+Unit <carry_look_ahead_block_extended> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 1
+ 40-bit 2-to-1 multiplexer                             : 1
+# Xors                                                 : 80
+ 1-bit xor2                                            : 80
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 1
+ 40-bit 2-to-1 multiplexer                             : 1
+# Xors                                                 : 80
+ 1-bit xor2                                            : 80
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <forty_bit_add_sub> ...
+
+Optimizing unit <forty_bit_adder> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block forty_bit_add_sub, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : forty_bit_add_sub.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 71
+#      LUT2                        : 1
+#      LUT4                        : 12
+#      LUT5                        : 2
+#      LUT6                        : 56
+# IO Buffers                       : 123
+#      IBUF                        : 81
+#      OBUF                        : 42
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   71  out of  63400     0%  
+    Number used as Logic:                71  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     71
+   Number with an unused Flip Flop:      71  out of     71   100%  
+   Number with an unused LUT:             0  out of     71     0%  
+   Number of fully used LUT-FF pairs:     0  out of     71     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         123
+ Number of bonded IOBs:                 123  out of    210    58%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 9.082ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2278 / 42
+-------------------------------------------------------------------------
+Delay:               9.082ns (Levels of Logic = 23)
+  Source:            operand_a<1> (PAD)
+  Destination:       carry_out (PAD)
+
+  Data Path: operand_a<1> to carry_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.001   0.688  operand_a_1_IBUF (operand_a_1_IBUF)
+     LUT5:I0->O            3   0.097   0.305  adder/first_4bits/c<2>1 (adder/first_4bits/c<2>)
+     LUT6:I5->O            3   0.097   0.305  adder/CLA_block/C_OUT<1> (adder/c_group<1>)
+     LUT6:I5->O            4   0.097   0.309  adder/second_4bits/c<2>1 (adder/second_4bits/c<2>)
+     LUT6:I5->O            2   0.097   0.299  adder/CLA_block/C_OUT<2>4 (adder/c_group<2>)
+     LUT6:I5->O            4   0.097   0.309  adder/third_4bits/c<2>1 (adder/third_4bits/c<2>)
+     LUT6:I5->O            2   0.097   0.299  adder/CLA_block/C_OUT<3>4 (adder/c_group<3>)
+     LUT6:I5->O            4   0.097   0.309  adder/fourth_4bits/c<2>1 (adder/fourth_4bits/c<2>)
+     LUT6:I5->O            2   0.097   0.299  adder/CLA_block/C_OUT<4>4 (adder/c_group<4>)
+     LUT6:I5->O            4   0.097   0.309  adder/fifth_4bits/c<2>1 (adder/fifth_4bits/c<2>)
+     LUT6:I5->O            2   0.097   0.299  adder/CLA_block/C_OUT<5>4 (adder/c_group<5>)
+     LUT6:I5->O            4   0.097   0.309  adder/sixth_4bits/c<2>1 (adder/sixth_4bits/c<2>)
+     LUT6:I5->O            2   0.097   0.299  adder/CLA_block/C_OUT<6>4 (adder/c_group<6>)
+     LUT6:I5->O            4   0.097   0.309  adder/seventh_4bits/c<2>1 (adder/seventh_4bits/c<2>)
+     LUT6:I5->O            2   0.097   0.299  adder/CLA_block/C_OUT<7>4 (adder/c_group<7>)
+     LUT6:I5->O            4   0.097   0.309  adder/eighth_4bits/c<2>1 (adder/eighth_4bits/c<2>)
+     LUT6:I5->O            2   0.097   0.299  adder/CLA_block/C_OUT<8>4 (adder/c_group<8>)
+     LUT6:I5->O            4   0.097   0.309  adder/ninth_4bits/c<2>1 (adder/ninth_4bits/c<2>)
+     LUT6:I5->O            3   0.097   0.305  adder/CLA_block/C_OUT<9>4 (adder/c_group<9>)
+     LUT4:I3->O            1   0.097   0.295  adder/CLA_block/C_OUT<10>1_SW0 (N60)
+     LUT6:I5->O            1   0.097   0.295  adder/CLA_block/C_OUT<10>1 (adder/CLA_block/C_OUT<10>)
+     LUT6:I5->O            1   0.097   0.279  adder/CLA_block/C_OUT<10>2 (carry_out_OBUF)
+     OBUF:I->O                 0.000          carry_out_OBUF (carry_out)
+    ----------------------------------------
+    Total                      9.082ns (2.038ns logic, 7.044ns route)
+                                       (22.4% logic, 77.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.52 secs
+ 
+--> 
+
+
+Total memory usage is 503504 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

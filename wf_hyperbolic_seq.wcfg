@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_hyper_seq_module_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="tb_hyper_seq_module" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_hyper_seq_module/operand_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">operand_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">operand_a[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hyper_seq_module/start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hyper_seq_module/opr_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">opr_done</obj_property>
+      <obj_property name="ObjectShortName">opr_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hyper_seq_module/uut/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hyper_seq_module/sqrt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sqrt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sqrt[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hyper_seq_module/uut/loop_var" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">loop_var</obj_property>
+      <obj_property name="ObjectShortName">loop_var</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hyper_seq_module/uut/x_current" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_current[39:0]</obj_property>
+      <obj_property name="ObjectShortName">x_current[39:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hyper_seq_module/uut/norm_1/norm_operand" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">norm_operand[39:0]</obj_property>
+      <obj_property name="ObjectShortName">norm_operand[39:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hyper_seq_module/uut/offset_add_result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">offset_add_result[39:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_add_result[39:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

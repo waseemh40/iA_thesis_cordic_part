@@ -1,0 +1,622 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: cordic_tan_combinatorial.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "cordic_tan_combinatorial.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "cordic_tan_combinatorial"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : cordic_tan_combinatorial
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/four_bits_CLA_adder.vhd" into library work
+Parsing entity <four_bits_CLA_adder>.
+Parsing architecture <Behavioral> of entity <four_bits_cla_adder>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/carry_look_ahead_block_extended.vhd" into library work
+Parsing entity <carry_look_ahead_block_extended>.
+Parsing architecture <Behavioral> of entity <carry_look_ahead_block_extended>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_adder.vhd" into library work
+Parsing entity <forty_bit_adder>.
+Parsing architecture <Behavioral> of entity <forty_bit_adder>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_add_sub.vhd" into library work
+Parsing entity <forty_bit_add_sub>.
+Parsing architecture <Behavioral> of entity <forty_bit_add_sub>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" into library work
+Parsing entity <cordic_tan_combinatorial>.
+Parsing architecture <Behavioral> of entity <cordic_tan_combinatorial>.
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 275: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 284: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 292: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 300: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 309: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 317: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 325: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 333: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" Line 341: Actual for formal port mode is neither a static name nor a globally static expression
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <cordic_tan_combinatorial> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <forty_bit_add_sub> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <forty_bit_adder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <four_bits_CLA_adder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <carry_look_ahead_block_extended> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <cordic_tan_combinatorial>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd".
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 195: Output port <over_flow> of the instance <adder_x0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 195: Output port <carry_out> of the instance <adder_x0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 204: Output port <over_flow> of the instance <adder_x1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 204: Output port <carry_out> of the instance <adder_x1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 212: Output port <over_flow> of the instance <adder_x2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 212: Output port <carry_out> of the instance <adder_x2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 220: Output port <over_flow> of the instance <adder_x3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 220: Output port <carry_out> of the instance <adder_x3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 228: Output port <over_flow> of the instance <adder_x4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 228: Output port <carry_out> of the instance <adder_x4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 236: Output port <over_flow> of the instance <adder_x5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 236: Output port <carry_out> of the instance <adder_x5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 244: Output port <over_flow> of the instance <adder_x6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 244: Output port <carry_out> of the instance <adder_x6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 252: Output port <over_flow> of the instance <adder_x7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 252: Output port <carry_out> of the instance <adder_x7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 260: Output port <over_flow> of the instance <adder_x8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 260: Output port <carry_out> of the instance <adder_x8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 271: Output port <over_flow> of the instance <adder_y0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 271: Output port <carry_out> of the instance <adder_y0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 280: Output port <over_flow> of the instance <adder_y1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 280: Output port <carry_out> of the instance <adder_y1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 288: Output port <over_flow> of the instance <adder_y2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 288: Output port <carry_out> of the instance <adder_y2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 296: Output port <over_flow> of the instance <adder_y3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 296: Output port <carry_out> of the instance <adder_y3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 305: Output port <over_flow> of the instance <adder_y4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 305: Output port <carry_out> of the instance <adder_y4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 313: Output port <over_flow> of the instance <adder_y5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 313: Output port <carry_out> of the instance <adder_y5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 321: Output port <over_flow> of the instance <adder_y6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 321: Output port <carry_out> of the instance <adder_y6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 329: Output port <over_flow> of the instance <adder_y7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 329: Output port <carry_out> of the instance <adder_y7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 337: Output port <over_flow> of the instance <adder_y8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 337: Output port <carry_out> of the instance <adder_y8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 347: Output port <over_flow> of the instance <adder_z0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 347: Output port <carry_out> of the instance <adder_z0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 356: Output port <over_flow> of the instance <adder_z1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 356: Output port <carry_out> of the instance <adder_z1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 364: Output port <over_flow> of the instance <adder_z2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 364: Output port <carry_out> of the instance <adder_z2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 372: Output port <over_flow> of the instance <adder_z3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 372: Output port <carry_out> of the instance <adder_z3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 381: Output port <over_flow> of the instance <adder_z4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 381: Output port <carry_out> of the instance <adder_z4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 389: Output port <over_flow> of the instance <adder_z5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 389: Output port <carry_out> of the instance <adder_z5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 397: Output port <over_flow> of the instance <adder_z6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 397: Output port <carry_out> of the instance <adder_z6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 405: Output port <over_flow> of the instance <adder_z7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 405: Output port <carry_out> of the instance <adder_z7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 413: Output port <over_flow> of the instance <adder_z8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_tan_combinatorial.vhd" line 413: Output port <carry_out> of the instance <adder_z8> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <cordic_tan_combinatorial> synthesized.
+
+Synthesizing Unit <forty_bit_add_sub>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_add_sub.vhd".
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal result<39> may hinder XST clustering optimizations.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <forty_bit_add_sub> synthesized.
+
+Synthesizing Unit <forty_bit_adder>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_adder.vhd".
+    Summary:
+	no macro.
+Unit <forty_bit_adder> synthesized.
+
+Synthesizing Unit <four_bits_CLA_adder>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/four_bits_CLA_adder.vhd".
+    Summary:
+Unit <four_bits_CLA_adder> synthesized.
+
+Synthesizing Unit <carry_look_ahead_block_extended>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/carry_look_ahead_block_extended.vhd".
+    Summary:
+	no macro.
+Unit <carry_look_ahead_block_extended> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 27
+ 40-bit 2-to-1 multiplexer                             : 27
+# Xors                                                 : 2160
+ 1-bit xor2                                            : 2160
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <adder_x7> is unconnected in block <cordic_tan_combinatorial>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <adder_x8> is unconnected in block <cordic_tan_combinatorial>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <adder_y8> is unconnected in block <cordic_tan_combinatorial>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 27
+ 40-bit 2-to-1 multiplexer                             : 27
+# Xors                                                 : 2160
+ 1-bit xor2                                            : 2160
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <cordic_tan_combinatorial> ...
+
+Optimizing unit <forty_bit_add_sub> ...
+
+Optimizing unit <forty_bit_adder> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block cordic_tan_combinatorial, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : cordic_tan_combinatorial.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1801
+#      GND                         : 1
+#      LUT2                        : 61
+#      LUT3                        : 94
+#      LUT4                        : 178
+#      LUT5                        : 660
+#      LUT6                        : 805
+#      MUXF7                       : 2
+# IO Buffers                       : 96
+#      IBUF                        : 64
+#      OBUF                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                 1798  out of  63400     2%  
+    Number used as Logic:              1798  out of  63400     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1798
+   Number with an unused Flip Flop:    1798  out of   1798   100%  
+   Number with an unused LUT:             0  out of   1798     0%  
+   Number of fully used LUT-FF pairs:     0  out of   1798     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         112
+ Number of bonded IOBs:                  96  out of    210    45%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 92.294ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 830016522263086720 / 32
+-------------------------------------------------------------------------
+Delay:               92.294ns (Levels of Logic = 203)
+  Source:            y_in<1> (PAD)
+  Destination:       angle_out<31> (PAD)
+
+  Data Path: y_in<1> to angle_out<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   0.001   0.706  y_in_1_IBUF (y_in_1_IBUF)
+     LUT5:I0->O            7   0.097   0.539  adder_y0/adder/third_4bits/c<2>1 (adder_y0/adder/third_4bits/c<2>)
+     LUT6:I3->O            6   0.097   0.318  adder_y0/adder/CLA_block/C_OUT<3> (adder_y0/adder/c_group<3>)
+     LUT6:I5->O            9   0.097   0.332  adder_y0/adder/fourth_4bits/c<2>1 (adder_y0/adder/fourth_4bits/c<2>)
+     LUT6:I5->O            4   0.097   0.309  adder_y0/adder/CLA_block/C_OUT<4>4 (adder_y0/adder/c_group<4>)
+     LUT6:I5->O            9   0.097   0.332  adder_y0/adder/fifth_4bits/c<2>1 (adder_y0/adder/fifth_4bits/c<2>)
+     LUT6:I5->O            4   0.097   0.309  adder_y0/adder/CLA_block/C_OUT<5>4 (adder_y0/adder/c_group<5>)
+     LUT6:I5->O            9   0.097   0.332  adder_y0/adder/sixth_4bits/c<2>1 (adder_y0/adder/sixth_4bits/c<2>)
+     LUT6:I5->O            4   0.097   0.309  adder_y0/adder/CLA_block/C_OUT<6>4 (adder_y0/adder/c_group<6>)
+     LUT6:I5->O            9   0.097   0.332  adder_y0/adder/seventh_4bits/c<2>1 (adder_y0/adder/seventh_4bits/c<2>)
+     LUT6:I5->O            4   0.097   0.309  adder_y0/adder/CLA_block/C_OUT<7>4 (adder_y0/adder/c_group<7>)
+     LUT6:I5->O            9   0.097   0.332  adder_y0/adder/eighth_4bits/c<2>1 (adder_y0/adder/eighth_4bits/c<2>)
+     LUT6:I5->O            4   0.097   0.309  adder_y0/adder/CLA_block/C_OUT<8>4 (adder_y0/adder/c_group<8>)
+     LUT6:I5->O            9   0.097   0.332  adder_y0/adder/ninth_4bits/c<2>1 (adder_y0/adder/ninth_4bits/c<2>)
+     LUT6:I5->O            4   0.097   0.309  adder_y0/adder/CLA_block/C_OUT<9>4 (adder_y0/adder/c_group<9>)
+     LUT6:I5->O           22   0.097   0.475  adder_y0/adder/tenth_4bits/c<2>1 (adder_y0/adder/tenth_4bits/c<2>)
+     LUT5:I3->O          103   0.097   0.413  adder_z1/adder/eighth_4bits/Mxor_sum<2>_xo<0>1 (adder_x1/adder/first_4bits/p<3>)
+     LUT5:I4->O            4   0.097   0.707  adder_y1/Mmux_b_feed401 (adder_y1/b_feed<9>)
+     LUT6:I0->O            1   0.097   0.295  adder_y1/adder/CLA_block/C_OUT<3>3_SW0 (N98)
+     LUT5:I4->O            1   0.097   0.295  adder_y1/adder/CLA_block/C_OUT<3>3 (adder_y1/adder/CLA_block/C_OUT<3>2)
+     LUT6:I5->O            7   0.097   0.323  adder_y1/adder/CLA_block/C_OUT<3>4 (adder_y1/adder/c_group<3>)
+     LUT5:I4->O            9   0.097   0.332  adder_y1/adder/fourth_4bits/c<2>1 (adder_y1/adder/fourth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y1/adder/CLA_block/C_OUT<4>3 (adder_y1/adder/CLA_block/C_OUT<4>2)
+     LUT6:I5->O            7   0.097   0.323  adder_y1/adder/CLA_block/C_OUT<4>4 (adder_y1/adder/c_group<4>)
+     LUT5:I4->O            9   0.097   0.332  adder_y1/adder/fifth_4bits/c<2>1 (adder_y1/adder/fifth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y1/adder/CLA_block/C_OUT<5>3 (adder_y1/adder/CLA_block/C_OUT<5>2)
+     LUT6:I5->O            7   0.097   0.323  adder_y1/adder/CLA_block/C_OUT<5>4 (adder_y1/adder/c_group<5>)
+     LUT5:I4->O            9   0.097   0.332  adder_y1/adder/sixth_4bits/c<2>1 (adder_y1/adder/sixth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y1/adder/CLA_block/C_OUT<6>3 (adder_y1/adder/CLA_block/C_OUT<6>2)
+     LUT6:I5->O            7   0.097   0.323  adder_y1/adder/CLA_block/C_OUT<6>4 (adder_y1/adder/c_group<6>)
+     LUT5:I4->O            9   0.097   0.332  adder_y1/adder/seventh_4bits/c<2>1 (adder_y1/adder/seventh_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y1/adder/CLA_block/C_OUT<7>3 (adder_y1/adder/CLA_block/C_OUT<7>2)
+     LUT6:I5->O            7   0.097   0.323  adder_y1/adder/CLA_block/C_OUT<7>4 (adder_y1/adder/c_group<7>)
+     LUT5:I4->O            9   0.097   0.332  adder_y1/adder/eighth_4bits/c<2>1 (adder_y1/adder/eighth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y1/adder/CLA_block/C_OUT<8>3 (adder_y1/adder/CLA_block/C_OUT<8>2)
+     LUT6:I5->O            7   0.097   0.323  adder_y1/adder/CLA_block/C_OUT<8>4 (adder_y1/adder/c_group<8>)
+     LUT5:I4->O            9   0.097   0.332  adder_y1/adder/ninth_4bits/c<2>1 (adder_y1/adder/ninth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y1/adder/CLA_block/C_OUT<9>3 (adder_y1/adder/CLA_block/C_OUT<9>2)
+     LUT6:I5->O            7   0.097   0.323  adder_y1/adder/CLA_block/C_OUT<9>4 (adder_y1/adder/c_group<9>)
+     LUT6:I5->O           57   0.097   0.622  adder_y1/adder/tenth_4bits/c<2>1 (adder_y1/adder/tenth_4bits/c<2>)
+     LUT6:I3->O          133   0.097   0.806  adder_y1/adder/tenth_4bits/Mxor_sum<3>_xo<0>1 (adder_x2/adder/first_4bits/c<2>)
+     LUT5:I0->O           11   0.097   0.603  adder_y2/adder/CLA_block/C_OUT<1> (adder_y2/adder/c_group<1>)
+     LUT6:I2->O            5   0.097   0.314  adder_y2/adder/CLA_block/C_OUT<2>4 (adder_y2/adder/c_group<2>)
+     LUT5:I4->O            7   0.097   0.323  adder_y2/adder/third_4bits/c<2>1 (adder_y2/adder/third_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y2/adder/CLA_block/C_OUT<3>3 (adder_y2/adder/CLA_block/C_OUT<3>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y2/adder/CLA_block/C_OUT<3>4 (adder_y2/adder/c_group<3>)
+     LUT5:I4->O            7   0.097   0.323  adder_y2/adder/fourth_4bits/c<2>1 (adder_y2/adder/fourth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y2/adder/CLA_block/C_OUT<4>3 (adder_y2/adder/CLA_block/C_OUT<4>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y2/adder/CLA_block/C_OUT<4>4 (adder_y2/adder/c_group<4>)
+     LUT5:I4->O            7   0.097   0.323  adder_y2/adder/fifth_4bits/c<2>1 (adder_y2/adder/fifth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y2/adder/CLA_block/C_OUT<5>3 (adder_y2/adder/CLA_block/C_OUT<5>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y2/adder/CLA_block/C_OUT<5>4 (adder_y2/adder/c_group<5>)
+     LUT5:I4->O            7   0.097   0.323  adder_y2/adder/sixth_4bits/c<2>1 (adder_y2/adder/sixth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y2/adder/CLA_block/C_OUT<6>3 (adder_y2/adder/CLA_block/C_OUT<6>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y2/adder/CLA_block/C_OUT<6>4 (adder_y2/adder/c_group<6>)
+     LUT5:I4->O            7   0.097   0.323  adder_y2/adder/seventh_4bits/c<2>1 (adder_y2/adder/seventh_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y2/adder/CLA_block/C_OUT<7>3 (adder_y2/adder/CLA_block/C_OUT<7>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y2/adder/CLA_block/C_OUT<7>4 (adder_y2/adder/c_group<7>)
+     LUT5:I4->O            7   0.097   0.323  adder_y2/adder/eighth_4bits/c<2>1 (adder_y2/adder/eighth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y2/adder/CLA_block/C_OUT<8>3 (adder_y2/adder/CLA_block/C_OUT<8>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y2/adder/CLA_block/C_OUT<8>4 (adder_y2/adder/c_group<8>)
+     LUT5:I4->O            7   0.097   0.323  adder_y2/adder/ninth_4bits/c<2>1 (adder_y2/adder/ninth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y2/adder/CLA_block/C_OUT<9>3 (adder_y2/adder/CLA_block/C_OUT<9>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y2/adder/CLA_block/C_OUT<9>4 (adder_y2/adder/c_group<9>)
+     LUT5:I4->O           37   0.097   0.791  adder_y2/adder/tenth_4bits/c<2>1 (adder_y2/adder/tenth_4bits/c<2>)
+     LUT5:I0->O          127   0.097   0.633  adder_y2/adder/tenth_4bits/Mxor_sum<3>_xo<0>1 (adder_x3/b_feed<37>)
+     LUT4:I1->O            5   0.097   0.702  adder_y3/Mmux_b_feed2311 (adder_y3/b_feed<2>)
+     LUT6:I1->O            5   0.097   0.314  adder_y3/adder/CLA_block/C_OUT<1> (adder_y3/adder/c_group<1>)
+     LUT5:I4->O            8   0.097   0.327  adder_y3/adder/second_4bits/c<2>1 (adder_y3/adder/second_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y3/adder/CLA_block/C_OUT<2>3 (adder_y3/adder/CLA_block/C_OUT<2>2)
+     LUT6:I5->O            8   0.097   0.327  adder_y3/adder/CLA_block/C_OUT<2>4 (adder_y3/adder/c_group<2>)
+     LUT5:I4->O            9   0.097   0.332  adder_y3/adder/third_4bits/c<2>1 (adder_y3/adder/third_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y3/adder/CLA_block/C_OUT<3>3 (adder_y3/adder/CLA_block/C_OUT<3>2)
+     LUT6:I5->O            7   0.097   0.323  adder_y3/adder/CLA_block/C_OUT<3>4 (adder_y3/adder/c_group<3>)
+     LUT5:I4->O            9   0.097   0.332  adder_y3/adder/fourth_4bits/c<2>1 (adder_y3/adder/fourth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y3/adder/CLA_block/C_OUT<4>3 (adder_y3/adder/CLA_block/C_OUT<4>2)
+     LUT6:I5->O            7   0.097   0.323  adder_y3/adder/CLA_block/C_OUT<4>4 (adder_y3/adder/c_group<4>)
+     LUT5:I4->O            9   0.097   0.332  adder_y3/adder/fifth_4bits/c<2>1 (adder_y3/adder/fifth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y3/adder/CLA_block/C_OUT<5>3 (adder_y3/adder/CLA_block/C_OUT<5>2)
+     LUT6:I5->O            7   0.097   0.323  adder_y3/adder/CLA_block/C_OUT<5>4 (adder_y3/adder/c_group<5>)
+     LUT5:I4->O            9   0.097   0.332  adder_y3/adder/sixth_4bits/c<2>1 (adder_y3/adder/sixth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y3/adder/CLA_block/C_OUT<6>3 (adder_y3/adder/CLA_block/C_OUT<6>2)
+     LUT6:I5->O            7   0.097   0.323  adder_y3/adder/CLA_block/C_OUT<6>4 (adder_y3/adder/c_group<6>)
+     LUT5:I4->O            9   0.097   0.332  adder_y3/adder/seventh_4bits/c<2>1 (adder_y3/adder/seventh_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y3/adder/CLA_block/C_OUT<7>3 (adder_y3/adder/CLA_block/C_OUT<7>2)
+     LUT6:I5->O            7   0.097   0.323  adder_y3/adder/CLA_block/C_OUT<7>4 (adder_y3/adder/c_group<7>)
+     LUT5:I4->O            9   0.097   0.332  adder_y3/adder/eighth_4bits/c<2>1 (adder_y3/adder/eighth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y3/adder/CLA_block/C_OUT<8>3 (adder_y3/adder/CLA_block/C_OUT<8>2)
+     LUT6:I5->O            7   0.097   0.323  adder_y3/adder/CLA_block/C_OUT<8>4 (adder_y3/adder/c_group<8>)
+     LUT5:I4->O            8   0.097   0.327  adder_y3/adder/ninth_4bits/c<2>1 (adder_y3/adder/ninth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y3/adder/CLA_block/C_OUT<9>3 (adder_y3/adder/CLA_block/C_OUT<9>2)
+     LUT6:I5->O           10   0.097   0.598  adder_y3/adder/CLA_block/C_OUT<9>4 (adder_y3/adder/c_group<9>)
+     LUT6:I2->O          142   0.097   0.680  adder_y3/adder/tenth_4bits/Mxor_sum<3>_xo<0>1 (adder_x4/b_feed<36>)
+     LUT6:I2->O            4   0.097   0.570  adder_y4/Mmux_b_feed341 (adder_y4/b_feed<3>)
+     LUT6:I2->O            1   0.097   0.693  adder_y4/adder/first_4bits/Mxor_p<3>_xo<0>1 (adder_y4/adder/first_4bits/p<3>)
+     LUT6:I0->O            4   0.097   0.309  adder_y4/adder/CLA_block/C_OUT<1> (adder_y4/adder/c_group<1>)
+     LUT5:I4->O            4   0.097   0.309  adder_y4/adder/second_4bits/c<2>1 (adder_y4/adder/second_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y4/adder/CLA_block/C_OUT<2>3 (adder_y4/adder/CLA_block/C_OUT<2>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y4/adder/CLA_block/C_OUT<2>4 (adder_y4/adder/c_group<2>)
+     LUT5:I4->O            6   0.097   0.318  adder_y4/adder/third_4bits/c<2>1 (adder_y4/adder/third_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y4/adder/CLA_block/C_OUT<3>3 (adder_y4/adder/CLA_block/C_OUT<3>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y4/adder/CLA_block/C_OUT<3>4 (adder_y4/adder/c_group<3>)
+     LUT5:I4->O            6   0.097   0.318  adder_y4/adder/fourth_4bits/c<2>1 (adder_y4/adder/fourth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y4/adder/CLA_block/C_OUT<4>3 (adder_y4/adder/CLA_block/C_OUT<4>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y4/adder/CLA_block/C_OUT<4>4 (adder_y4/adder/c_group<4>)
+     LUT5:I4->O            6   0.097   0.318  adder_y4/adder/fifth_4bits/c<2>1 (adder_y4/adder/fifth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y4/adder/CLA_block/C_OUT<5>3 (adder_y4/adder/CLA_block/C_OUT<5>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y4/adder/CLA_block/C_OUT<5>4 (adder_y4/adder/c_group<5>)
+     LUT5:I4->O            6   0.097   0.318  adder_y4/adder/sixth_4bits/c<2>1 (adder_y4/adder/sixth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y4/adder/CLA_block/C_OUT<6>3 (adder_y4/adder/CLA_block/C_OUT<6>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y4/adder/CLA_block/C_OUT<6>4 (adder_y4/adder/c_group<6>)
+     LUT5:I4->O            6   0.097   0.318  adder_y4/adder/seventh_4bits/c<2>1 (adder_y4/adder/seventh_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y4/adder/CLA_block/C_OUT<7>3 (adder_y4/adder/CLA_block/C_OUT<7>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y4/adder/CLA_block/C_OUT<7>4 (adder_y4/adder/c_group<7>)
+     LUT5:I4->O            6   0.097   0.318  adder_y4/adder/eighth_4bits/c<2>1 (adder_y4/adder/eighth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y4/adder/CLA_block/C_OUT<8>3 (adder_y4/adder/CLA_block/C_OUT<8>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y4/adder/CLA_block/C_OUT<8>4 (adder_y4/adder/c_group<8>)
+     LUT5:I4->O            5   0.097   0.314  adder_y4/adder/ninth_4bits/c<2>1 (adder_y4/adder/ninth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y4/adder/CLA_block/C_OUT<9>3 (adder_y4/adder/CLA_block/C_OUT<9>2)
+     LUT6:I5->O            9   0.097   0.416  adder_y4/adder/CLA_block/C_OUT<9>4 (adder_y4/adder/c_group<9>)
+     LUT5:I3->O          166   0.097   0.423  adder_y4/adder/tenth_4bits/Mxor_sum<3>_xo<0>1 (adder_x5/b_feed<35>)
+     LUT6:I5->O            4   0.097   0.570  adder_y5/Mmux_b_feed341 (adder_y5/b_feed<3>)
+     LUT6:I2->O            1   0.097   0.693  adder_y5/adder/first_4bits/Mxor_p<3>_xo<0>1 (adder_y5/adder/first_4bits/p<3>)
+     LUT6:I0->O            5   0.097   0.314  adder_y5/adder/CLA_block/C_OUT<1> (adder_y5/adder/c_group<1>)
+     LUT5:I4->O            7   0.097   0.323  adder_y5/adder/second_4bits/c<2>1 (adder_y5/adder/second_4bits/c<2>)
+     LUT5:I4->O            3   0.097   0.305  adder_y5/adder/CLA_block/C_OUT<2>4 (adder_y5/adder/c_group<2>)
+     LUT5:I4->O            6   0.097   0.318  adder_y5/adder/third_4bits/c<2>1 (adder_y5/adder/third_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y5/adder/CLA_block/C_OUT<3>3 (adder_y5/adder/CLA_block/C_OUT<3>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y5/adder/CLA_block/C_OUT<3>4 (adder_y5/adder/c_group<3>)
+     LUT5:I4->O            6   0.097   0.318  adder_y5/adder/fourth_4bits/c<2>1 (adder_y5/adder/fourth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y5/adder/CLA_block/C_OUT<4>3 (adder_y5/adder/CLA_block/C_OUT<4>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y5/adder/CLA_block/C_OUT<4>4 (adder_y5/adder/c_group<4>)
+     LUT5:I4->O            6   0.097   0.318  adder_y5/adder/fifth_4bits/c<2>1 (adder_y5/adder/fifth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y5/adder/CLA_block/C_OUT<5>3 (adder_y5/adder/CLA_block/C_OUT<5>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y5/adder/CLA_block/C_OUT<5>4 (adder_y5/adder/c_group<5>)
+     LUT5:I4->O            6   0.097   0.318  adder_y5/adder/sixth_4bits/c<2>1 (adder_y5/adder/sixth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y5/adder/CLA_block/C_OUT<6>3 (adder_y5/adder/CLA_block/C_OUT<6>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y5/adder/CLA_block/C_OUT<6>4 (adder_y5/adder/c_group<6>)
+     LUT5:I4->O            6   0.097   0.318  adder_y5/adder/seventh_4bits/c<2>1 (adder_y5/adder/seventh_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y5/adder/CLA_block/C_OUT<7>3 (adder_y5/adder/CLA_block/C_OUT<7>2)
+     LUT6:I5->O            5   0.097   0.314  adder_y5/adder/CLA_block/C_OUT<7>4 (adder_y5/adder/c_group<7>)
+     LUT5:I4->O            6   0.097   0.318  adder_y5/adder/eighth_4bits/c<2>1 (adder_y5/adder/eighth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  adder_y5/adder/CLA_block/C_OUT<8>3 (adder_y5/adder/CLA_block/C_OUT<8>2)
+     LUT6:I5->O            6   0.097   0.534  adder_y5/adder/CLA_block/C_OUT<8>4 (adder_y5/adder/c_group<8>)
+     LUT5:I2->O            2   0.097   0.299  adder_y5/adder/CLA_block/C_OUT<9>3_SW0 (N212)
+     LUT5:I4->O            5   0.097   0.530  adder_y5/adder/CLA_block/C_OUT<9>3 (adder_y5/adder/CLA_block/C_OUT<9>2)
+     LUT6:I3->O          136   0.097   0.418  adder_y5/adder/tenth_4bits/Mxor_sum<3>_xo<0>1 (adder_x6/b_feed<35>)
+     LUT4:I3->O            3   0.097   0.566  adder_y6/Mmux_b_feed341 (adder_y6/b_feed<3>)
+     LUT6:I2->O            1   0.097   0.693  adder_y6/adder/first_4bits/Mxor_p<3>_xo<0>1 (adder_y6/adder/first_4bits/p<3>)
+     LUT6:I0->O            4   0.097   0.309  adder_y6/adder/CLA_block/C_OUT<1> (adder_y6/adder/c_group<1>)
+     LUT5:I4->O            4   0.097   0.309  adder_y6/adder/second_4bits/c<2>1 (adder_y6/adder/second_4bits/c<2>)
+     LUT5:I4->O            2   0.097   0.299  adder_y6/adder/CLA_block/C_OUT<2>4 (adder_y6/adder/c_group<2>)
+     LUT5:I4->O            4   0.097   0.309  adder_y6/adder/third_4bits/c<2>1 (adder_y6/adder/third_4bits/c<2>)
+     LUT5:I4->O            2   0.097   0.299  adder_y6/adder/CLA_block/C_OUT<3>4 (adder_y6/adder/c_group<3>)
+     LUT5:I4->O            4   0.097   0.309  adder_y6/adder/fourth_4bits/c<2>1 (adder_y6/adder/fourth_4bits/c<2>)
+     LUT5:I4->O            2   0.097   0.299  adder_y6/adder/CLA_block/C_OUT<4>4 (adder_y6/adder/c_group<4>)
+     LUT5:I4->O            4   0.097   0.309  adder_y6/adder/fifth_4bits/c<2>1 (adder_y6/adder/fifth_4bits/c<2>)
+     LUT5:I4->O            2   0.097   0.299  adder_y6/adder/CLA_block/C_OUT<5>4 (adder_y6/adder/c_group<5>)
+     LUT5:I4->O            4   0.097   0.309  adder_y6/adder/sixth_4bits/c<2>1 (adder_y6/adder/sixth_4bits/c<2>)
+     LUT5:I4->O            2   0.097   0.299  adder_y6/adder/CLA_block/C_OUT<6>4 (adder_y6/adder/c_group<6>)
+     LUT5:I4->O            4   0.097   0.309  adder_y6/adder/seventh_4bits/c<2>1 (adder_y6/adder/seventh_4bits/c<2>)
+     LUT5:I4->O            2   0.097   0.299  adder_y6/adder/CLA_block/C_OUT<7>4 (adder_y6/adder/c_group<7>)
+     LUT5:I4->O            4   0.097   0.309  adder_y6/adder/eighth_4bits/c<2>1 (adder_y6/adder/eighth_4bits/c<2>)
+     LUT5:I4->O            3   0.097   0.521  adder_y6/adder/CLA_block/C_OUT<8>4 (adder_y6/adder/c_group<8>)
+     LUT5:I2->O            2   0.097   0.299  adder_y6/adder/CLA_block/C_OUT<9>3_SW0 (N242)
+     LUT5:I4->O            3   0.097   0.305  adder_y6/adder/CLA_block/C_OUT<9>3 (adder_y6/adder/CLA_block/C_OUT<9>2)
+     LUT5:I4->O            2   0.097   0.383  adder_y6/adder/tenth_4bits/c<2>1 (adder_y6/adder/tenth_4bits/c<2>)
+     LUT5:I3->O          115   0.097   0.676  adder_y6/adder/tenth_4bits/Mxor_sum<3>_xo<0>1 (adder_z7/b_feed<1>)
+     LUT6:I2->O            2   0.097   0.300  adder_y7/Mmux_b_feed351 (adder_y7/b_feed<4>)
+     LUT6:I5->O            1   0.097   0.683  adder_y7/adder/tenth_4bits/c<2>23 (adder_y7/adder/tenth_4bits/c<2>23)
+     LUT6:I1->O            1   0.097   0.295  adder_y7/adder/tenth_4bits/c<2>27 (adder_y7/adder/tenth_4bits/c<2>27)
+     LUT6:I5->O            1   0.097   0.379  adder_y7/adder/tenth_4bits/c<2>28_SW0 (N34)
+     LUT6:I4->O            1   0.097   0.511  adder_y7/adder/tenth_4bits/c<2>28 (adder_y7/adder/tenth_4bits/c<2>28)
+     LUT5:I2->O            1   0.097   0.295  adder_y7/adder/tenth_4bits/c<2>29_SW0 (N36)
+     LUT5:I4->O            1   0.097   0.556  adder_y7/adder/tenth_4bits/c<2>29 (adder_y7/adder/tenth_4bits/c<2>29)
+     LUT6:I2->O            1   0.097   0.295  adder_y7/adder/tenth_4bits/c<2>30 (adder_y7/adder/tenth_4bits/c<2>30)
+     LUT5:I4->O            1   0.097   0.295  adder_y7/adder/tenth_4bits/c<2>31_SW0 (N46)
+     LUT6:I5->O            1   0.097   0.295  adder_y7/adder/tenth_4bits/c<2>31 (adder_y7/adder/tenth_4bits/c<2>31)
+     LUT6:I5->O            1   0.097   0.295  adder_y7/adder/tenth_4bits/c<2>33_SW0 (N258)
+     LUT6:I5->O            1   0.097   0.295  adder_y7/adder/tenth_4bits/c<2>33 (adder_y7/adder/tenth_4bits/c<2>33)
+     LUT6:I5->O            1   0.097   0.379  adder_y7/adder/tenth_4bits/c<2>34_SW0 (N38)
+     LUT6:I4->O            1   0.097   0.511  adder_y7/adder/tenth_4bits/c<2>34 (adder_y7/adder/tenth_4bits/c<2>34)
+     LUT5:I2->O            1   0.097   0.295  adder_y7/adder/tenth_4bits/c<2>35_SW0 (N40)
+     LUT5:I4->O            1   0.097   0.556  adder_y7/adder/tenth_4bits/c<2>35 (adder_y7/adder/tenth_4bits/c<2>35)
+     LUT5:I1->O            1   0.097   0.295  adder_y7/adder/tenth_4bits/c<2>36_SW0 (N42)
+     LUT5:I4->O            1   0.097   0.295  adder_y7/adder/tenth_4bits/c<2>36 (adder_y7/adder/tenth_4bits/c<2>36)
+     LUT6:I5->O            1   0.097   0.379  adder_y7/adder/tenth_4bits/c<2>38 (adder_y7/adder/tenth_4bits/c<2>38)
+     LUT6:I4->O           19   0.097   0.463  adder_y7/adder/tenth_4bits/c<2>39 (adder_y7/adder/tenth_4bits/c<2>)
+     LUT3:I1->O           36   0.097   0.801  adder_y7/adder/tenth_4bits/Mxor_sum<3>_xo<0>1 (adder_z8/b_feed<0>)
+     LUT6:I0->O            1   0.097   0.000  adder_z8/adder/CLA_block/C_OUT<2>1_G (N267)
+     MUXF7:I1->O           2   0.279   0.299  adder_z8/adder/CLA_block/C_OUT<2>1 (adder_z8/adder/CLA_block/C_OUT<2>)
+     LUT6:I5->O            1   0.097   0.000  adder_z8/adder/CLA_block/C_OUT<2>2_G (N265)
+     MUXF7:I1->O           6   0.279   0.402  adder_z8/adder/CLA_block/C_OUT<2>2 (adder_z8/adder/c_group<2>)
+     LUT6:I4->O            2   0.097   0.383  adder_z8/adder/CLA_block/C_OUT<3>2 (adder_z8/adder/c_group<3>)
+     LUT6:I4->O            2   0.097   0.383  adder_z8/adder/CLA_block/C_OUT<4>2 (adder_z8/adder/c_group<4>)
+     LUT6:I4->O            2   0.097   0.384  adder_z8/adder/CLA_block/C_OUT<5>2 (adder_z8/adder/c_group<5>)
+     LUT6:I4->O            2   0.097   0.299  adder_z8/adder/CLA_block/C_OUT<6>2 (adder_z8/adder/c_group<6>)
+     LUT6:I5->O            4   0.097   0.309  adder_z8/adder/CLA_block/C_OUT<7>2 (adder_z8/adder/c_group<7>)
+     LUT6:I5->O            3   0.097   0.305  adder_z8/adder/CLA_block/C_OUT<8>2 (adder_z8/adder/c_group<8>)
+     LUT6:I5->O            4   0.097   0.570  adder_z8/adder/CLA_block/C_OUT<9>1 (adder_z8/adder/CLA_block/C_OUT<9>)
+     LUT5:I1->O            1   0.097   0.379  adder_z8/adder/tenth_4bits/c<2>1 (adder_z8/adder/tenth_4bits/c<2>)
+     LUT6:I4->O            1   0.097   0.279  adder_z8/adder/tenth_4bits/Mxor_sum<3>_xo<0>1 (angle_out_31_OBUF)
+     OBUF:I->O                 0.000          angle_out_31_OBUF (angle_out<31>)
+    ----------------------------------------
+    Total                     92.294ns (19.862ns logic, 72.432ns route)
+                                       (21.5% logic, 78.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 15.96 secs
+ 
+--> 
+
+
+Total memory usage is 506436 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   12 (   0 filtered)
+Number of infos    :   55 (   0 filtered)
+

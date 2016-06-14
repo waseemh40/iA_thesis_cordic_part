@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_cordic_seq_tan_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="tb_cordic_seq_tan" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb_cordic_seq_tan/operand_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">operand_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">operand_a[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_seq_tan/operand_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">operand_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">operand_b[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_seq_tan/start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_seq_tan/opr_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">opr_done</obj_property>
+      <obj_property name="ObjectShortName">opr_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_seq_tan/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_seq_tan/uut/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_seq_tan/angle" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">angle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">angle[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic_seq_tan/sqrt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sqrt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sqrt[31:0]</obj_property>
+   </wvobject>
+</wave_config>
