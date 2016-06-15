@@ -32,9 +32,9 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity forty_bit_adder is
     Port ( operand_a : in  STD_LOGIC_VECTOR (39 downto 0);
            operand_b : in  STD_LOGIC_VECTOR (39 downto 0);
-           sum : inout  STD_LOGIC_VECTOR (39 downto 0);
-           ovf : out  STD_LOGIC;
-           carry_in : in  STD_LOGIC;
+           sum 		: inout  STD_LOGIC_VECTOR (39 downto 0);
+           ovf 		: out  STD_LOGIC;
+           carry_in 	: in  STD_LOGIC;
            carry_out : out  STD_LOGIC);
 end forty_bit_adder;
 

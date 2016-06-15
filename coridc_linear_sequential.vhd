@@ -59,15 +59,10 @@ signal shamt_oprnd_2		: std_logic;
 signal rslt_sign			: std_logic;
 
 	--adder part
-signal ovf_y				: std_logic;
-signal cout_y				: std_logic;
 signal y_add_result		: std_logic_vector(39 downto 0);
-signal ovf_z				: std_logic;
-signal cout_z				: std_logic;
 signal z_add_result		: std_logic_vector(39 downto 0);
-signal ovf_rslt			: std_logic;
-signal cout_rslt			: std_logic;
 signal r_addr_result		: std_logic_vector(39 downto 0);
+signal z_last_invrtd		: std_logic;
 
 signal loop_var 			: integer range 0 to 31;
 
@@ -82,47 +77,47 @@ begin
 	--normalization portmap
 norm_1: entity work.norm_linear_module--normalization_module
 	Port map ( 
-			  operand 		=>operand_a,
-           norm_operand =>x_0,
+			  operand 		=> operand_a,
+           norm_operand => x_0,
            type_shift 	=> dummy_out_1);
 			  
 norm_2: entity work.norm_linear_module--normalization_module
 	Port map ( 
-			  operand 		=>operand_b,
-           norm_operand =>z_0,
+			  operand 		=> operand_b,
+           norm_operand => z_0,
            type_shift 	=> dummy_out_2);
 
 	--adders portmap
 adder_y: entity work.forty_bit_add_sub
 	Port map ( 
-			  operand_a 	=>y_last,
-           operand_b 	=>x_last_shftd,
-           mode 			=>z_last(39),			-- 0: addition; 1 subtraction
-           over_flow 	=>ovf_y,
-			  carry_out 	=>cout_y,
-           result 		=>y_add_result);
+			  operand_a 	=> y_last,
+           operand_b 	=> x_last_shftd,
+           mode 			=> z_last(39),			-- 0: addition; 1 subtraction
+           over_flow 	=> open,
+			  carry_out 	=> open,
+           result 		=> y_add_result);
 adder_z: entity work.forty_bit_add_sub
 	Port map ( 
-			  operand_a 	=>z_last,
-           operand_b 	=>my_one_shftd,
-           mode 			=>not(z_last(39)),			-- 0: sub; 1 add
-           over_flow 	=>ovf_z,
-			  carry_out 	=>cout_z,
-           result 		=>z_add_result);
+			  operand_a 	=> z_last,
+           operand_b 	=> my_one_shftd,
+           mode 			=> z_last_invrtd,			-- 0: sub; 1 add
+           over_flow 	=> open,
+			  carry_out 	=> open,
+           result 		=> z_add_result);
 adder_result: entity work.forty_bit_add_sub
 	Port map ( 
-			  operand_a 	=>not(result_dummy),
-           operand_b 	=>x"0000000001",
-           mode 			=>'0', -- verified logic
-           over_flow 	=>ovf_rslt,
-			  carry_out 	=>cout_rslt,
-           result 		=>r_addr_result);				  
+			  operand_a 	=> result_dummy,
+           operand_b 	=> x"0000000001",
+           mode 			=> '0', -- verified logic
+           over_flow 	=> open,
+			  carry_out 	=> open,
+           result 		=> r_addr_result);
 			  
+z_last_invrtd	<= not(z_last(39));			  
 --actual FSM
 fsm_process: process (clk, operand_a,operand_b)
 
 --	variable loop_var 	: natural range 0 to 31;
-
 	begin
 		if rising_edge(clk) then
 			if rst = '1' then
@@ -153,8 +148,8 @@ fsm_process: process (clk, operand_a,operand_b)
 						state 		<= IDLE;
 					 end if;
  					when READ_OPRND =>		--IDLE,READ_OPRND,CURR_CALC,LAST_UPDATE,CHECK,DONE)
-						x_last		 <=x_0;
-						z_last  		 <=z_0;
+						x_last		 <= x_0;
+						z_last  		 <= z_0;
 						y_last		 <= (others => '0');
 						x_last_shftd <= (others => '0');
 						my_one_shftd <= (others => '0');
@@ -163,20 +158,20 @@ fsm_process: process (clk, operand_a,operand_b)
 						loop_var		 <= 0;
 						state 		 <= CURR_CALC;
  					when CURR_CALC  =>		--IDLE,READ_OPRND,CURR_CALC,LAST_UPDATE,CHECK,DONE)
-						x_current	<=x_0;	--always fixed in linear
-						y_current	<=y_add_result;
-						z_current  	<=z_add_result;
-						state 		<=LAST_UPDATE;
+						x_current	<= x_0;	--always fixed in linear
+						y_current	<= y_add_result;
+						z_current  	<= z_add_result;
+						state 		<= LAST_UPDATE;
 					when 	LAST_UPDATE =>
 						if loop_var = 0 then		--latch in the begining, else x_0 may change since  norm. is comb. part
-							x_last	<=x_current;
-							shamt_oprnd_1 <=dummy_out_1;
-							shamt_oprnd_2 <=dummy_out_2;
-							rslt_sign 				<=operand_a(31) xor operand_b(31);
+							x_last	<= x_current;
+							shamt_oprnd_1	<= dummy_out_1;
+							shamt_oprnd_2 	<= dummy_out_2;
+							rslt_sign 	  	<= operand_a(31) xor operand_b(31);
 						end if;
-						y_last		<=y_current;
-						z_last  		<=z_current;
-						state 		<=SHIFT_AND_CHECK;
+						y_last				<= y_current;
+						z_last  				<= z_current;
+						state 				<= SHIFT_AND_CHECK;
 					when SHIFT_AND_CHECK =>
 						case loop_var is
 							when 0 => 	
@@ -247,26 +242,26 @@ fsm_process: process (clk, operand_a,operand_b)
 						loop_var		<= loop_var + 1;
 						if loop_var = 15 then
 							if shamt_oprnd_1= '0' and shamt_oprnd_2='0' then
-								result_dummy 		<= y_last(39 downto 0);
+								result_dummy 		<= not( y_last(39 downto 0));
 							elsif (shamt_oprnd_1= '1' and shamt_oprnd_2='0') or (shamt_oprnd_1= '0' and shamt_oprnd_2='1') then
-								result_dummy 		<= y_last(31 downto 0) & x"00";
+								result_dummy 		<= not( y_last(31 downto 0) & x"00");
 							else
-								result_dummy 		<= y_last(23 downto 0) & x"0000";
+								result_dummy 		<= not( y_last(23 downto 0) & x"0000");
 							end if;
-							opr_done 				<='1';
-							state 					<=DONE;
+							opr_done 				<= '1';
+							state 					<= DONE;
 						else
-							state 					<=CURR_CALC;
+							state 					<= CURR_CALC;
 						end if;						
 					when 	DONE 		=>
 							if (rslt_sign = '0') then
-								result   			<=result_dummy(39 downto 8);
+								result   			<= not( result_dummy(39 downto 8));
 							else
-								result   			<=r_addr_result(39 downto 8);
+								result   			<= r_addr_result(39 downto 8);
 							end if;
 							ovf			 			<= result_dummy(39);		--overflow signal
-							opr_done 				<='0';
-							state 					<=IDLE;
+							opr_done 				<= '0';
+							state 					<= IDLE;
 				end case;
 			end if;		--rst='1'
 		end if; 			--rising_edge(clk)

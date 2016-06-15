@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Tue Jun 14 17:05:11 2016">
+  <application stringID="Xst" timeStamp="Wed Jun 15 15:51:30 2016">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -33,7 +33,7 @@
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz"/>
-          <item stringID="speed" value="2562.625 MHz"/>
+          <item stringID="speed" value="1831.476 MHz"/>
         </row>
       </table>
     </section>
@@ -111,9 +111,9 @@
       <item dataType="int" stringID="XST_REGISTERS" value="397">
         <item dataType="int" stringID="XST_FLIPFLOPS" value="397"/>
       </item>
-      <item dataType="int" stringID="XST_MULTIPLEXERS" value="117">
-        <item dataType="int" stringID="XST_1BIT_2TO1_MULTIPLEXER" value="73"/>
-        <item dataType="int" stringID="XST_32BIT_2TO1_MULTIPLEXER" value="1"/>
+      <item dataType="int" stringID="XST_MULTIPLEXERS" value="47">
+        <item dataType="int" stringID="XST_1BIT_2TO1_MULTIPLEXER" value="1"/>
+        <item dataType="int" stringID="XST_32BIT_2TO1_MULTIPLEXER" value="2"/>
       </item>
       <item dataType="int" stringID="XST_FSMS" value="1"/>
       <item dataType="int" stringID="XST_XORS" value="401">
@@ -176,7 +176,7 @@
     </section>
     <section stringID="XST_ERRORS_STATISTICS">
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="0"/>
-      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="35"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="33"/>
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="11"/>
     </section>
   </application>

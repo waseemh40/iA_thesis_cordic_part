@@ -71,6 +71,8 @@ ARCHITECTURE behavior OF tb_cordic_mul_sequ IS
 
    -- Clock period definitions
    constant clk_period : time := 10 ns;
+		--x=> -180 to 180 with setp of 1
+		--y=> 180 to -180 with step of -1
 	signal x 			: std_logic_vector(31 downto 0):="11111111010011000000000000000000";--(-180)	
 	signal y 			: std_logic_vector(31 downto 0):="00000000101101000000000000000000"; --180 
 	--file IO part
@@ -106,9 +108,9 @@ BEGIN
  	rst <= '1' after 1 ns,'0' after clk_period;
 	--process for quad and value of angle check i.e. tan check
 process
-	file      outfile  	: text is out "linear_data_input_a.txt";  --declare output file
-	file      outfile_1  : text is out "linear_data_input_b.txt";  --declare output file
-	file      outfile_2  : text is out "linear_data_output.txt";  --declare output file
+	file      outfile  	: text is out "linear_final_input_a.txt";  --declare output file
+	file      outfile_1  : text is out "linear_final_input_b.txt";  --declare output file
+	file      outfile_2  : text is out "linear_final_output.txt";  --declare output file
 	variable  outline  	: line;   --line number declaration  
 	begin
 		for loop_var_ext in 0 to 360 loop

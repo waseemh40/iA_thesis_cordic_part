@@ -1,31 +1,10 @@
 Command line:
    tb_cordic_mul_sequ_isim_beh.exe
      -simmode  gui
-     -simrunnum  0
-     -socket  33093
+     -simrunnum  1
+     -socket  48615
 
-Mon Jun 13 13:46:50 2016
+Wed Jun 15 15:54:20 2016
 
 
  Elaboration Time: 0.02 sec
-
- Current Memory Usage: 199.75 Meg
-
- Total Signals          : 614
- Total Nets             : 2103
- Total Signal Drivers   : 951
- Total Blocks           : 70
- Total Primitive Blocks : 58
- Total Processes        : 930
- Total Traceable Variables  : 15
- Total Scalar Nets and Variables : 2627
-Total Line Count : 1055
-Total Line Count : 1055
-Total Line Count : 1055
-
- Total Simulation Time: 12.82 sec
-
- Current Memory Usage: 275.251 Meg
-
-Mon Jun 13 13:48:14 2016
-

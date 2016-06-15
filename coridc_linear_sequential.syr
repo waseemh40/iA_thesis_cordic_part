@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 Reading design: coridc_linear_sequential.prj
@@ -126,8 +126,6 @@ Parsing architecture <Behavioral> of entity <forty_bit_add_sub>.
 Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" into library work
 Parsing entity <coridc_linear_sequential>.
 Parsing architecture <Behavioral> of entity <coridc_linear_sequential>.
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" Line 108: Actual for formal port mode is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" Line 114: Actual for formal port operand_a is neither a static name nor a globally static expression
 
 =========================================================================
 *                            HDL Elaboration                            *
@@ -151,12 +149,12 @@ Elaborating entity <forty_bit_add_sub> (architecture <Behavioral>) from library 
 
 Synthesizing Unit <coridc_linear_sequential>.
     Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd".
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 96: Output port <over_flow> of the instance <adder_y> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 96: Output port <carry_out> of the instance <adder_y> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 104: Output port <over_flow> of the instance <adder_z> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 104: Output port <carry_out> of the instance <adder_z> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 112: Output port <over_flow> of the instance <adder_result> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 112: Output port <carry_out> of the instance <adder_result> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 91: Output port <over_flow> of the instance <adder_y> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 91: Output port <carry_out> of the instance <adder_y> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 99: Output port <over_flow> of the instance <adder_z> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 99: Output port <carry_out> of the instance <adder_z> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 107: Output port <over_flow> of the instance <adder_result> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequential.vhd" line 107: Output port <carry_out> of the instance <adder_result> is unconnected or connected to loadless signal.
     Found 5-bit register for signal <loop_var>.
     Found 1-bit register for signal <opr_done>.
     Found 1-bit register for signal <rslt_sign>.
@@ -188,7 +186,7 @@ INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_linear_sequen
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 5-bit adder for signal <loop_var[4]_GND_4_o_add_8_OUT> created at line 247.
+    Found 5-bit adder for signal <loop_var[4]_GND_4_o_add_6_OUT> created at line 242.
 INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal y_add_result may hinder XST clustering optimizations.
 INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal z_add_result may hinder XST clustering optimizations.
     Summary:
@@ -277,10 +275,10 @@ Macro Statistics
  5-bit up counter                                      : 1
 # Registers                                            : 397
  Flip-Flops                                            : 397
-# Multiplexers                                         : 117
- 1-bit 2-to-1 multiplexer                              : 73
- 32-bit 2-to-1 multiplexer                             : 1
- 40-bit 2-to-1 multiplexer                             : 43
+# Multiplexers                                         : 47
+ 1-bit 2-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 2
+ 40-bit 2-to-1 multiplexer                             : 44
 # FSMs                                                 : 1
 # Xors                                                 : 401
  1-bit xor2                                            : 401
@@ -507,7 +505,7 @@ Offset:              7.128ns (Levels of Logic = 10)
      LUT6:I0->O            8   0.097   0.726  norm_1/adder/CLA_block/C_OUT<6>1 (norm_1/adder/c_group<6>)
      LUT6:I0->O            6   0.097   0.579  norm_1/adder/CLA_block/C_OUT<7>1 (norm_1/adder/c_group<7>)
      LUT4:I0->O            1   0.097   0.556  norm_1/adder/eighth_4bits/c<2>1 (norm_1/adder/eighth_4bits/c<2>)
-     LUT6:I2->O            1   0.097   0.000  Mmux__n0240331 (_n0240<39>)
+     LUT6:I2->O            1   0.097   0.000  Mmux__n0246331 (_n0246<39>)
      FDRE:D                    0.008          x_last_39
     ----------------------------------------
     Total                      7.128ns (0.882ns logic, 6.246ns route)
@@ -549,14 +547,14 @@ clk            |    3.518|         |         |         |
 
 
 Total REAL time to Xst completion: 15.00 secs
-Total CPU time to Xst completion: 14.83 secs
+Total CPU time to Xst completion: 14.72 secs
  
 --> 
 
 
-Total memory usage is 515808 kilobytes
+Total memory usage is 515868 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   35 (   0 filtered)
+Number of warnings :   33 (   0 filtered)
 Number of infos    :   11 (   0 filtered)
 

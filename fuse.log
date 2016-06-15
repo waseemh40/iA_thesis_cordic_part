@@ -9,12 +9,12 @@ Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_adder.vh
 Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_linear_module.vhd" into library work
 Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_add_sub.vhd" into library work
 Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/linear_combinatorial.vhd" into library work
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/linear_combinatorial.vhd" Line 121: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/linear_combinatorial.vhd" Line 129: Actual for formal port mode is neither a static name nor a globally static expression
 Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_linear_combinatorial.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 95908 KB
-Fuse CPU Usage: 1150 ms
+Fuse Memory Usage: 95920 KB
+Fuse CPU Usage: 1230 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling architecture behavioral of entity four_bits_CLA_adder [four_bits_cla_adder_default]
@@ -27,6 +27,6 @@ Compiling architecture behavior of entity tb_linear_combinatorial
 Time Resolution for simulation is 1ps.
 Compiled 15 VHDL Units
 Built simulation executable /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_linear_combinatorial_isim_beh.exe
-Fuse Memory Usage: 661816 KB
-Fuse CPU Usage: 1210 ms
-GCC CPU Usage: 770 ms
+Fuse Memory Usage: 661840 KB
+Fuse CPU Usage: 1300 ms
+GCC CPU Usage: 810 ms
