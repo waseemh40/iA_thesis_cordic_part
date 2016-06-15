@@ -111,7 +111,7 @@ BEGIN
    end process;
 
 	rst 			<= '1' after 1 ns,'0' after clk_period;
-	mode			<= '1' after clk_period;
+	mode			<= '0' after clk_period;
 	--process for quad and value of angle check i.e. tan check
 process
 	file      outfile  	: text is out "tan_sqrt_data_input_a.txt";  --declare output file

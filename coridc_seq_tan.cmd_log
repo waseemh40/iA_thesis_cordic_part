@@ -34,3 +34,4 @@ xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_seq_ta
 xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_seq_tan.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_seq_tan.syr" 
 xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_seq_tan.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_seq_tan.syr" 
 xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_seq_tan.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_seq_tan.syr" 
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_seq_tan.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/coridc_seq_tan.syr" 

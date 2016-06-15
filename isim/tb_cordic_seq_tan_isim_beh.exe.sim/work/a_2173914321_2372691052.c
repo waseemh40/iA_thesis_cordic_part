@@ -165,7 +165,7 @@ LAB3:    t1 = (t0 + 3568U);
     t5 = *((char **)t4);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
-    *((unsigned char *)t7) = (unsigned char)3;
+    *((unsigned char *)t7) = (unsigned char)2;
     xsi_driver_first_trans_delta(t1, 0U, 1, t3);
     t8 = (t0 + 6232);
     xsi_driver_intertial_reject(t8, t3, t3);

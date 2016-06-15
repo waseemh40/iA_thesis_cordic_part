@@ -4,14 +4,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.05 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.05 secs
  
 --> 
@@ -126,6 +126,8 @@ Parsing architecture <Behavioral> of entity <forty_bit_add_sub>.
 Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" into library work
 Parsing entity <coridc_seq_tan>.
 Parsing architecture <Behavioral> of entity <coridc_seq_tan>.
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" Line 133: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" Line 140: Actual for formal port operand_b is neither a static name nor a globally static expression
 
 =========================================================================
 *                            HDL Elaboration                            *
@@ -149,14 +151,14 @@ Elaborating entity <forty_bit_add_sub> (architecture <Behavioral>) from library 
 
 Synthesizing Unit <coridc_seq_tan>.
     Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd".
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 121: Output port <over_flow> of the instance <adder_x> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 121: Output port <carry_out> of the instance <adder_x> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 130: Output port <over_flow> of the instance <adder_y> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 130: Output port <carry_out> of the instance <adder_y> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 138: Output port <over_flow> of the instance <adder_z> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 138: Output port <carry_out> of the instance <adder_z> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 146: Output port <over_flow> of the instance <adder_result> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 146: Output port <carry_out> of the instance <adder_result> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 120: Output port <over_flow> of the instance <adder_x> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 120: Output port <carry_out> of the instance <adder_x> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 129: Output port <over_flow> of the instance <adder_y> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 129: Output port <carry_out> of the instance <adder_y> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 137: Output port <over_flow> of the instance <adder_z> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 137: Output port <carry_out> of the instance <adder_z> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 145: Output port <over_flow> of the instance <adder_result> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" line 145: Output port <carry_out> of the instance <adder_result> is unconnected or connected to loadless signal.
     Found 5-bit register for signal <loop_var>.
     Found 1-bit register for signal <opr_done>.
     Found 40-bit register for signal <x_current>.
@@ -170,7 +172,6 @@ INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" 
     Found 40-bit register for signal <result>.
     Found 32-bit register for signal <angle>.
     Found 32-bit register for signal <sqrt>.
-    Found 40-bit register for signal <z_addr_second_oprnd>.
     Found 1-bit register for signal <result_sign>.
     Found 1-bit register for signal <mode_latched>.
     Found 1-bit register for signal <oprnd_a_msb>.
@@ -191,13 +192,13 @@ INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_tan.vhd" 
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 5-bit adder for signal <loop_var[4]_GND_4_o_add_19_OUT> created at line 305.
-    Found 32x40-bit Read Only RAM for signal <loop_var[4]_X_4_o_wide_mux_12_OUT>
+    Found 5-bit adder for signal <loop_var[4]_GND_4_o_add_19_OUT> created at line 301.
+    Found 32x40-bit Read Only RAM for signal <loop_var[4]_X_4_o_wide_mux_1_OUT>
     Summary:
 	inferred   1 RAM(s).
 	inferred   1 Adder/Subtractor(s).
-	inferred 514 D-type flip-flop(s).
-	inferred  81 Multiplexer(s).
+	inferred 474 D-type flip-flop(s).
+	inferred  80 Multiplexer(s).
 	inferred   1 Finite State Machine(s).
 Unit <coridc_seq_tan> synthesized.
 
@@ -241,14 +242,14 @@ Macro Statistics
  32x40-bit single-port Read Only RAM                   : 1
 # Adders/Subtractors                                   : 1
  5-bit adder                                           : 1
-# Registers                                            : 19
+# Registers                                            : 18
  1-bit register                                        : 5
  32-bit register                                       : 2
- 40-bit register                                       : 11
+ 40-bit register                                       : 10
  5-bit register                                        : 1
-# Multiplexers                                         : 87
+# Multiplexers                                         : 86
  32-bit 2-to-1 multiplexer                             : 4
- 40-bit 2-to-1 multiplexer                             : 82
+ 40-bit 2-to-1 multiplexer                             : 81
  5-bit 2-to-1 multiplexer                              : 1
 # FSMs                                                 : 1
 # Xors                                                 : 481
@@ -263,7 +264,7 @@ Macro Statistics
 
 Synthesizing (advanced) Unit <coridc_seq_tan>.
 The following registers are absorbed into counter <loop_var>: 1 register on signal <loop_var>.
-INFO:Xst:3231 - The small RAM <Mram_loop_var[4]_X_4_o_wide_mux_12_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_loop_var[4]_X_4_o_wide_mux_1_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -284,12 +285,12 @@ Macro Statistics
  32x40-bit single-port distributed Read Only RAM       : 1
 # Counters                                             : 1
  5-bit up counter                                      : 1
-# Registers                                            : 509
- Flip-Flops                                            : 509
-# Multiplexers                                         : 125
+# Registers                                            : 469
+ Flip-Flops                                            : 469
+# Multiplexers                                         : 124
  1-bit 2-to-1 multiplexer                              : 40
  32-bit 2-to-1 multiplexer                             : 4
- 40-bit 2-to-1 multiplexer                             : 81
+ 40-bit 2-to-1 multiplexer                             : 80
 # FSMs                                                 : 1
 # Xors                                                 : 481
  1-bit xor2                                            : 481
@@ -311,7 +312,8 @@ Optimizing FSM <FSM_0> on signal <state[1:3]> with user encoding.
  shift_and_check | 100
  done            | 101
 -----------------------------
-WARNING:Xst:1710 - FF/Latch <scale_22> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <scale_21> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <scale_22> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <scale_23> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <scale_24> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <scale_25> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
@@ -322,8 +324,6 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <scale_36> (without 
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <scale_37> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <scale_38> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <scale_39> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <z_addr_second_oprnd_38> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <z_addr_second_oprnd_39> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <result_32> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <result_33> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <result_34> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
@@ -353,7 +353,6 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <scale_17> (without 
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <scale_18> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <scale_19> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <scale_20> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <scale_21> (without init value) has a constant value of 0 in block <coridc_seq_tan>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <scale_26> in Unit <coridc_seq_tan> is equivalent to the following 2 FFs/Latches, which will be removed : <scale_28> <scale_31> 
 INFO:Xst:2261 - The FF/Latch <scale_27> in Unit <coridc_seq_tan> is equivalent to the following 2 FFs/Latches, which will be removed : <scale_30> <scale_32> 
 
@@ -369,7 +368,10 @@ INFO:Xst:2261 - The FF/Latch <angle_26> in Unit <coridc_seq_tan> is equivalent t
 Mapping all equations...
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 5) on block coridc_seq_tan, actual ratio is 1.
-FlipFlop y_last_shftd_39 has been replicated 1 time(s)
+FlipFlop loop_var_0 has been replicated 4 time(s)
+FlipFlop loop_var_1 has been replicated 2 time(s)
+FlipFlop loop_var_2 has been replicated 3 time(s)
+FlipFlop loop_var_3 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -377,8 +379,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 466
- Flip-Flops                                            : 466
+# Registers                                            : 437
+ Flip-Flops                                            : 437
 
 =========================================================================
 
@@ -401,17 +403,17 @@ Top Level Output File Name         : coridc_seq_tan.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1197
-#      LUT2                        : 220
-#      LUT3                        : 127
-#      LUT4                        : 87
-#      LUT5                        : 134
-#      LUT6                        : 586
-#      MUXF7                       : 43
-# FlipFlops/Latches                : 466
+# BELS                             : 1203
+#      LUT2                        : 208
+#      LUT3                        : 130
+#      LUT4                        : 97
+#      LUT5                        : 151
+#      LUT6                        : 589
+#      MUXF7                       : 28
+# FlipFlops/Latches                : 437
 #      FDE                         : 7
-#      FDR                         : 4
-#      FDRE                        : 455
+#      FDR                         : 3
+#      FDRE                        : 427
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 132
@@ -425,15 +427,15 @@ Selected Device : 7a100tcsg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             466  out of  126800     0%  
- Number of Slice LUTs:                 1154  out of  63400     1%  
-    Number used as Logic:              1154  out of  63400     1%  
+ Number of Slice Registers:             437  out of  126800     0%  
+ Number of Slice LUTs:                 1175  out of  63400     1%  
+    Number used as Logic:              1175  out of  63400     1%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1157
-   Number with an unused Flip Flop:     691  out of   1157    59%  
-   Number with an unused LUT:             3  out of   1157     0%  
-   Number of fully used LUT-FF pairs:   463  out of   1157    40%  
+ Number of LUT Flip Flop pairs used:   1187
+   Number with an unused Flip Flop:     750  out of   1187    63%  
+   Number with an unused LUT:            12  out of   1187     1%  
+   Number of fully used LUT-FF pairs:   425  out of   1187    35%  
    Number of unique control sets:        11
 
 IO Utilization: 
@@ -464,7 +466,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clk                                | BUFGP                  | 466   |
+clk                                | BUFGP                  | 437   |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -475,8 +477,8 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 3.634ns (Maximum Frequency: 275.146MHz)
-   Minimum input arrival time before clock: 4.645ns
+   Minimum period: 3.718ns (Maximum Frequency: 268.971MHz)
+   Minimum input arrival time before clock: 6.469ns
    Maximum output required time after clock: 0.663ns
    Maximum combinational path delay: No path found
 
@@ -486,36 +488,36 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 3.634ns (frequency: 275.146MHz)
-  Total number of paths / destination ports: 22665 / 925
+  Clock period: 3.718ns (frequency: 268.971MHz)
+  Total number of paths / destination ports: 31710 / 868
 -------------------------------------------------------------------------
-Delay:               3.634ns (Levels of Logic = 6)
-  Source:            y_last_shftd_39 (FF)
-  Destination:       y_current_25 (FF)
+Delay:               3.718ns (Levels of Logic = 6)
+  Source:            loop_var_4 (FF)
+  Destination:       z_current_26 (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: y_last_shftd_39 to y_current_25
+  Data Path: loop_var_4 to z_current_26
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q           294   0.361   0.840  y_last_shftd_39 (y_last_shftd_39)
-     LUT6:I0->O            1   0.097   0.000  adder_y/adder/CLA_block/C_OUT<4>_SW0_G (N632)
-     MUXF7:I1->O           5   0.279   0.314  adder_y/adder/CLA_block/C_OUT<4>_SW0 (N196)
-     LUT6:I5->O            5   0.097   0.314  adder_y/adder/fifth_4bits/c<2>1_SW0 (N283)
-     LUT6:I5->O            1   0.097   0.511  adder_y/adder/sixth_4bits/c<2>1_SW2 (N432)
-     LUT6:I3->O            2   0.097   0.284  adder_y/adder/CLA_block/C_OUT<6> (adder_y/adder/c_group<6>)
-     MUXF7:S->O            1   0.335   0.000  Mmux__n0473181 (_n0473<25>)
-     FDRE:D                    0.008          y_current_25
+     FDRE:C->Q            47   0.361   0.802  loop_var_4 (loop_var_4)
+     LUT6:I0->O            7   0.097   0.323  adder_z/Mmux_b_feed131 (adder_z/b_feed<20>)
+     LUT4:I3->O            2   0.097   0.516  adder_z/adder/CLA_block/C_OUT<5>_SW1 (N185)
+     LUT6:I3->O            3   0.097   0.305  adder_z/adder/fifth_4bits/c<2>1_SW1 (N249)
+     LUT6:I5->O            1   0.097   0.511  adder_z/adder/sixth_4bits/c<2>1_SW1 (N336)
+     LUT6:I3->O            4   0.097   0.309  adder_z/adder/seventh_4bits/c<2>1 (adder_z/adder/seventh_4bits/c<2>)
+     LUT4:I3->O            1   0.097   0.000  Mmux__n0582191 (_n0582<26>)
+     FDRE:D                    0.008          z_current_26
     ----------------------------------------
-    Total                      3.634ns (1.371ns logic, 2.263ns route)
-                                       (37.7% logic, 62.3% route)
+    Total                      3.718ns (0.951ns logic, 2.767ns route)
+                                       (25.6% logic, 74.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 1985 / 932
+  Total number of paths / destination ports: 1927 / 874
 -------------------------------------------------------------------------
-Offset:              4.645ns (Levels of Logic = 10)
+Offset:              6.469ns (Levels of Logic = 10)
   Source:            operand_a<3> (PAD)
   Destination:       x_last_29 (FF)
   Destination Clock: clk rising
@@ -525,19 +527,19 @@ Offset:              4.645ns (Levels of Logic = 10)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             3   0.001   0.566  operand_a_3_IBUF (operand_a_3_IBUF)
-     LUT4:I0->O            3   0.097   0.389  norm_1/adder/CLA_block/C_OUT<1>1 (norm_1/adder/c_group<1>)
-     LUT5:I3->O            5   0.097   0.398  norm_1/adder/CLA_block/C_OUT<2>1 (norm_1/adder/c_group<2>)
-     LUT5:I3->O            5   0.097   0.398  norm_1/adder/CLA_block/C_OUT<3>1 (norm_1/adder/c_group<3>)
-     LUT5:I3->O            5   0.097   0.398  norm_1/adder/CLA_block/C_OUT<4>1 (norm_1/adder/c_group<4>)
-     LUT5:I3->O            5   0.097   0.398  norm_1/adder/CLA_block/C_OUT<5>1 (norm_1/adder/c_group<5>)
-     LUT5:I3->O            5   0.097   0.398  norm_1/adder/CLA_block/C_OUT<6>1 (norm_1/adder/c_group<6>)
-     LUT5:I3->O            3   0.097   0.305  norm_1/adder/CLA_block/C_OUT<7>1 (norm_1/adder/c_group<7>)
+     LUT4:I0->O            3   0.097   0.693  norm_1/adder/CLA_block/C_OUT<1>1 (norm_1/adder/c_group<1>)
+     LUT5:I0->O            5   0.097   0.702  norm_1/adder/CLA_block/C_OUT<2>1 (norm_1/adder/c_group<2>)
+     LUT5:I0->O            5   0.097   0.702  norm_1/adder/CLA_block/C_OUT<3>1 (norm_1/adder/c_group<3>)
+     LUT5:I0->O            5   0.097   0.702  norm_1/adder/CLA_block/C_OUT<4>1 (norm_1/adder/c_group<4>)
+     LUT5:I0->O            5   0.097   0.702  norm_1/adder/CLA_block/C_OUT<5>1 (norm_1/adder/c_group<5>)
+     LUT5:I0->O            5   0.097   0.702  norm_1/adder/CLA_block/C_OUT<6>1 (norm_1/adder/c_group<6>)
+     LUT5:I0->O            3   0.097   0.305  norm_1/adder/CLA_block/C_OUT<7>1 (norm_1/adder/c_group<7>)
      LUT4:I3->O            1   0.097   0.511  mux101111 (mux10111)
-     LUT4:I1->O            1   0.097   0.000  mux101112 (_n0372<29>)
+     LUT4:I1->O            1   0.097   0.000  mux101112 (_n0364<29>)
      FDRE:D                    0.008          x_last_29
     ----------------------------------------
-    Total                      4.645ns (0.882ns logic, 3.763ns route)
-                                       (19.0% logic, 81.0% route)
+    Total                      6.469ns (0.882ns logic, 5.587ns route)
+                                       (13.6% logic, 86.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
@@ -568,19 +570,19 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    3.634|         |         |         |
+clk            |    3.718|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 17.00 secs
-Total CPU time to Xst completion: 17.02 secs
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 17.87 secs
  
 --> 
 
 
-Total memory usage is 517436 kilobytes
+Total memory usage is 517312 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   43 (   0 filtered)

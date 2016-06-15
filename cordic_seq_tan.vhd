@@ -106,50 +106,50 @@ begin
 	--normalization portmap
 norm_1: entity work.norm_vector_mode
 	Port map ( 
-			  operand 		=>operand_a,
-           norm_operand =>x_0
+			  operand 		=> operand_a,
+           norm_operand => x_0
 			  );
 			  
 norm_2: entity work.norm_vector_mode
 	Port map ( 
-			  operand 		=>operand_b,
-           norm_operand =>y_0
+			  operand 		=> operand_b,
+           norm_operand => y_0
 			  );
 
 	--adders portmap
 adder_x: entity work.forty_bit_add_sub
 	Port map ( 
-			  operand_a 	=>x_last,
-           operand_b 	=>y_last_shftd,--(std_logic_vector(signed(y_last) srl loop_var)),
-           mode 			=>(y_last_shftd(39)),			-- y <0 => sub else add
-           over_flow 	=>ovf_x,
-			  carry_out 	=>cout_x,
-           result 		=>x_add_result);
+			  operand_a 	=> x_last,
+           operand_b 	=> y_last_shftd,--(std_logic_vector(signed(y_last) srl loop_var)),
+           mode 			=> (y_last_shftd(39)),			-- y <0 => sub else add
+           over_flow 	=> ovf_x,
+			  carry_out 	=> cout_x,
+           result 		=> x_add_result);
 
 adder_y: entity work.forty_bit_add_sub
 	Port map ( 
-			  operand_a 	=>y_last,
-           operand_b 	=>x_last_shftd,--(std_logic_vector(signed(x_last) srl loop_var)),
-           mode 			=>not(y_last_shftd(39)),			-- y >0 => sub else add
-           over_flow 	=>ovf_y,
-			  carry_out 	=>cout_y,
-           result 		=>y_add_result);
+			  operand_a 	=> y_last,
+           operand_b 	=> x_last_shftd,--(std_logic_vector(signed(x_last) srl loop_var)),
+           mode 			=> not(y_last_shftd(39)),			-- y >0 => sub else add
+           over_flow 	=> ovf_y,
+			  carry_out 	=> cout_y,
+           result 		=> y_add_result);
 adder_z: entity work.forty_bit_add_sub
 	Port map ( 
-			  operand_a 	=>z_last,
-           operand_b 	=>angles(loop_var),
-           mode 			=>(y_last_shftd(39)),			-- y <0 => sub else add
-           over_flow 	=>ovf_z,
-			  carry_out 	=>cout_z,
-           result 		=>z_add_result);
+			  operand_a 	=> z_last,
+           operand_b 	=> angles(loop_var),
+           mode 			=> (y_last_shftd(39)),			-- y <0 => sub else add
+           over_flow 	=> ovf_z,
+			  carry_out 	=> cout_z,
+           result 		=> z_add_result);
 adder_result: entity work.forty_bit_add_sub
 	Port map ( 
-			  operand_a 	=>scale,
-           operand_b 	=>result,
-           mode 			=>result_sign, -- change this please!!! verified logic, just change scale in DONE state
-           over_flow 	=>ovf_rslt,
-			  carry_out 	=>cout_rslt,
-           result 		=>r_add_result);			  
+			  operand_a 	=> scale,
+           operand_b 	=> result,
+           mode 			=> result_sign, -- change this please!!! verified logic, just change scale in DONE state
+           over_flow 	=> ovf_rslt,
+			  carry_out 	=> cout_rslt,
+           result 		=> r_add_result);			  
 			  
 --actual FSM
 fsm_process: process (clk, operand_a,operand_b,mode)
@@ -195,26 +195,26 @@ fsm_process: process (clk, operand_a,operand_b,mode)
 					 end if;
  					when READ_OPRND =>		
 						loop_var		<= 0;
-						x_last		<=x_0;
-						y_last  		<=y_0;
-						z_last		<=(others => '0');
+						x_last		<= x_0;
+						y_last  		<= y_0;
+						z_last		<= (others => '0');
 						angle			<= (others => '0');		--keep result till next computation
 						sqrt			<= (others => '0');		--keep result till next computation
 						result_sign	<= operand_a(31) xor operand_b(31);
-						mode_latched <=mode;
+						mode_latched <= mode;
 						oprnd_a_msb	<= operand_a(31);
 						oprnd_b_msb	<= operand_b(31);
 						state 		<= CURR_CALC;
  					when CURR_CALC  =>		
-						x_current	<=x_add_result;
-						y_current	<=y_add_result;
-						z_current  	<=z_add_result;
-						state 		<=LAST_UPDATE;
+						x_current	<= x_add_result;
+						y_current	<= y_add_result;
+						z_current  	<= z_add_result;
+						state 		<= LAST_UPDATE;
 					when 	LAST_UPDATE =>
-						x_last		<=x_current;
-						y_last		<=y_current;
-						z_last  		<=z_current;
-						state 		<=SHIFT_AND_CHECK;
+						x_last		<= x_current;
+						y_last		<= y_current;
+						z_last  		<= z_current;
+						state 		<= SHIFT_AND_CHECK;
 					when SHIFT_AND_CHECK =>
 						if(x_last(39) = '1') then
 						case loop_var is
@@ -300,33 +300,33 @@ fsm_process: process (clk, operand_a,operand_b,mode)
 						end if;
 						loop_var		<= loop_var + 1;
 						if loop_var = 15 then
-							result 	<="00000000" & z_current(39 downto 8) ;
+							result 	<= "00000000" & z_current(39 downto 8) ;
 							if (oprnd_a_msb= '0' and oprnd_b_msb='0') then
-								scale <=x"0000000000";
+								scale <= x"0000000000";
 							elsif (oprnd_a_msb= '1' and oprnd_b_msb='0') then
-								scale <=x"00B4000000";	--180
+								scale <= x"00B4000000";	--180
 							elsif (oprnd_a_msb= '1' and oprnd_b_msb='1') then
-								scale <=x"00B4000000";	--180
+								scale <= x"00B4000000";	--180
 							else
-								scale <=x"0168000000";	--360
+								scale <= x"0168000000";	--360
 							end if;
-							opr_done <='1';
-							state 	<=DONE;
+							opr_done <= '1';
+							state 	<= DONE;
 						else
-							state 	<=CURR_CALC;
+							state 	<= CURR_CALC;
 						end if;
 					when DONE =>
 					opr_done 		<= '0';
 					if (mode_latched ='0') then
-						angle 		<=r_add_result(39 downto 8);
-						sqrt  		<=x"00000000";
+						angle 		<= r_add_result(39 downto 8);
+						sqrt  		<= x"00000000";
 					else
-						angle 		<=x"00000000";
-						sqrt  		<=x_current(31 downto 0);
+						angle 		<= x"00000000";
+						sqrt  		<= x_current(31 downto 0);
 					end if;
-					state				<=IDLE;
+					state				<= IDLE;
 				end case;
 			end if;		--rst='1'
 		end if; 			--rising_edge(clk)
 	end process; 
-end Behavioral;
+end Behavioral; 
