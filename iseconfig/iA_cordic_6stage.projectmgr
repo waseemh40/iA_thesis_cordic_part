@@ -13,7 +13,6 @@
          <ClosedNode>/cordic_hyperbolic_seq - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|cordic_hyperbolic_seq.vhd/adder_x - forty_bit_add_sub - Behavioral</ClosedNode>
          <ClosedNode>/cordic_hyperbolic_seq - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|cordic_hyperbolic_seq.vhd/adder_y - forty_bit_add_sub - Behavioral</ClosedNode>
          <ClosedNode>/cordic_hyperbolic_seq - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|cordic_hyperbolic_seq.vhd/adder_z - forty_bit_add_sub - Behavioral</ClosedNode>
-         <ClosedNode>/cordic_hyperbolic_seq - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|cordic_hyperbolic_seq.vhd/norm_1 - norm_hyper_mode - Behavioral</ClosedNode>
          <ClosedNode>/cordic_hyperbolic_seq - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|cordic_hyperbolic_seq.vhd/norm_1 - norm_vector_mode - Behavioral</ClosedNode>
          <ClosedNode>/cordic_hyperbolic_seq - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|cordic_hyperbolic_seq.vhd/norm_1 - norm_vector_mode - Behavioral/adder - forty_bit_adder - Behavioral</ClosedNode>
          <ClosedNode>/cordic_hyperbolic_seq - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|cordic_hyperbolic_seq.vhd/norm_2 - norm_vector_mode - Behavioral</ClosedNode>
@@ -64,8 +63,6 @@
          <ClosedNode>/coridc_linear_sequential - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|cordic_seq_tan.vhd</ClosedNode>
          <ClosedNode>/coridc_linear_sequential - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|coridc_linear_sequential.vhd</ClosedNode>
          <ClosedNode>/coridc_linear_sequential - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|coridc_linear_sequential.vhd/adder_result - forty_bit_add_sub - Behavioral</ClosedNode>
-         <ClosedNode>/coridc_linear_sequential - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|coridc_linear_sequential.vhd/adder_y - forty_bit_add_sub - Behavioral</ClosedNode>
-         <ClosedNode>/coridc_linear_sequential - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|coridc_linear_sequential.vhd/adder_y - forty_bit_add_sub - Behavioral/adder - forty_bit_adder - Behavioral</ClosedNode>
          <ClosedNode>/coridc_linear_sequential - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|coridc_linear_sequential.vhd/adder_z - forty_bit_add_sub - Behavioral</ClosedNode>
          <ClosedNode>/coridc_linear_sequential - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|coridc_linear_sequential.vhd/norm_1 - norm_linear_module - Behavioral</ClosedNode>
          <ClosedNode>/coridc_linear_sequential - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|coridc_linear_sequential.vhd/norm_2 - norm_linear_module - Behavioral</ClosedNode>
@@ -82,17 +79,18 @@
          <ClosedNode>/norm_linear_module - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|norm_linear_module.vhd</ClosedNode>
          <ClosedNode>/norm_vector_mode - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|norm_hyper_mode.vhd</ClosedNode>
          <ClosedNode>/sixteen_bits_add_sub - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|sixteen_bits_add_sub.vhd/adder - sixteen_bits_adder - Behavioral</ClosedNode>
+         <ClosedNode>/tan_combinatorial - Behavioral |home|waseemh|Xilinx_Proj|iA_cordic_6stage|tan_combinatorial.vhd</ClosedNode>
          <ClosedNode>/tb_forty_bits_adder - behavior |home|waseemh|Xilinx_Proj|iA_cordic_6stage|tb_forty_bits_adder.vhd</ClosedNode>
          <ClosedNode>/tb_forty_bits_adder - behavior |home|waseemh|Xilinx_Proj|iA_cordic_6stage|tb_thirty2_bits_adder.vhd/uut - forty_bit_adder - Behavioral</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>linear_combinatorial - Behavioral (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/linear_combinatorial.vhd)</SelectedItem>
+         <SelectedItem>tan_combinatorial - Behavioral (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tan_combinatorial.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >4</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000358000000020000000000000000000000000200000064ffffffff000000810000000300000002000003580000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>linear_combinatorial - Behavioral (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/linear_combinatorial.vhd)</CurrentItem>
+      <CurrentItem>tan_combinatorial - Behavioral (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tan_combinatorial.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -145,13 +143,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Synthesize - XST</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Synthesize - XST</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
@@ -230,15 +228,16 @@
          <ClosedNode>/tb_linear_combinatorial - behavior |home|waseemh|Xilinx_Proj|iA_cordic_6stage|tb_linear_combinatorial.vhd/uut - linear_combinatorial - Behavioral/y_adder - forty_bit_add_sub - Behavioral</ClosedNode>
          <ClosedNode>/tb_linear_combinatorial - behavior |home|waseemh|Xilinx_Proj|iA_cordic_6stage|tb_linear_combinatorial.vhd/uut - linear_combinatorial - Behavioral/y_adder - forty_bit_add_sub - Behavioral/adder - forty_bit_adder - Behavioral</ClosedNode>
          <ClosedNode>/tb_linear_crodic_q_2_14 - behavior |home|waseemh|Xilinx_Proj|iA_cordic_6stage|tb_linear_crodic_q_2_14.vhd</ClosedNode>
+         <ClosedNode>/tb_tan_combinatorial - behavior |home|waseemh|Xilinx_Proj|iA_cordic_6stage|tb_tan_combinatorial.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>tb_linear_combinatorial - behavior (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_linear_combinatorial.vhd)</SelectedItem>
+         <SelectedItem>tb_tan_combinatorial - behavior (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_tan_combinatorial.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >5</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000034f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000034f0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>tb_linear_combinatorial - behavior (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_linear_combinatorial.vhd)</CurrentItem>
+      <CurrentItem>tb_tan_combinatorial - behavior (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_tan_combinatorial.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>

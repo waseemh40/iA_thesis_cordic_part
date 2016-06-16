@@ -73,10 +73,10 @@ ARCHITECTURE behavior OF tb_cordic_seq_tan IS
 
    -- Clock period definitions
    constant clk_period : time := 10 ns;
---tan	angle signal x 			: std_logic_vector(31 downto 0):="00000000001011010000000000000000";--45 	
---tan angle	signal y 			: std_logic_vector(31 downto 0):="00000000000000000000000000000000"; --(0  
-	signal x 			: std_logic_vector(31 downto 0):="11111111010011000000000000000000";--(-180)	
-	signal y 			: std_logic_vector(31 downto 0):="00000000101101000000000000000000"; --180 
+		signal x 			: std_logic_vector(31 downto 0):="00000000001011010000000000000000";--45 	
+		signal y 			: std_logic_vector(31 downto 0):="00000000000000000000000000000000"; --(0  
+--sqrt	signal x 			: std_logic_vector(31 downto 0):="11111111010011000000000000000000";--(-180)	
+--sqrt	signal y 			: std_logic_vector(31 downto 0):="00000000101101000000000000000000"; --180 
 
 	--file IO part
 	signal 	endoffile : bit := '0';

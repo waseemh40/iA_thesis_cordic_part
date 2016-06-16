@@ -2,9 +2,29 @@ Command line:
    tb_tan_combinatorial_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  35663
+     -socket  33897
 
-Wed Jun 15 19:19:20 2016
+Thu Jun 16 14:28:02 2016
 
 
- Elaboration Time: 0.07 sec
+ Elaboration Time: 0.09 sec
+
+ Current Memory Usage: 232.804 Meg
+
+ Total Signals          : 5398
+ Total Nets             : 15762
+ Total Signal Drivers   : 8944
+ Total Blocks           : 674
+ Total Primitive Blocks : 531
+ Total Processes        : 8940
+ Total Traceable Variables  : 60
+ Total Scalar Nets and Variables : 16931
+Total Line Count : 8948
+Total Line Count : 8948
+
+ Total Simulation Time: 39.85 sec
+
+ Current Memory Usage: 308.576 Meg
+
+Thu Jun 16 15:16:42 2016
+

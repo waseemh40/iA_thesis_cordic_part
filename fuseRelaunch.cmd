@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_tan_combinatorial_isim_beh.exe" -prj "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_tan_combinatorial_beh.prj" "work.tb_tan_combinatorial" 
+-intstyle "ise" -incremental -lib "secureip" -o "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_cordic_seq_tan_isim_beh.exe" -prj "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_cordic_seq_tan_beh.prj" "work.tb_cordic_seq_tan" 

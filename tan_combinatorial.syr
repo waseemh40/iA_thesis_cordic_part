@@ -5,7 +5,7 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Parameter xsthdpdir set to xst
@@ -435,7 +435,7 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 57727524929984464299446885154816 / 64
+  Total number of paths / destination ports: 57727524929984401249052101967872 / 64
 -------------------------------------------------------------------------
 Delay:               152.209ns (Levels of Logic = 277)
   Source:            operand_b<31> (PAD)
@@ -734,13 +734,13 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 19.00 secs
-Total CPU time to Xst completion: 18.94 secs
+Total REAL time to Xst completion: 24.00 secs
+Total CPU time to Xst completion: 23.65 secs
  
 --> 
 
 
-Total memory usage is 507736 kilobytes
+Total memory usage is 507700 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    7 (   0 filtered)
