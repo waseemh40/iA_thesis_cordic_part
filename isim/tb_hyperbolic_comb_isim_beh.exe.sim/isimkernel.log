@@ -1,0 +1,30 @@
+Command line:
+   tb_hyperbolic_comb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  46684
+
+Fri Jun 17 18:30:26 2016
+
+
+ Elaboration Time: 0.06 sec
+
+ Current Memory Usage: 217.879 Meg
+
+ Total Signals          : 3158
+ Total Nets             : 9732
+ Total Signal Drivers   : 5250
+ Total Blocks           : 395
+ Total Primitive Blocks : 311
+ Total Processes        : 5248
+ Total Traceable Variables  : 40
+ Total Scalar Nets and Variables : 10242
+Total Line Count : 5238
+Total Line Count : 5238
+
+ Total Simulation Time: 4.57 sec
+
+ Current Memory Usage: 293.515 Meg
+
+Fri Jun 17 18:38:17 2016
+

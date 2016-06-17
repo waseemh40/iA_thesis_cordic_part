@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Fri Jun 17 13:55:38 2016">
+  <application stringID="Xst" timeStamp="Fri Jun 17 14:48:53 2016">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -33,7 +33,7 @@
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz"/>
-          <item stringID="speed" value="1899.828 MHz"/>
+          <item stringID="speed" value="1325.898 MHz"/>
         </row>
       </table>
     </section>
@@ -122,13 +122,13 @@
         <item stringID="XST_TOP_LEVEL_OUTPUT_FILE_NAME" value="rot_combinatorial.ngc"/>
       </section>
       <section stringID="XST_PRIMITIVE_AND_BLACK_BOX_USAGE">
-        <item dataType="int" stringID="XST_BELS" value="3412">
+        <item dataType="int" stringID="XST_BELS" value="3461">
           <item dataType="int" stringID="XST_GND" value="1"/>
-          <item dataType="int" stringID="XST_LUT2" value="21"/>
-          <item dataType="int" stringID="XST_LUT3" value="186"/>
-          <item dataType="int" stringID="XST_LUT4" value="550"/>
-          <item dataType="int" stringID="XST_LUT5" value="1411"/>
-          <item dataType="int" stringID="XST_LUT6" value="1224"/>
+          <item dataType="int" stringID="XST_LUT2" value="22"/>
+          <item dataType="int" stringID="XST_LUT3" value="190"/>
+          <item dataType="int" stringID="XST_LUT4" value="538"/>
+          <item dataType="int" stringID="XST_LUT5" value="1441"/>
+          <item dataType="int" stringID="XST_LUT6" value="1250"/>
           <item dataType="int" stringID="XST_MUXCY" value="12"/>
           <item dataType="int" stringID="XST_MUXF7" value="6"/>
           <item dataType="int" stringID="XST_VCC" value="1"/>
@@ -141,12 +141,12 @@
     </section>
     <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
       <item stringID="XST_SELECTED_DEVICE" value="7a100tcsg324-3"/>
-      <item AVAILABLE="63400" dataType="int" label="Number of Slice LUTs" stringID="XST_NUMBER_OF_SLICE_LUTS" value="3392"/>
-      <item AVAILABLE="63400" dataType="int" label="Number used as Logic" stringID="XST_NUMBER_USED_AS_LOGIC" value="3392"/>
-      <item dataType="int" label="Number of LUT Flip Flop pairs used" stringID="XST_NUMBER_OF_LUT_FLIP_FLOP_PAIRS_USED" value="3392"/>
-      <item AVAILABLE="3392" dataType="int" label="Number with an unused Flip Flop" stringID="XST_NUMBER_WITH_AN_UNUSED_FLIP_FLOP" value="3392"/>
-      <item AVAILABLE="3392" dataType="int" label="Number with an unused LUT" stringID="XST_NUMBER_WITH_AN_UNUSED_LUT" value="0"/>
-      <item AVAILABLE="3392" dataType="int" label="Number of fully used LUT-FF pairs" stringID="XST_NUMBER_OF_FULLY_USED_LUTFF_PAIRS" value="0"/>
+      <item AVAILABLE="63400" dataType="int" label="Number of Slice LUTs" stringID="XST_NUMBER_OF_SLICE_LUTS" value="3441"/>
+      <item AVAILABLE="63400" dataType="int" label="Number used as Logic" stringID="XST_NUMBER_USED_AS_LOGIC" value="3441"/>
+      <item dataType="int" label="Number of LUT Flip Flop pairs used" stringID="XST_NUMBER_OF_LUT_FLIP_FLOP_PAIRS_USED" value="3441"/>
+      <item AVAILABLE="3441" dataType="int" label="Number with an unused Flip Flop" stringID="XST_NUMBER_WITH_AN_UNUSED_FLIP_FLOP" value="3441"/>
+      <item AVAILABLE="3441" dataType="int" label="Number with an unused LUT" stringID="XST_NUMBER_WITH_AN_UNUSED_LUT" value="0"/>
+      <item AVAILABLE="3441" dataType="int" label="Number of fully used LUT-FF pairs" stringID="XST_NUMBER_OF_FULLY_USED_LUTFF_PAIRS" value="0"/>
       <item dataType="int" label="Number of unique control sets" stringID="XST_NUMBER_OF_UNIQUE_CONTROL_SETS" value="0"/>
       <item dataType="int" label="Number of IOs" stringID="XST_NUMBER_OF_IOS" value="96"/>
       <item AVAILABLE="210" dataType="int" label="Number of bonded IOBs" stringID="XST_NUMBER_OF_BONDED_IOBS" value="89"/>

@@ -15,3 +15,15 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm norm_linear_module.bmm -p x
 map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tan_combinatorial_map.ncd tan_combinatorial.ngd tan_combinatorial.pcf 
 par -w -intstyle ise -ol high -mt off tan_combinatorial_map.ncd tan_combinatorial.ncd tan_combinatorial.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tan_combinatorial.twx tan_combinatorial.ncd -o tan_combinatorial.twr tan_combinatorial.pcf 
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tan_combinatorial.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tan_combinatorial.syr" 
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tan_combinatorial.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tan_combinatorial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm norm_linear_module.bmm -p xc7a100t-csg324-3 tan_combinatorial.ngc tan_combinatorial.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tan_combinatorial_map.ncd tan_combinatorial.ngd tan_combinatorial.pcf 
+par -w -intstyle ise -ol high -mt off tan_combinatorial_map.ncd tan_combinatorial.ncd tan_combinatorial.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tan_combinatorial.twx tan_combinatorial.ncd -o tan_combinatorial.twr tan_combinatorial.pcf 
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tan_combinatorial.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tan_combinatorial.syr" 
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tan_combinatorial.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tan_combinatorial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm norm_linear_module.bmm -p xc6slx16-csg324-2 tan_combinatorial.ngc tan_combinatorial.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tan_combinatorial_map.ncd tan_combinatorial.ngd tan_combinatorial.pcf 
+par -w -intstyle ise -ol high -mt off tan_combinatorial_map.ncd tan_combinatorial.ncd tan_combinatorial.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tan_combinatorial.twx tan_combinatorial.ncd -o tan_combinatorial.twr tan_combinatorial.pcf 

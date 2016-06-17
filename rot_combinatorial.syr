@@ -378,13 +378,13 @@ Top Level Output File Name         : rot_combinatorial.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 3412
+# BELS                             : 3461
 #      GND                         : 1
-#      LUT2                        : 21
-#      LUT3                        : 186
-#      LUT4                        : 550
-#      LUT5                        : 1411
-#      LUT6                        : 1224
+#      LUT2                        : 22
+#      LUT3                        : 190
+#      LUT4                        : 538
+#      LUT5                        : 1441
+#      LUT6                        : 1250
 #      MUXCY                       : 12
 #      MUXF7                       : 6
 #      VCC                         : 1
@@ -399,14 +399,14 @@ Selected Device : 7a100tcsg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice LUTs:                 3392  out of  63400     5%  
-    Number used as Logic:              3392  out of  63400     5%  
+ Number of Slice LUTs:                 3441  out of  63400     5%  
+    Number used as Logic:              3441  out of  63400     5%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   3392
-   Number with an unused Flip Flop:    3392  out of   3392   100%  
-   Number with an unused LUT:             0  out of   3392     0%  
-   Number of fully used LUT-FF pairs:     0  out of   3392     0%  
+ Number of LUT Flip Flop pairs used:   3441
+   Number with an unused Flip Flop:    3441  out of   3441   100%  
+   Number with an unused LUT:             0  out of   3441     0%  
+   Number of fully used LUT-FF pairs:     0  out of   3441     0%  
    Number of unique control sets:         0
 
 IO Utilization: 
@@ -446,7 +446,7 @@ Speed Grade: -3
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 99.853ns
+   Maximum combinational path delay: 98.319ns
 
 Timing Details:
 ---------------
@@ -454,13 +454,13 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 372982604813920590932849197056 / 64
+  Total number of paths / destination ports: 236222866933986532050696404992 / 64
 -------------------------------------------------------------------------
-Delay:               99.853ns (Levels of Logic = 189)
+Delay:               98.319ns (Levels of Logic = 187)
   Source:            angle<0> (PAD)
-  Destination:       cos<8> (PAD)
+  Destination:       sin<23> (PAD)
 
-  Data Path: angle<0> to cos<8>
+  Data Path: angle<0> to sin<23>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
@@ -470,25 +470,25 @@ Delay:               99.853ns (Levels of Logic = 189)
      MUXCY:CI->O           1   0.023   0.000  norm_1/Mcompar_n0001_cy<1> (norm_1/Mcompar_n0001_cy<1>)
      MUXCY:CI->O           1   0.023   0.000  norm_1/Mcompar_n0001_cy<2> (norm_1/Mcompar_n0001_cy<2>)
      MUXCY:CI->O           1   0.253   0.379  norm_1/Mcompar_n0001_cy<3> (norm_1/Mcompar_n0001_cy<3>)
-     LUT6:I4->O           64   0.097   0.623  norm_1/Mcompar_n0001_cy<4> (norm_1/Mcompar_n0001_cy<4>)
+     LUT6:I4->O           66   0.097   0.623  norm_1/Mcompar_n0001_cy<4> (norm_1/Mcompar_n0001_cy<4>)
      LUT3:I0->O            3   0.097   0.693  norm_1/quad<0>1 (quadrant<0>)
      LUT5:I0->O           10   0.097   0.421  norm_1/adder/adder/CLA_block/C_OUT<1>1 (norm_1/adder/adder/c_group<1>)
      LUT5:I3->O            5   0.097   0.398  norm_1/adder/adder/CLA_block/C_OUT<2>1 (norm_1/adder/adder/c_group<2>)
      LUT5:I3->O            6   0.097   0.402  norm_1/adder/adder/CLA_block/C_OUT<3>1 (norm_1/adder/adder/c_group<3>)
      LUT5:I3->O            4   0.097   0.525  norm_1/adder/adder/CLA_block/C_OUT<4>1 (norm_1/adder/adder/c_group<4>)
-     LUT5:I2->O            2   0.097   0.299  norm_1/adder/adder/CLA_block/C_OUT<5>3_SW0 (N380)
+     LUT5:I2->O            2   0.097   0.299  norm_1/adder/adder/CLA_block/C_OUT<5>3_SW0 (N378)
      LUT5:I4->O            2   0.097   0.561  norm_1/adder/adder/CLA_block/C_OUT<5>3 (norm_1/adder/adder/c_group<5>)
      LUT6:I2->O            3   0.097   0.566  norm_1/adder/adder/sixth_4bits/c<2>1 (norm_1/adder/adder/sixth_4bits/c<2>)
-     LUT6:I2->O          256   0.097   0.824  norm_1/adder/adder/sixth_4bits/Mxor_sum<3>_xo<0>1 (GEN_Z_ADDERS[1].z_adder/adder/first_4bits/c<2>)
+     LUT6:I2->O          255   0.097   0.824  norm_1/adder/adder/sixth_4bits/Mxor_sum<3>_xo<0>1 (GEN_Z_ADDERS[1].z_adder/adder/first_4bits/c<2>)
      LUT6:I1->O            1   0.097   0.693  GEN_Z_ADDERS[0].z_adder/adder/sixth_4bits/Mxor_p<3>_xo<0>1 (GEN_Z_ADDERS[0].z_adder/adder/sixth_4bits/p<3>)
      LUT6:I0->O            5   0.097   0.314  GEN_Z_ADDERS[0].z_adder/adder/CLA_block/C_OUT<6>1 (GEN_Z_ADDERS[0].z_adder/adder/CLA_block/C_OUT<6>)
-     LUT5:I4->O            1   0.097   0.000  GEN_Z_ADDERS[0].z_adder/adder/CLA_block/C_OUT<7>1_G (N403)
+     LUT5:I4->O            1   0.097   0.000  GEN_Z_ADDERS[0].z_adder/adder/CLA_block/C_OUT<7>1_G (N397)
      MUXF7:I1->O           4   0.279   0.309  GEN_Z_ADDERS[0].z_adder/adder/CLA_block/C_OUT<7>1 (GEN_Z_ADDERS[0].z_adder/adder/CLA_block/C_OUT<7>)
      LUT3:I2->O            2   0.097   0.299  GEN_Z_ADDERS[0].z_adder/adder/CLA_block/C_OUT<7>2 (GEN_Z_ADDERS[0].z_adder/adder/c_group<7>)
      LUT6:I5->O            4   0.097   0.309  GEN_Z_ADDERS[0].z_adder/adder/CLA_block/C_OUT<8>1 (GEN_Z_ADDERS[0].z_adder/adder/CLA_block/C_OUT<8>)
      LUT3:I2->O            2   0.097   0.383  GEN_Z_ADDERS[0].z_adder/adder/CLA_block/C_OUT<8>2 (GEN_Z_ADDERS[0].z_adder/adder/c_group<8>)
      LUT6:I4->O            9   0.097   0.593  GEN_Z_ADDERS[0].z_adder/adder/CLA_block/C_OUT<9>1 (GEN_Z_ADDERS[0].z_adder/adder/CLA_block/C_OUT<9>)
-     LUT6:I2->O          140   0.097   0.419  GEN_Z_ADDERS[1].z_adder/adder/fourth_4bits/Mxor_sum<1>_xo<0>1 (GEN_Z_ADDERS[3].z_adder/adder/fourth_4bits/c<2>)
+     LUT6:I2->O          139   0.097   0.418  GEN_Z_ADDERS[1].z_adder/adder/fourth_4bits/Mxor_sum<1>_xo<0>1 (GEN_Z_ADDERS[3].z_adder/adder/fourth_4bits/c<2>)
      LUT6:I5->O            2   0.097   0.561  GEN_Z_ADDERS[1].z_adder/adder/CLA_block/C_OUT<5>2 (GEN_Z_ADDERS[1].z_adder/adder/c_group<5>)
      LUT6:I2->O            2   0.097   0.383  GEN_Z_ADDERS[1].z_adder/adder/CLA_block/C_OUT<6>2 (GEN_Z_ADDERS[1].z_adder/adder/c_group<6>)
      LUT6:I4->O            4   0.097   0.393  GEN_Z_ADDERS[1].z_adder/adder/CLA_block/C_OUT<7>2 (GEN_Z_ADDERS[1].z_adder/adder/c_group<7>)
@@ -513,7 +513,7 @@ Delay:               99.853ns (Levels of Logic = 189)
      LUT6:I4->O            2   0.097   0.561  GEN_Z_ADDERS[4].z_adder/adder/CLA_block/C_OUT<3>2 (GEN_Z_ADDERS[4].z_adder/adder/c_group<3>)
      LUT6:I2->O            1   0.097   0.511  GEN_Z_ADDERS[4].z_adder/adder/CLA_block/C_OUT<4>2 (GEN_Z_ADDERS[4].z_adder/adder/c_group<4>)
      LUT6:I3->O            5   0.097   0.398  GEN_Z_ADDERS[4].z_adder/adder/CLA_block/C_OUT<5>1 (GEN_Z_ADDERS[4].z_adder/adder/CLA_block/C_OUT<5>)
-     LUT5:I3->O            1   0.097   0.000  GEN_Z_ADDERS[4].z_adder/adder/CLA_block/C_OUT<6>1_G (N405)
+     LUT5:I3->O            1   0.097   0.000  GEN_Z_ADDERS[4].z_adder/adder/CLA_block/C_OUT<6>1_G (N399)
      MUXF7:I1->O           4   0.279   0.309  GEN_Z_ADDERS[4].z_adder/adder/CLA_block/C_OUT<6>1 (GEN_Z_ADDERS[4].z_adder/adder/CLA_block/C_OUT<6>)
      LUT6:I5->O            2   0.097   0.561  GEN_Z_ADDERS[4].z_adder/adder/CLA_block/C_OUT<6>2 (GEN_Z_ADDERS[4].z_adder/adder/c_group<6>)
      LUT6:I2->O            4   0.097   0.393  GEN_Z_ADDERS[4].z_adder/adder/CLA_block/C_OUT<7>2 (GEN_Z_ADDERS[4].z_adder/adder/c_group<7>)
@@ -547,7 +547,7 @@ Delay:               99.853ns (Levels of Logic = 189)
      LUT6:I5->O            6   0.097   0.579  GEN_Z_ADDERS[7].z_adder/adder/CLA_block/C_OUT<1>1 (GEN_Z_ADDERS[7].z_adder/adder/c_group<1>)
      LUT6:I2->O            1   0.097   0.295  GEN_Z_ADDERS[7].z_adder/adder/CLA_block/C_OUT<2>2 (GEN_Z_ADDERS[7].z_adder/adder/c_group<2>)
      LUT6:I5->O            5   0.097   0.398  GEN_Z_ADDERS[7].z_adder/adder/CLA_block/C_OUT<3>1 (GEN_Z_ADDERS[7].z_adder/adder/CLA_block/C_OUT<3>)
-     LUT6:I4->O            1   0.097   0.000  GEN_Z_ADDERS[7].z_adder/adder/CLA_block/C_OUT<4>1_G (N407)
+     LUT6:I4->O            1   0.097   0.000  GEN_Z_ADDERS[7].z_adder/adder/CLA_block/C_OUT<4>1_G (N401)
      MUXF7:I1->O           4   0.279   0.309  GEN_Z_ADDERS[7].z_adder/adder/CLA_block/C_OUT<4>1 (GEN_Z_ADDERS[7].z_adder/adder/CLA_block/C_OUT<4>)
      LUT6:I5->O            2   0.097   0.383  GEN_Z_ADDERS[7].z_adder/adder/CLA_block/C_OUT<4>2 (GEN_Z_ADDERS[7].z_adder/adder/c_group<4>)
      LUT6:I4->O            2   0.097   0.383  GEN_Z_ADDERS[7].z_adder/adder/CLA_block/C_OUT<5>2 (GEN_Z_ADDERS[7].z_adder/adder/c_group<5>)
@@ -560,7 +560,7 @@ Delay:               99.853ns (Levels of Logic = 189)
      LUT6:I3->O            2   0.097   0.561  GEN_Z_ADDERS[8].z_adder/adder/CLA_block/C_OUT<2>2 (GEN_Z_ADDERS[8].z_adder/adder/c_group<2>)
      LUT6:I2->O            1   0.097   0.511  GEN_Z_ADDERS[8].z_adder/adder/CLA_block/C_OUT<3>2 (GEN_Z_ADDERS[8].z_adder/adder/c_group<3>)
      LUT6:I3->O            5   0.097   0.398  GEN_Z_ADDERS[8].z_adder/adder/CLA_block/C_OUT<4>1 (GEN_Z_ADDERS[8].z_adder/adder/CLA_block/C_OUT<4>)
-     LUT5:I3->O            1   0.097   0.000  GEN_Z_ADDERS[8].z_adder/adder/CLA_block/C_OUT<5>1_G (N409)
+     LUT5:I3->O            1   0.097   0.000  GEN_Z_ADDERS[8].z_adder/adder/CLA_block/C_OUT<5>1_G (N403)
      MUXF7:I1->O           4   0.279   0.309  GEN_Z_ADDERS[8].z_adder/adder/CLA_block/C_OUT<5>1 (GEN_Z_ADDERS[8].z_adder/adder/CLA_block/C_OUT<5>)
      LUT6:I5->O            2   0.097   0.515  GEN_Z_ADDERS[8].z_adder/adder/CLA_block/C_OUT<5>2 (GEN_Z_ADDERS[8].z_adder/adder/c_group<5>)
      LUT6:I3->O            2   0.097   0.383  GEN_Z_ADDERS[8].z_adder/adder/CLA_block/C_OUT<6>2 (GEN_Z_ADDERS[8].z_adder/adder/c_group<6>)
@@ -572,7 +572,7 @@ Delay:               99.853ns (Levels of Logic = 189)
      LUT6:I5->O            4   0.097   0.309  GEN_Z_ADDERS[9].z_adder/adder/CLA_block/C_OUT<2>1 (GEN_Z_ADDERS[9].z_adder/adder/CLA_block/C_OUT<2>)
      LUT3:I2->O            1   0.097   0.379  GEN_Z_ADDERS[9].z_adder/adder/CLA_block/C_OUT<2>2 (GEN_Z_ADDERS[9].z_adder/adder/c_group<2>)
      LUT6:I4->O            5   0.097   0.398  GEN_Z_ADDERS[9].z_adder/adder/CLA_block/C_OUT<3>1 (GEN_Z_ADDERS[9].z_adder/adder/CLA_block/C_OUT<3>)
-     LUT5:I3->O            1   0.097   0.000  GEN_Z_ADDERS[9].z_adder/adder/CLA_block/C_OUT<4>1_G (N411)
+     LUT5:I3->O            1   0.097   0.000  GEN_Z_ADDERS[9].z_adder/adder/CLA_block/C_OUT<4>1_G (N405)
      MUXF7:I1->O           4   0.279   0.309  GEN_Z_ADDERS[9].z_adder/adder/CLA_block/C_OUT<4>1 (GEN_Z_ADDERS[9].z_adder/adder/CLA_block/C_OUT<4>)
      LUT6:I5->O            2   0.097   0.561  GEN_Z_ADDERS[9].z_adder/adder/CLA_block/C_OUT<4>2 (GEN_Z_ADDERS[9].z_adder/adder/c_group<4>)
      LUT6:I2->O            2   0.097   0.561  GEN_Z_ADDERS[9].z_adder/adder/CLA_block/C_OUT<5>2 (GEN_Z_ADDERS[9].z_adder/adder/c_group<5>)
@@ -584,7 +584,7 @@ Delay:               99.853ns (Levels of Logic = 189)
      LUT6:I3->O          131   0.097   0.805  GEN_Z_ADDERS[9].z_adder/adder/tenth_4bits/Mxor_sum<3>_xo<0>1 (GEN_Z_ADDERS[10].z_adder/b_feed<10>)
      LUT5:I0->O            1   0.097   0.693  GEN_Z_ADDERS[10].z_adder/adder/third_4bits/Mxor_p<3>_xo<0>1 (GEN_Z_ADDERS[10].z_adder/adder/third_4bits/p<3>)
      LUT6:I0->O            5   0.097   0.530  GEN_Z_ADDERS[10].z_adder/adder/CLA_block/C_OUT<3>1 (GEN_Z_ADDERS[10].z_adder/adder/CLA_block/C_OUT<3>)
-     LUT6:I3->O            1   0.097   0.000  GEN_Z_ADDERS[10].z_adder/adder/CLA_block/C_OUT<4>1_F (N412)
+     LUT6:I3->O            1   0.097   0.000  GEN_Z_ADDERS[10].z_adder/adder/CLA_block/C_OUT<4>1_F (N406)
      MUXF7:I0->O           4   0.277   0.309  GEN_Z_ADDERS[10].z_adder/adder/CLA_block/C_OUT<4>1 (GEN_Z_ADDERS[10].z_adder/adder/CLA_block/C_OUT<4>)
      LUT6:I5->O            2   0.097   0.561  GEN_Z_ADDERS[10].z_adder/adder/CLA_block/C_OUT<4>2 (GEN_Z_ADDERS[10].z_adder/adder/c_group<4>)
      LUT6:I2->O            2   0.097   0.561  GEN_Z_ADDERS[10].z_adder/adder/CLA_block/C_OUT<5>2 (GEN_Z_ADDERS[10].z_adder/adder/c_group<5>)
@@ -603,7 +603,7 @@ Delay:               99.853ns (Levels of Logic = 189)
      LUT6:I5->O            4   0.097   0.393  GEN_Z_ADDERS[11].z_adder/adder/CLA_block/C_OUT<7>2 (GEN_Z_ADDERS[11].z_adder/adder/c_group<7>)
      LUT6:I4->O            3   0.097   0.389  GEN_Z_ADDERS[11].z_adder/adder/CLA_block/C_OUT<8>2 (GEN_Z_ADDERS[11].z_adder/adder/c_group<8>)
      LUT6:I4->O            5   0.097   0.530  GEN_Z_ADDERS[11].z_adder/adder/CLA_block/C_OUT<9>1 (GEN_Z_ADDERS[11].z_adder/adder/CLA_block/C_OUT<9>)
-     LUT6:I3->O          122   0.097   0.416  GEN_Z_ADDERS[11].z_adder/adder/tenth_4bits/Mxor_sum<3>_xo<0>1 (GEN_Z_ADDERS[12].z_adder/b_feed<11>)
+     LUT6:I3->O          124   0.097   0.416  GEN_Z_ADDERS[11].z_adder/adder/tenth_4bits/Mxor_sum<3>_xo<0>1 (GEN_Z_ADDERS[12].z_adder/b_feed<11>)
      LUT2:I1->O            1   0.097   0.693  GEN_Z_ADDERS[12].z_adder/adder/second_4bits/Mxor_p<3>_xo<0>1 (GEN_Z_ADDERS[12].z_adder/adder/second_4bits/p<3>)
      LUT6:I0->O            4   0.097   0.309  GEN_Z_ADDERS[12].z_adder/adder/CLA_block/C_OUT<2>1 (GEN_Z_ADDERS[12].z_adder/adder/CLA_block/C_OUT<2>)
      LUT3:I2->O            1   0.097   0.295  GEN_Z_ADDERS[12].z_adder/adder/CLA_block/C_OUT<2>2 (GEN_Z_ADDERS[12].z_adder/adder/c_group<2>)
@@ -614,48 +614,46 @@ Delay:               99.853ns (Levels of Logic = 189)
      LUT6:I3->O            2   0.097   0.383  GEN_Z_ADDERS[12].z_adder/adder/CLA_block/C_OUT<5>2 (GEN_Z_ADDERS[12].z_adder/adder/c_group<5>)
      LUT6:I4->O            2   0.097   0.560  GEN_Z_ADDERS[12].z_adder/adder/CLA_block/C_OUT<6>2 (GEN_Z_ADDERS[12].z_adder/adder/c_group<6>)
      LUT6:I2->O            4   0.097   0.393  GEN_Z_ADDERS[12].z_adder/adder/CLA_block/C_OUT<7>2 (GEN_Z_ADDERS[12].z_adder/adder/c_group<7>)
-     LUT6:I4->O            4   0.097   0.393  GEN_Z_ADDERS[12].z_adder/adder/CLA_block/C_OUT<8>2 (GEN_Z_ADDERS[12].z_adder/adder/c_group<8>)
+     LUT6:I4->O            3   0.097   0.389  GEN_Z_ADDERS[12].z_adder/adder/CLA_block/C_OUT<8>2 (GEN_Z_ADDERS[12].z_adder/adder/c_group<8>)
      LUT6:I4->O            4   0.097   0.525  GEN_Z_ADDERS[12].z_adder/adder/CLA_block/C_OUT<9>1 (GEN_Z_ADDERS[12].z_adder/adder/CLA_block/C_OUT<9>)
-     LUT6:I3->O           90   0.097   0.411  GEN_Z_ADDERS[12].z_adder/adder/tenth_4bits/Mxor_sum<3>_xo<0>1 (GEN_Z_ADDERS[13].z_adder/b_feed<0>)
-     LUT6:I5->O            2   0.097   0.560  GEN_Y_ADDERS[13].y_adder/Mmux_b_feed341 (GEN_Y_ADDERS[13].y_adder/b_feed<3>)
-     LUT6:I2->O            2   0.097   0.698  GEN_Y_ADDERS[13].y_adder/adder/first_4bits/Mxor_p<3>_xo<0>1 (GEN_Y_ADDERS[13].y_adder/adder/first_4bits/p<3>)
-     LUT6:I0->O            3   0.097   0.305  GEN_Y_ADDERS[13].y_adder/adder/CLA_block/C_OUT<1> (GEN_Y_ADDERS[13].y_adder/adder/c_group<1>)
-     LUT5:I4->O            5   0.097   0.314  GEN_Y_ADDERS[13].y_adder/adder/second_4bits/c<2>1 (GEN_Y_ADDERS[13].y_adder/adder/second_4bits/c<2>)
-     LUT5:I4->O            2   0.097   0.300  GEN_Y_ADDERS[13].y_adder/adder/CLA_block/C_OUT<2>4 (GEN_Y_ADDERS[13].y_adder/adder/c_group<2>)
-     LUT5:I4->O            4   0.097   0.309  GEN_Y_ADDERS[13].y_adder/adder/third_4bits/c<2>1 (GEN_Y_ADDERS[13].y_adder/adder/third_4bits/c<2>)
-     LUT5:I4->O            2   0.097   0.299  GEN_Y_ADDERS[13].y_adder/adder/CLA_block/C_OUT<3>4 (GEN_Y_ADDERS[13].y_adder/adder/c_group<3>)
-     LUT5:I4->O            4   0.097   0.309  GEN_Y_ADDERS[13].y_adder/adder/fourth_4bits/c<2>1 (GEN_Y_ADDERS[13].y_adder/adder/fourth_4bits/c<2>)
-     LUT5:I4->O            1   0.097   0.295  GEN_Y_ADDERS[13].y_adder/adder/CLA_block/C_OUT<4>3 (GEN_Y_ADDERS[13].y_adder/adder/CLA_block/C_OUT<4>2)
-     LUT6:I5->O            5   0.097   0.314  GEN_Y_ADDERS[13].y_adder/adder/CLA_block/C_OUT<4>4 (GEN_Y_ADDERS[13].y_adder/adder/c_group<4>)
-     LUT5:I4->O            6   0.097   0.318  GEN_Y_ADDERS[13].y_adder/adder/fifth_4bits/c<2>1 (GEN_Y_ADDERS[13].y_adder/adder/fifth_4bits/c<2>)
-     LUT5:I4->O            1   0.097   0.295  GEN_Y_ADDERS[13].y_adder/adder/CLA_block/C_OUT<5>3 (GEN_Y_ADDERS[13].y_adder/adder/CLA_block/C_OUT<5>2)
-     LUT6:I5->O            4   0.097   0.707  GEN_Y_ADDERS[13].y_adder/adder/CLA_block/C_OUT<5>4 (GEN_Y_ADDERS[13].y_adder/adder/c_group<5>)
-     LUT6:I0->O            2   0.097   0.516  GEN_X_ADDERS[14].x_adder/Mmux_b_feed371 (GEN_X_ADDERS[14].x_adder/b_feed<6>)
-     LUT6:I3->O            1   0.097   0.693  GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<3>3 (GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<3>2)
-     LUT6:I0->O            1   0.097   0.295  GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<3>6 (GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<3>5)
-     LUT5:I4->O            1   0.097   0.295  GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<3>7_SW0 (N62)
-     LUT6:I5->O            1   0.097   0.295  GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<3>7 (GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<3>6)
-     LUT3:I2->O            1   0.097   0.295  GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<3>9_SW0 (N56)
-     LUT6:I5->O            1   0.097   0.295  GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<3>9 (GEN_X_ADDERS[14].x_adder/adder/c_group<3>)
-     LUT5:I4->O            2   0.097   0.299  GEN_X_ADDERS[14].x_adder/adder/fourth_4bits/c<2>1 (GEN_X_ADDERS[14].x_adder/adder/fourth_4bits/c<2>)
-     LUT5:I4->O            1   0.097   0.295  GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<4>3 (GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<4>2)
-     LUT6:I5->O            2   0.097   0.299  GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<4>4 (GEN_X_ADDERS[14].x_adder/adder/c_group<4>)
-     LUT5:I4->O            2   0.097   0.299  GEN_X_ADDERS[14].x_adder/adder/fifth_4bits/c<2>1 (GEN_X_ADDERS[14].x_adder/adder/fifth_4bits/c<2>)
-     LUT5:I4->O            1   0.097   0.295  GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<5>3 (GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<5>2)
-     LUT6:I5->O            2   0.097   0.299  GEN_X_ADDERS[14].x_adder/adder/CLA_block/C_OUT<5>4 (GEN_X_ADDERS[14].x_adder/adder/c_group<5>)
-     LUT5:I4->O            3   0.097   0.703  GEN_X_ADDERS[14].x_adder/adder/sixth_4bits/c<2>1 (GEN_X_ADDERS[14].x_adder/adder/sixth_4bits/c<2>)
-     LUT6:I0->O            1   0.097   0.693  adder_cos/adder/CLA_block/C_OUT<4>9_SW0 (N388)
-     LUT6:I0->O            1   0.097   0.295  adder_cos/adder/CLA_block/C_OUT<4>9 (adder_cos/adder/CLA_block/C_OUT<4>8)
-     LUT6:I5->O            1   0.097   0.693  adder_cos/adder/CLA_block/C_OUT<4>11_SW0 (N398)
-     LUT6:I0->O            1   0.097   0.693  adder_cos/adder/CLA_block/C_OUT<4>11 (adder_cos/adder/CLA_block/C_OUT<4>10)
-     LUT6:I0->O            5   0.097   0.575  adder_cos/adder/CLA_block/C_OUT<4>13 (adder_cos/adder/c_group<4>)
-     LUT5:I1->O            5   0.097   0.575  adder_cos/adder/CLA_block/C_OUT<5>1 (adder_cos/adder/c_group<5>)
-     LUT5:I1->O           10   0.097   0.421  adder_cos/adder/CLA_block/C_OUT<6>1 (adder_cos/adder/c_group<6>)
-     LUT6:I4->O            1   0.097   0.279  Mmux_cos311 (cos_8_OBUF)
-     OBUF:I->O                 0.000          cos_8_OBUF (cos<8>)
+     LUT6:I3->O           51   0.097   0.405  GEN_Z_ADDERS[12].z_adder/adder/tenth_4bits/Mxor_sum<3>_xo<0>1 (GEN_Z_ADDERS[13].z_adder/b_feed<0>)
+     LUT6:I5->O            4   0.097   0.570  GEN_X_ADDERS[13].x_adder/Mmux_b_feed341 (GEN_X_ADDERS[13].x_adder/b_feed<3>)
+     LUT6:I2->O            1   0.097   0.693  GEN_X_ADDERS[13].x_adder/adder/first_4bits/Mxor_p<3>_xo<0>1 (GEN_X_ADDERS[13].x_adder/adder/first_4bits/p<3>)
+     LUT6:I0->O            3   0.097   0.305  GEN_X_ADDERS[13].x_adder/adder/CLA_block/C_OUT<1> (GEN_X_ADDERS[13].x_adder/adder/c_group<1>)
+     LUT5:I4->O            4   0.097   0.309  GEN_X_ADDERS[13].x_adder/adder/second_4bits/c<2>1 (GEN_X_ADDERS[13].x_adder/adder/second_4bits/c<2>)
+     LUT5:I4->O            2   0.097   0.300  GEN_X_ADDERS[13].x_adder/adder/CLA_block/C_OUT<2>4 (GEN_X_ADDERS[13].x_adder/adder/c_group<2>)
+     LUT5:I4->O            4   0.097   0.309  GEN_X_ADDERS[13].x_adder/adder/third_4bits/c<2>1 (GEN_X_ADDERS[13].x_adder/adder/third_4bits/c<2>)
+     LUT5:I4->O            2   0.097   0.300  GEN_X_ADDERS[13].x_adder/adder/CLA_block/C_OUT<3>4 (GEN_X_ADDERS[13].x_adder/adder/c_group<3>)
+     LUT5:I4->O            3   0.097   0.305  GEN_X_ADDERS[13].x_adder/adder/fourth_4bits/c<2>1 (GEN_X_ADDERS[13].x_adder/adder/fourth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  GEN_X_ADDERS[13].x_adder/adder/CLA_block/C_OUT<4>3 (GEN_X_ADDERS[13].x_adder/adder/CLA_block/C_OUT<4>2)
+     LUT6:I5->O            5   0.097   0.314  GEN_X_ADDERS[13].x_adder/adder/CLA_block/C_OUT<4>4 (GEN_X_ADDERS[13].x_adder/adder/c_group<4>)
+     LUT5:I4->O            6   0.097   0.318  GEN_X_ADDERS[13].x_adder/adder/fifth_4bits/c<2>1 (GEN_X_ADDERS[13].x_adder/adder/fifth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  GEN_X_ADDERS[13].x_adder/adder/CLA_block/C_OUT<5>3 (GEN_X_ADDERS[13].x_adder/adder/CLA_block/C_OUT<5>2)
+     LUT6:I5->O            5   0.097   0.314  GEN_X_ADDERS[13].x_adder/adder/CLA_block/C_OUT<5>4 (GEN_X_ADDERS[13].x_adder/adder/c_group<5>)
+     LUT5:I4->O            5   0.097   0.314  GEN_X_ADDERS[13].x_adder/adder/sixth_4bits/c<2>1 (GEN_X_ADDERS[13].x_adder/adder/sixth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  GEN_X_ADDERS[13].x_adder/adder/CLA_block/C_OUT<6>3 (GEN_X_ADDERS[13].x_adder/adder/CLA_block/C_OUT<6>2)
+     LUT6:I5->O            7   0.097   0.407  GEN_X_ADDERS[13].x_adder/adder/CLA_block/C_OUT<6>4 (GEN_X_ADDERS[13].x_adder/adder/c_group<6>)
+     LUT4:I2->O            2   0.097   0.516  GEN_X_ADDERS[13].x_adder/adder/CLA_block/C_OUT<7>3_SW0 (N108)
+     LUT6:I3->O            6   0.097   0.579  GEN_X_ADDERS[13].x_adder/adder/CLA_block/C_OUT<7>4 (GEN_X_ADDERS[13].x_adder/adder/c_group<7>)
+     LUT4:I0->O            2   0.097   0.516  GEN_Y_ADDERS[14].y_adder/Mmux_b_feed61 (GEN_Y_ADDERS[14].y_adder/b_feed<14>)
+     LUT5:I2->O            2   0.097   0.299  GEN_Y_ADDERS[14].y_adder/adder/CLA_block/C_OUT<4>3 (GEN_Y_ADDERS[14].y_adder/adder/CLA_block/C_OUT<4>2)
+     LUT4:I3->O            4   0.097   0.309  GEN_Y_ADDERS[14].y_adder/adder/CLA_block/C_OUT<4>4 (GEN_Y_ADDERS[14].y_adder/adder/c_group<4>)
+     LUT6:I5->O            4   0.097   0.309  GEN_Y_ADDERS[14].y_adder/adder/fifth_4bits/c<2>1 (GEN_Y_ADDERS[14].y_adder/adder/fifth_4bits/c<2>)
+     LUT5:I4->O            1   0.097   0.295  GEN_Y_ADDERS[14].y_adder/adder/CLA_block/C_OUT<5>3 (GEN_Y_ADDERS[14].y_adder/adder/CLA_block/C_OUT<5>2)
+     LUT6:I5->O            5   0.097   0.314  GEN_Y_ADDERS[14].y_adder/adder/CLA_block/C_OUT<5>4 (GEN_Y_ADDERS[14].y_adder/adder/c_group<5>)
+     LUT6:I5->O            5   0.097   0.314  GEN_Y_ADDERS[14].y_adder/adder/sixth_4bits/c<2>1 (GEN_Y_ADDERS[14].y_adder/adder/sixth_4bits/c<2>)
+     LUT5:I4->O            5   0.097   0.314  GEN_Y_ADDERS[14].y_adder/adder/CLA_block/C_OUT<6>4 (GEN_Y_ADDERS[14].y_adder/adder/c_group<6>)
+     LUT6:I5->O            3   0.097   0.305  GEN_Y_ADDERS[14].y_adder/adder/seventh_4bits/c<2>1 (GEN_Y_ADDERS[14].y_adder/adder/seventh_4bits/c<2>)
+     LUT6:I5->O            2   0.097   0.688  GEN_Y_ADDERS[14].y_adder/adder/seventh_4bits/Mxor_sum<3>_xo<0>1 (y_addr_rslt<14><27>)
+     LUT5:I0->O            5   0.097   0.575  adder_sin/adder/CLA_block/C_OUT<7>1 (adder_sin/adder/c_group<7>)
+     LUT5:I1->O            5   0.097   0.575  adder_sin/adder/CLA_block/C_OUT<8>1 (adder_sin/adder/c_group<8>)
+     LUT5:I1->O            4   0.097   0.707  adder_sin/adder/CLA_block/C_OUT<9>1 (adder_sin/adder/c_group<9>)
+     LUT6:I0->O            1   0.097   0.556  adder_sin/adder/tenth_4bits/c<2>1 (adder_sin/adder/tenth_4bits/c<2>)
+     LUT5:I1->O            1   0.097   0.279  Mmux_sin161 (sin_23_OBUF)
+     OBUF:I->O                 0.000          sin_23_OBUF (sin<23>)
     ----------------------------------------
-    Total                     99.853ns (19.494ns logic, 80.359ns route)
-                                       (19.5% logic, 80.5% route)
+    Total                     98.319ns (19.300ns logic, 79.019ns route)
+                                       (19.6% logic, 80.4% route)
 
 =========================================================================
 
@@ -665,13 +663,13 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 25.00 secs
-Total CPU time to Xst completion: 25.68 secs
+Total REAL time to Xst completion: 26.00 secs
+Total CPU time to Xst completion: 25.66 secs
  
 --> 
 
 
-Total memory usage is 509144 kilobytes
+Total memory usage is 509128 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    8 (   0 filtered)

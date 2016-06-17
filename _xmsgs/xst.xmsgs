@@ -5,323 +5,235 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_rotation_mode.vhd" Line 62: Actual for formal port <arg fmt="%s" index="1">operand_b</arg> is neither a static name nor a globally static expression
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" Line 96: Actual for formal port <arg fmt="%s" index="1">mode</arg> is neither a static name nor a globally static expression
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd" Line 129: Actual for formal port <arg fmt="%s" index="1">mode</arg> is neither a static name nor a globally static expression
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" Line 109: Actual for formal port <arg fmt="%s" index="1">mode</arg> is neither a static name nor a globally static expression
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd" Line 154: Actual for formal port <arg fmt="%s" index="1">mode</arg> is neither a static name nor a globally static expression
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" Line 126: Assignment to <arg fmt="%s" index="1">z_0</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[0].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[0].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[0].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[0].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[1].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[1].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[1].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[1].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[2].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[2].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[2].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[2].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[3].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[3].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[3].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[3].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[4].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[4].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[4].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[4].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[5].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[5].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[5].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[5].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[6].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[6].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[6].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[6].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[7].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[7].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[7].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[7].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[8].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[8].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[8].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[8].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[9].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[9].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[9].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[9].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[10].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[10].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[10].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[10].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[11].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[11].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[11].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[11].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[12].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[12].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[12].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[12].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[13].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[13].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[13].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[13].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[14].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[14].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[14].x_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_X_ADDERS[14].x_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[0].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[0].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[0].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[0].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[1].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[1].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[1].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[1].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[2].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[2].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[2].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[2].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[3].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[3].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[3].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[3].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[4].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[4].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[4].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[4].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[5].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[5].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[5].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[5].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[6].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[6].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[6].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[6].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[7].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[7].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[7].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[7].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[8].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[8].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[8].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[8].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[9].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[9].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[9].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[9].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[10].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[10].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[10].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[10].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[11].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[11].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[11].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[11].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[12].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[12].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[12].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[12].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[13].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[13].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[13].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[13].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[14].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[14].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[14].y_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">105</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Y_ADDERS[14].y_adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[0].z_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">115</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">adder_offset</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[0].z_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">115</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">adder_offset</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[1].z_adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_hyper_mode.vhd</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">ovf</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[1].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[2].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[2].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[3].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[3].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[4].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[4].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[5].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[5].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[6].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[6].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[7].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[7].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[8].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[8].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[9].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[9].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[10].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[10].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[11].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[11].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[12].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[12].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[13].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[13].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[14].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GEN_Z_ADDERS[14].z_adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">160</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">adder_sin</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">160</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">adder_sin</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">168</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">adder_cos</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.vhd</arg>&quot; line <arg fmt="%s" index="2">168</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">adder_cos</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_rotation_mode.vhd</arg>&quot; line <arg fmt="%s" index="2">58</arg>: Output port &lt;<arg fmt="%s" index="3">over_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">adder</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_rotation_mode.vhd</arg>&quot; line <arg fmt="%s" index="2">58</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">adder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_hyper_mode.vhd</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">adder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="info" file="Xst" num="2774" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">KEEP</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">result&lt;39&gt;</arg> may hinder XST clustering optimizations.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">seventh_4bits</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">adder</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">ninth_4bits</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">adder</arg>&gt;.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">eighth_4bits</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">adder</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">tenth_4bits</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">adder</arg>&gt;.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ninth_4bits</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">adder</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">GEN_Y_ADDERS[14].y_adder</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">hyperbolic_combinatorial</arg>&gt;.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">tenth_4bits</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">adder</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">ninth_4bits</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">adder</arg>&gt;.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">GEN_Z_ADDERS[14].z_adder</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">rot_combinatorial</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">tenth_4bits</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">adder</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">ninth_4bits</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">adder</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">tenth_4bits</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">adder</arg>&gt;.
 It will be removed from the design.
 </msg>
 

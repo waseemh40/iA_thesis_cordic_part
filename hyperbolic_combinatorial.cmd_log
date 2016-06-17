@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.syr" 

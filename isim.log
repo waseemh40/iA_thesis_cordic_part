@@ -1,6 +1,5 @@
 ISim log file
-Running: /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_cordic_rot_seq_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_cordic_rot_seq_isim_beh.wdb 
-INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+Running: /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_hyperbolic_comb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_hyperbolic_comb_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -13,8 +12,13 @@ Time resolution is 1 ps
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 # restart
-# run all
+# run 1.00us
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 1184695 ns : File "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/carry_look_ahead_block_extended.vhd" Line 43
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# exit 0
 # exit 0

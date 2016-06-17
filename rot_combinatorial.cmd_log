@@ -7,3 +7,8 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm norm_linear_module.bmm -p x
 map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o rot_combinatorial_map.ncd rot_combinatorial.ngd rot_combinatorial.pcf 
 par -w -intstyle ise -ol high -mt off rot_combinatorial_map.ncd rot_combinatorial.ncd rot_combinatorial.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml rot_combinatorial.twx rot_combinatorial.ncd -o rot_combinatorial.twr rot_combinatorial.pcf 
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rot_combinatorial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm norm_linear_module.bmm -p xc7a100t-csg324-3 rot_combinatorial.ngc rot_combinatorial.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o rot_combinatorial_map.ncd rot_combinatorial.ngd rot_combinatorial.pcf 
+par -w -intstyle ise -ol high -mt off rot_combinatorial_map.ncd rot_combinatorial.ncd rot_combinatorial.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml rot_combinatorial.twx rot_combinatorial.ncd -o rot_combinatorial.twr rot_combinatorial.pcf 
