@@ -58,29 +58,15 @@ signal quadrant			: std_logic_vector(1 downto 0);
 signal latched_quad		: std_logic_vector(1 downto 0);
 
 	--adder part	
-signal ovf_x				: std_logic;
-signal cout_x				: std_logic;
+
 signal x_add_result		: std_logic_vector(39 downto 0);
-signal ovf_y				: std_logic;
-signal cout_y				: std_logic;
 signal y_add_result		: std_logic_vector(39 downto 0);
-signal ovf_z				: std_logic;
-signal cout_z				: std_logic;
 signal z_add_result		: std_logic_vector(39 downto 0);
-signal ovf_sin				: std_logic;
-signal cout_sin			: std_logic;
 signal sin_add_result	: std_logic_vector(39 downto 0);
-signal ovf_cos				: std_logic;
-signal cout_cos			: std_logic;
 signal cos_add_result	: std_logic_vector(39 downto 0);
 
-
 signal loop_var 			: integer range 0 to 31;
-	--result adder
-signal r_add_result		: std_logic_vector(39 downto 0);
-signal scale				: std_logic_vector(39 downto 0);
-signal ovf_rslt			: std_logic;
-signal cout_rslt			: std_logic;
+
 	
 	--constants
 type angle_array is array (0 to 16) of std_logic_vector(39 downto 0);
@@ -124,8 +110,8 @@ adder_x: entity work.forty_bit_add_sub
 			  operand_a 	=> x_last,
            operand_b 	=> y_last_shftd,--(std_logic_vector(signed(y_last) srl loop_var)),
            mode 			=> not(z_last(39)),			-- z <0 => add
-           over_flow 	=> ovf_x,
-			  carry_out 	=> cout_x,
+           over_flow 	=> open,
+			  carry_out 	=> open,
            result 		=> x_add_result);
 
 adder_y: entity work.forty_bit_add_sub
@@ -133,32 +119,32 @@ adder_y: entity work.forty_bit_add_sub
 			  operand_a 	=> y_last,
            operand_b 	=> x_last_shftd,--(std_logic_vector(signed(x_last) srl loop_var)),
            mode 			=> (z_last(39)),			-- z <0 => sub
-           over_flow 	=> ovf_y,
-			  carry_out 	=> cout_y,
+           over_flow 	=> open,
+			  carry_out 	=> open,
            result 		=> y_add_result);
 adder_z: entity work.forty_bit_add_sub
 	Port map ( 
 			  operand_a 	=> z_last,
            operand_b 	=> angles(loop_var),
            mode 			=> not(z_last(39)),			-- z <0 => add
-           over_flow 	=> ovf_z,
-			  carry_out 	=> cout_z,
+           over_flow 	=> open,
+			  carry_out 	=> open,
            result 		=> z_add_result);
 adder_sin: entity work.forty_bit_add_sub
 	Port map ( 
 			  operand_a 	=> sin_invrtd,
            operand_b 	=> x"0000000001",
            mode 			=> '0',
-           over_flow 	=> ovf_sin,
-			  carry_out 	=> cout_sin,
+           over_flow 	=> open,
+			  carry_out 	=> open,
            result 		=> sin_add_result);			  
 adder_cos: entity work.forty_bit_add_sub
 	Port map ( 
 			  operand_a 	=> cos_invrtd,
            operand_b 	=> x"0000000001",
            mode 			=> '0',
-           over_flow 	=> ovf_cos,
-			  carry_out 	=> cout_cos,
+           over_flow 	=> open,
+			  carry_out 	=> open,
            result 		=> cos_add_result);			  
 --actual FSM
 fsm_process: process (clk,angle)

@@ -100,9 +100,9 @@ BEGIN
 	rst <= '1' after 1 ns,'0' after clk_period;
 	--process for quad and value of angle check i.e. tan check
 process
-	file      outfile  	: text is out "rotational_data_input.txt";  --declare output file
-	file      outfile_1  : text is out "rotational_data_sin_output.txt";  --declare output file
-	file      outfile_2  : text is out "rotational_data_cos_output.txt";  --declare output file
+	file      outfile  	: text is out "rotational_final_data_input.txt";  --declare output file
+	file      outfile_1  : text is out "rotational_final_data_sin_output.txt";  --declare output file
+	file      outfile_2  : text is out "rotational_final_data_cos_output.txt";  --declare output file
 	variable  outline  	: line;   --line number declaration  
 	begin
 		for loop_var_ext in 0 to 40 loop

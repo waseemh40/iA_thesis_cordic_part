@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_rot_combintorial_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="tb_rot_combintorial" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tb_rot_combintorial/angle" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">angle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">angle[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/sin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sin[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/cos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cos[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cos[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/endoffile" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">endoffile</obj_property>
+      <obj_property name="ObjectShortName">endoffile</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/dataread" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">dataread</obj_property>
+      <obj_property name="ObjectShortName">dataread</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/datatosave" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">datatosave</obj_property>
+      <obj_property name="ObjectShortName">datatosave</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/linenumber" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">linenumber</obj_property>
+      <obj_property name="ObjectShortName">linenumber</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/uut/x_sig[15]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[15]</obj_property>
+      <obj_property name="ObjectShortName">x_sig[15]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/uut/cos_invrtd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cos_invrtd[39:0]</obj_property>
+      <obj_property name="ObjectShortName">cos_invrtd[39:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/uut/y_sig[15]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[15]</obj_property>
+      <obj_property name="ObjectShortName">y_sig[15]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/uut/sin_invrtd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sin_invrtd[39:0]</obj_property>
+      <obj_property name="ObjectShortName">sin_invrtd[39:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/uut/sin_add_result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sin_add_result[39:0]</obj_property>
+      <obj_property name="ObjectShortName">sin_add_result[39:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/uut/cos_add_result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cos_add_result[39:0]</obj_property>
+      <obj_property name="ObjectShortName">cos_add_result[39:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rot_combintorial/uut/quadrant" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">quadrant[1:0]</obj_property>
+      <obj_property name="ObjectShortName">quadrant[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

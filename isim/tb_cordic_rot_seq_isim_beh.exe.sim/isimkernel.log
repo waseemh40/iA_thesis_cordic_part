@@ -1,30 +1,30 @@
 Command line:
    tb_cordic_rot_seq_isim_beh.exe
      -simmode  gui
-     -simrunnum  0
-     -socket  50581
+     -simrunnum  1
+     -socket  44967
 
-Mon Jun 13 17:25:53 2016
+Fri Jun 17 14:31:32 2016
 
 
- Elaboration Time: 0.03 sec
+ Elaboration Time: 0.02 sec
 
- Current Memory Usage: 200.659 Meg
+ Current Memory Usage: 200.614 Meg
 
- Total Signals          : 738
- Total Nets             : 2348
+ Total Signals          : 724
+ Total Nets             : 2266
  Total Signal Drivers   : 1136
  Total Blocks           : 84
  Total Primitive Blocks : 69
  Total Processes        : 1118
  Total Traceable Variables  : 23
- Total Scalar Nets and Variables : 3715
+ Total Scalar Nets and Variables : 3633
 Total Line Count : 1277
 Total Line Count : 1277
 
- Total Simulation Time: 3.62 sec
+ Total Simulation Time: 4.92 sec
 
- Current Memory Usage: 276.161 Meg
+ Current Memory Usage: 276.115 Meg
 
-Mon Jun 13 17:52:45 2016
+Fri Jun 17 14:45:10 2016
 

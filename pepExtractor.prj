@@ -1,6 +1,1 @@
-work	"carry_look_ahead_block_extended.vhd"
-work	"forty_bit_add_sub.vhd"
-work	"forty_bit_adder.vhd"
-work	"four_bits_CLA_adder.vhd"
-work	"norm_vector_mode.vhd"
-work	"tan_combinatorial.vhd"
+work	"rot_combinatorial.vhd"

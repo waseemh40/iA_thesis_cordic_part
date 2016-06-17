@@ -1,0 +1,7 @@
+vhdl isim_temp "four_bits_CLA_adder.vhd"
+vhdl isim_temp "carry_look_ahead_block_extended.vhd"
+vhdl isim_temp "forty_bit_adder.vhd"
+vhdl isim_temp "forty_bit_add_sub.vhd"
+vhdl isim_temp "norm_rotation_mode.vhd"
+vhdl isim_temp "rot_combinatorial.vhd"
+vhdl isim_temp "tb_rot_combintorial.vhd"

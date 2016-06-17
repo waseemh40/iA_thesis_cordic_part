@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rotational_combinatorial.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rotational_combinatorial.syr" 
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rotational_combinatorial.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/rotational_combinatorial.syr" 

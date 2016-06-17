@@ -33,8 +33,8 @@ entity tan_combinatorial is
     Port ( operand_a : in  STD_LOGIC_VECTOR (31 downto 0);
            operand_b : in  STD_LOGIC_VECTOR (31 downto 0);
            angle 		: out  STD_LOGIC_VECTOR (31 downto 0);
-           sqrt 		: out  STD_LOGIC_VECTOR (31 downto 0);			
-           reset 		: in  STD_LOGIC);
+           sqrt 		: out  STD_LOGIC_VECTOR (31 downto 0)
+			  );
 end tan_combinatorial;
 
 architecture Behavioral of tan_combinatorial is

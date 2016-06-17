@@ -265,14 +265,17 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="linear_combinatorial.ngc"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="linear_combinatorial.ngd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="linear_combinatorial.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="linear_combinatorial.pad"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="linear_combinatorial.par" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="linear_combinatorial.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="linear_combinatorial.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="linear_combinatorial.ptwx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="linear_combinatorial.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="linear_combinatorial.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="linear_combinatorial.twr" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="linear_combinatorial.twx" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="linear_combinatorial.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="linear_combinatorial.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="linear_combinatorial.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="linear_combinatorial_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="linear_combinatorial_guide.ncd" xil_pn:origination="imported"/>
@@ -280,10 +283,71 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="linear_combinatorial_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="linear_combinatorial_map.ncd" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="linear_combinatorial_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="linear_combinatorial_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="linear_combinatorial_ngdbuild.xrpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="linear_combinatorial_pad.csv" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="linear_combinatorial_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="linear_combinatorial_par.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="linear_combinatorial_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="linear_combinatorial_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="linear_combinatorial_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="linear_combinatorial_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="rot_combinatorial.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="rot_combinatorial.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="rot_combinatorial.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="rot_combinatorial.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="rot_combinatorial.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="rot_combinatorial.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="rot_combinatorial.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="rot_combinatorial.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="rot_combinatorial.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="rot_combinatorial.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rot_combinatorial.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="rot_combinatorial.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="rot_combinatorial.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="rot_combinatorial.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="rot_combinatorial.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="rot_combinatorial.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="rot_combinatorial.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="rot_combinatorial.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="rot_combinatorial.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="rot_combinatorial_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="rot_combinatorial_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="rot_combinatorial_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="rot_combinatorial_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="rot_combinatorial_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="rot_combinatorial_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="rot_combinatorial_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="rot_combinatorial_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="rot_combinatorial_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="rot_combinatorial_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="rot_combinatorial_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="rot_combinatorial_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="rot_combinatorial_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="rot_combinatorial_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="rot_combinatorial_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="rotational_combinatorial.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="rotational_combinatorial.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="rotational_combinatorial.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="rotational_combinatorial.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rotational_combinatorial.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="rotational_combinatorial.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="rotational_combinatorial.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="rotational_combinatorial.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="rotational_combinatorial_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="rotational_combinatorial_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="rotational_combinatorial_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="sin_cos_comb.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="sin_cos_comb.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="sin_cos_comb.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="sin_cos_comb.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sin_cos_comb.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="sin_cos_comb.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="sin_cos_comb.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="sin_cos_comb.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="sin_cos_comb_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="sin_cos_comb_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sin_cos_comb_xst.xrpt"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="sixteen_bits_add_sub.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="sixteen_bits_add_sub.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="sixteen_bits_add_sub.ngc"/>
@@ -301,17 +365,14 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="tan_combinatorial.ngc"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="tan_combinatorial.ngd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="tan_combinatorial.ngr"/>
-    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="tan_combinatorial.pad"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="tan_combinatorial.par" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="tan_combinatorial.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tan_combinatorial.prj"/>
-    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="tan_combinatorial.ptwx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="tan_combinatorial.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="tan_combinatorial.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="tan_combinatorial.twr" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="tan_combinatorial.twx" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="tan_combinatorial.unroutes" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_XPI" xil_pn:name="tan_combinatorial.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="tan_combinatorial.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="tan_combinatorial_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="tan_combinatorial_guide.ncd" xil_pn:origination="imported"/>
@@ -320,15 +381,10 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="tan_combinatorial_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="tan_combinatorial_map.ncd" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="tan_combinatorial_map.ngm" xil_pn:subbranch="Map"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="tan_combinatorial_map.xrpt"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="tan_combinatorial_ngdbuild.xrpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="tan_combinatorial_pad.csv" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="tan_combinatorial_pad.txt" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="tan_combinatorial_par.xrpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tan_combinatorial_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="tan_combinatorial_summary.html"/>
-    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="tan_combinatorial_summary.xml"/>
-    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="tan_combinatorial_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="tan_combinatorial_xst.xrpt"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cordic_divider_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cordic_divider_stx_beh.prj"/>
@@ -358,8 +414,17 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_linear_combinatorial_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_linear_crodic_q_2_14_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_linear_crodic_q_2_14_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_rot_combinatorial_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_rot_combinatorial_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_rot_combinatorial_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_rot_combinatorial_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_rot_combintorial_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_rot_combintorial_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_rot_combintorial_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_rot_combintorial_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_tan_combinatorial_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_tan_combinatorial_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testbench_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
@@ -371,7 +436,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1466083921" xil_pn:in_ck="-6656369146789275942" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1466083921">
+    <transform xil_pn:end_ts="1466165836" xil_pn:in_ck="-386669992536449378" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1466165836">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="carry_look_ahead_block.vhd"/>
@@ -394,6 +459,7 @@
       <outfile xil_pn:name="norm_linear_module.vhd"/>
       <outfile xil_pn:name="norm_rotation_mode.vhd"/>
       <outfile xil_pn:name="norm_vector_mode.vhd"/>
+      <outfile xil_pn:name="rot_combinatorial.vhd"/>
       <outfile xil_pn:name="sixteen_bits_add_sub.vhd"/>
       <outfile xil_pn:name="sixteen_bits_adder.vhd"/>
       <outfile xil_pn:name="tan_combinatorial.vhd"/>
@@ -409,22 +475,24 @@
       <outfile xil_pn:name="tb_hyper_seq_module.vhd"/>
       <outfile xil_pn:name="tb_linear_combinatorial.vhd"/>
       <outfile xil_pn:name="tb_linear_crodic_q_2_14.vhd"/>
+      <outfile xil_pn:name="tb_rot_combintorial.vhd"/>
       <outfile xil_pn:name="tb_tan_combinatorial.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1466082706" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5928074376169714089" xil_pn:start_ts="1466082706">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1466082706" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1276021073389632249" xil_pn:start_ts="1466082706">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1466082706" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4737607656036913063" xil_pn:start_ts="1466082706">
+    <transform xil_pn:end_ts="1466165510" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5620420364806369310" xil_pn:start_ts="1466165510">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1466083927" xil_pn:in_ck="-6656369146789275942" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1466083927">
+    <transform xil_pn:end_ts="1466165510" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5881770757708562240" xil_pn:start_ts="1466165510">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1466164935" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-8211871919991695839" xil_pn:start_ts="1466164935">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1466165836" xil_pn:in_ck="-386669992536449378" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1466165836">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
@@ -448,6 +516,7 @@
       <outfile xil_pn:name="norm_linear_module.vhd"/>
       <outfile xil_pn:name="norm_rotation_mode.vhd"/>
       <outfile xil_pn:name="norm_vector_mode.vhd"/>
+      <outfile xil_pn:name="rot_combinatorial.vhd"/>
       <outfile xil_pn:name="sixteen_bits_add_sub.vhd"/>
       <outfile xil_pn:name="sixteen_bits_adder.vhd"/>
       <outfile xil_pn:name="tan_combinatorial.vhd"/>
@@ -463,40 +532,135 @@
       <outfile xil_pn:name="tb_hyper_seq_module.vhd"/>
       <outfile xil_pn:name="tb_linear_combinatorial.vhd"/>
       <outfile xil_pn:name="tb_linear_crodic_q_2_14.vhd"/>
+      <outfile xil_pn:name="tb_rot_combintorial.vhd"/>
       <outfile xil_pn:name="tb_tan_combinatorial.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1466083929" xil_pn:in_ck="-6656369146789275942" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1694559005890821346" xil_pn:start_ts="1466083927">
+    <transform xil_pn:end_ts="1466165839" xil_pn:in_ck="-386669992536449378" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7394278373043984436" xil_pn:start_ts="1466165836">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tb_cordic_seq_tan_beh.prj"/>
-      <outfile xil_pn:name="tb_cordic_seq_tan_isim_beh.exe"/>
+      <outfile xil_pn:name="tb_rot_combintorial_beh.prj"/>
+      <outfile xil_pn:name="tb_rot_combintorial_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1466083930" xil_pn:in_ck="-2515870499600738897" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3878711214458068847" xil_pn:start_ts="1466083929">
+    <transform xil_pn:end_ts="1466165839" xil_pn:in_ck="4998823324748976518" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3172107831963135201" xil_pn:start_ts="1466165839">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tb_cordic_seq_tan_isim_beh.wdb"/>
+      <outfile xil_pn:name="tb_rot_combintorial_isim_beh.wdb"/>
     </transform>
-    <transform xil_pn:end_ts="1466084069" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1466084069">
+    <transform xil_pn:end_ts="1466084317" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1466084317">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1466084095" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2382927512017897026" xil_pn:start_ts="1466084095">
+    <transform xil_pn:end_ts="1466164535" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2940438774705999975" xil_pn:start_ts="1466164535">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1466164535" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-8211871919991695839" xil_pn:start_ts="1466164535">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1466164535" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1466164535">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1466164535" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8006058256301000571" xil_pn:start_ts="1466164535">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1466164535" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1466164535">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1466164535" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="6623412861569138027" xil_pn:start_ts="1466164535">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1466164564" xil_pn:in_ck="5756596457970759397" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-7068459572436067672" xil_pn:start_ts="1466164535">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="forty_bit_add_sub.ngr"/>
+      <outfile xil_pn:name="forty_bit_adder.ngr"/>
+      <outfile xil_pn:name="rot_combinatorial.lso"/>
+      <outfile xil_pn:name="rot_combinatorial.ngc"/>
+      <outfile xil_pn:name="rot_combinatorial.ngr"/>
+      <outfile xil_pn:name="rot_combinatorial.prj"/>
+      <outfile xil_pn:name="rot_combinatorial.stx"/>
+      <outfile xil_pn:name="rot_combinatorial.syr"/>
+      <outfile xil_pn:name="rot_combinatorial.xst"/>
+      <outfile xil_pn:name="rot_combinatorial_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1466164705" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2030759163975273648" xil_pn:start_ts="1466164705">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1466164723" xil_pn:in_ck="3204583897307574891" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-5880452421015419844" xil_pn:start_ts="1466164705">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="rot_combinatorial.bld"/>
+      <outfile xil_pn:name="rot_combinatorial.ngd"/>
+      <outfile xil_pn:name="rot_combinatorial_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1466164790" xil_pn:in_ck="7602593019869375535" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1466164723">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="rot_combinatorial.pcf"/>
+      <outfile xil_pn:name="rot_combinatorial_map.map"/>
+      <outfile xil_pn:name="rot_combinatorial_map.mrp"/>
+      <outfile xil_pn:name="rot_combinatorial_map.ncd"/>
+      <outfile xil_pn:name="rot_combinatorial_map.ngm"/>
+      <outfile xil_pn:name="rot_combinatorial_map.xrpt"/>
+      <outfile xil_pn:name="rot_combinatorial_summary.xml"/>
+      <outfile xil_pn:name="rot_combinatorial_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1466164857" xil_pn:in_ck="9218508257933608663" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1466164790">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="rot_combinatorial.ncd"/>
+      <outfile xil_pn:name="rot_combinatorial.pad"/>
+      <outfile xil_pn:name="rot_combinatorial.par"/>
+      <outfile xil_pn:name="rot_combinatorial.ptwx"/>
+      <outfile xil_pn:name="rot_combinatorial.unroutes"/>
+      <outfile xil_pn:name="rot_combinatorial.xpi"/>
+      <outfile xil_pn:name="rot_combinatorial_pad.csv"/>
+      <outfile xil_pn:name="rot_combinatorial_pad.txt"/>
+      <outfile xil_pn:name="rot_combinatorial_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1466164857" xil_pn:in_ck="5129869682081805967" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1466164828">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="rot_combinatorial.twr"/>
+      <outfile xil_pn:name="rot_combinatorial.twx"/>
     </transform>
   </transforms>
 

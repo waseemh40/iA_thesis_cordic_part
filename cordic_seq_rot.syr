@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> 
 Reading design: cordic_seq_rot.prj
@@ -127,9 +127,9 @@ WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_rotat
 Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" into library work
 Parsing entity <cordic_seq_rot>.
 Parsing architecture <Behavioral> of entity <cordic_seq_rot>.
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" Line 126: Actual for formal port mode is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" Line 142: Actual for formal port operand_b is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" Line 143: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" Line 112: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" Line 128: Actual for formal port operand_b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" Line 129: Actual for formal port mode is neither a static name nor a globally static expression
 
 =========================================================================
 *                            HDL Elaboration                            *
@@ -153,16 +153,16 @@ Elaborating entity <carry_look_ahead_block_extended> (architecture <Behavioral>)
 
 Synthesizing Unit <cordic_seq_rot>.
     Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd".
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 122: Output port <over_flow> of the instance <adder_x> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 122: Output port <carry_out> of the instance <adder_x> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 131: Output port <over_flow> of the instance <adder_y> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 131: Output port <carry_out> of the instance <adder_y> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 139: Output port <over_flow> of the instance <adder_z> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 139: Output port <carry_out> of the instance <adder_z> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 147: Output port <over_flow> of the instance <adder_sin> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 147: Output port <carry_out> of the instance <adder_sin> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 155: Output port <over_flow> of the instance <adder_cos> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 155: Output port <carry_out> of the instance <adder_cos> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 108: Output port <over_flow> of the instance <adder_x> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 108: Output port <carry_out> of the instance <adder_x> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 117: Output port <over_flow> of the instance <adder_y> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 117: Output port <carry_out> of the instance <adder_y> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 125: Output port <over_flow> of the instance <adder_z> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 125: Output port <carry_out> of the instance <adder_z> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 133: Output port <over_flow> of the instance <adder_sin> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 133: Output port <carry_out> of the instance <adder_sin> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 141: Output port <over_flow> of the instance <adder_cos> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" line 141: Output port <carry_out> of the instance <adder_cos> is unconnected or connected to loadless signal.
     Found 5-bit register for signal <loop_var>.
     Found 1-bit register for signal <opr_done>.
     Found 40-bit register for signal <x_current>.
@@ -193,13 +193,13 @@ INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_seq_rot.vhd" 
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 5-bit adder for signal <loop_var[4]_GND_3_o_add_19_OUT> created at line 304.
+    Found 5-bit adder for signal <loop_var[4]_GND_3_o_add_19_OUT> created at line 292.
     Found 32x40-bit Read Only RAM for signal <loop_var[4]_X_3_o_wide_mux_2_OUT>
     Summary:
 	inferred   1 RAM(s).
 	inferred   1 Adder/Subtractor(s).
 	inferred 472 D-type flip-flop(s).
-	inferred  75 Multiplexer(s).
+	inferred  77 Multiplexer(s).
 	inferred   1 Finite State Machine(s).
 Unit <cordic_seq_rot> synthesized.
 
@@ -207,13 +207,11 @@ Synthesizing Unit <norm_rotation_mode>.
     Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_rotation_mode.vhd".
 INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_rotation_mode.vhd" line 58: Output port <over_flow> of the instance <adder> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_rotation_mode.vhd" line 58: Output port <carry_out> of the instance <adder> is unconnected or connected to loadless signal.
-    Found 25-bit comparator greater for signal <angle_in_int[24]_GND_5_o_LessThan_2_o> created at line 70
-    Found 25-bit comparator greater for signal <GND_5_o_angle_in_int[24]_LessThan_3_o> created at line 71
-    Found 25-bit comparator greater for signal <angle_in_int[24]_GND_5_o_LessThan_4_o> created at line 71
-    Found 25-bit comparator greater for signal <GND_5_o_angle_in_int[24]_LessThan_5_o> created at line 72
-    Found 25-bit comparator greater for signal <angle_in_int[24]_PWR_5_o_LessThan_6_o> created at line 72
+    Found 25-bit comparator greater for signal <n0001> created at line 70
+    Found 25-bit comparator greater for signal <n0004> created at line 71
+    Found 25-bit comparator lessequal for signal <n0008> created at line 72
     Summary:
-	inferred   5 Comparator(s).
+	inferred   3 Comparator(s).
 	inferred   6 Multiplexer(s).
 Unit <norm_rotation_mode> synthesized.
 
@@ -255,12 +253,13 @@ Macro Statistics
  32-bit register                                       : 2
  40-bit register                                       : 10
  5-bit register                                        : 1
-# Comparators                                          : 5
- 25-bit comparator greater                             : 5
-# Multiplexers                                         : 87
+# Comparators                                          : 3
+ 25-bit comparator greater                             : 2
+ 25-bit comparator lessequal                           : 1
+# Multiplexers                                         : 89
  1-bit 2-to-1 multiplexer                              : 2
  2-bit 2-to-1 multiplexer                              : 2
- 32-bit 2-to-1 multiplexer                             : 3
+ 32-bit 2-to-1 multiplexer                             : 5
  40-bit 2-to-1 multiplexer                             : 79
  5-bit 2-to-1 multiplexer                              : 1
 # FSMs                                                 : 1
@@ -307,12 +306,13 @@ Macro Statistics
  5-bit up counter                                      : 1
 # Registers                                            : 467
  Flip-Flops                                            : 467
-# Comparators                                          : 5
- 25-bit comparator greater                             : 5
-# Multiplexers                                         : 86
+# Comparators                                          : 3
+ 25-bit comparator greater                             : 2
+ 25-bit comparator lessequal                           : 1
+# Multiplexers                                         : 88
  1-bit 2-to-1 multiplexer                              : 2
  2-bit 2-to-1 multiplexer                              : 2
- 32-bit 2-to-1 multiplexer                             : 3
+ 32-bit 2-to-1 multiplexer                             : 5
  40-bit 2-to-1 multiplexer                             : 79
 # FSMs                                                 : 1
 # Xors                                                 : 480
@@ -323,7 +323,6 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-INFO:Xst:2261 - The FF/Latch <sin_24> in Unit <cordic_seq_rot> is equivalent to the following 7 FFs/Latches, which will be removed : <sin_25> <sin_26> <sin_27> <sin_28> <sin_29> <sin_30> <sin_31> 
 Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <FSM_0> on signal <state[1:3]> with user encoding.
 -----------------------------
@@ -336,6 +335,7 @@ Optimizing FSM <FSM_0> on signal <state[1:3]> with user encoding.
  shift_and_check | 100
  done            | 101
 -----------------------------
+INFO:Xst:2261 - The FF/Latch <sin_24> in Unit <cordic_seq_rot> is equivalent to the following 7 FFs/Latches, which will be removed : <sin_25> <sin_26> <sin_27> <sin_28> <sin_29> <sin_30> <sin_31> 
 INFO:Xst:2261 - The FF/Latch <cos_24> in Unit <cordic_seq_rot> is equivalent to the following 7 FFs/Latches, which will be removed : <cos_25> <cos_26> <cos_27> <cos_28> <cos_29> <cos_30> <cos_31> 
 
 Optimizing unit <cordic_seq_rot> ...
@@ -385,15 +385,15 @@ Top Level Output File Name         : cordic_seq_rot.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1270
+# BELS                             : 1279
 #      GND                         : 1
 #      INV                         : 80
-#      LUT2                        : 176
-#      LUT3                        : 95
-#      LUT4                        : 77
-#      LUT5                        : 176
-#      LUT6                        : 608
-#      MUXCY                       : 8
+#      LUT2                        : 180
+#      LUT3                        : 94
+#      LUT4                        : 67
+#      LUT5                        : 170
+#      LUT6                        : 626
+#      MUXCY                       : 12
 #      MUXF7                       : 48
 #      VCC                         : 1
 # FlipFlops/Latches                : 475
@@ -414,14 +414,14 @@ Selected Device : 7a100tcsg324-3
 
 Slice Logic Utilization: 
  Number of Slice Registers:             475  out of  126800     0%  
- Number of Slice LUTs:                 1212  out of  63400     1%  
-    Number used as Logic:              1212  out of  63400     1%  
+ Number of Slice LUTs:                 1217  out of  63400     1%  
+    Number used as Logic:              1217  out of  63400     1%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1226
-   Number with an unused Flip Flop:     751  out of   1226    61%  
-   Number with an unused LUT:            14  out of   1226     1%  
-   Number of fully used LUT-FF pairs:   461  out of   1226    37%  
+ Number of LUT Flip Flop pairs used:   1230
+   Number with an unused Flip Flop:     755  out of   1230    61%  
+   Number with an unused LUT:            13  out of   1230     1%  
+   Number of fully used LUT-FF pairs:   462  out of   1230    37%  
    Number of unique control sets:        10
 
 IO Utilization: 
@@ -464,7 +464,7 @@ Timing Summary:
 Speed Grade: -3
 
    Minimum period: 3.542ns (Maximum Frequency: 282.294MHz)
-   Minimum input arrival time before clock: 8.487ns
+   Minimum input arrival time before clock: 8.346ns
    Maximum output required time after clock: 0.673ns
    Maximum combinational path delay: No path found
 
@@ -475,7 +475,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
   Clock period: 3.542ns (frequency: 282.294MHz)
-  Total number of paths / destination ports: 30528 / 946
+  Total number of paths / destination ports: 30635 / 946
 -------------------------------------------------------------------------
 Delay:               3.542ns (Levels of Logic = 5)
   Source:            loop_var_2_2 (FF)
@@ -489,9 +489,9 @@ Delay:               3.542ns (Levels of Logic = 5)
     ----------------------------------------  ------------
      FDRE:C->Q             2   0.361   0.697  loop_var_2_2 (loop_var_2_2)
      LUT6:I0->O           10   0.097   0.553  adder_z/Mmux_b_feed241 (adder_z/b_feed<30>)
-     LUT6:I3->O            8   0.097   0.543  adder_z/adder/CLA_block/C_OUT<8>3_SW1 (N107)
-     LUT5:I2->O            2   0.097   0.383  adder_z/adder/CLA_block/C_OUT<8>4_SW4_SW1 (N554)
-     LUT6:I4->O            1   0.097   0.511  adder_z/adder/CLA_block/C_OUT<8>4_SW5 (N351)
+     LUT6:I3->O            8   0.097   0.543  adder_z/adder/CLA_block/C_OUT<8>3_SW1 (N99)
+     LUT5:I2->O            2   0.097   0.383  adder_z/adder/CLA_block/C_OUT<8>4_SW4_SW1 (N546)
+     LUT6:I4->O            1   0.097   0.511  adder_z/adder/CLA_block/C_OUT<8>4_SW5 (N343)
      LUT6:I3->O            1   0.097   0.000  Mmux__n0522291 (_n0522<35>)
      FDRE:D                    0.008          z_current_35
     ----------------------------------------
@@ -500,9 +500,9 @@ Delay:               3.542ns (Levels of Logic = 5)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 25104 / 842
+  Total number of paths / destination ports: 19462 / 842
 -------------------------------------------------------------------------
-Offset:              8.487ns (Levels of Logic = 19)
+Offset:              8.346ns (Levels of Logic = 17)
   Source:            angle<0> (PAD)
   Destination:       z_last_39 (FF)
   Destination Clock: clk rising
@@ -511,29 +511,27 @@ Offset:              8.487ns (Levels of Logic = 19)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             6   0.001   0.706  angle_0_IBUF (angle_0_IBUF)
-     LUT5:I0->O            1   0.097   0.000  norm_1/Mcompar_GND_5_o_angle_in_int[24]_LessThan_5_o_lut<0> (norm_1/Mcompar_GND_5_o_angle_in_int[24]_LessThan_5_o_lut<0>)
-     MUXCY:S->O            1   0.353   0.000  norm_1/Mcompar_GND_5_o_angle_in_int[24]_LessThan_5_o_cy<0> (norm_1/Mcompar_GND_5_o_angle_in_int[24]_LessThan_5_o_cy<0>)
-     MUXCY:CI->O           1   0.023   0.000  norm_1/Mcompar_GND_5_o_angle_in_int[24]_LessThan_5_o_cy<1> (norm_1/Mcompar_GND_5_o_angle_in_int[24]_LessThan_5_o_cy<1>)
-     MUXCY:CI->O           1   0.023   0.000  norm_1/Mcompar_GND_5_o_angle_in_int[24]_LessThan_5_o_cy<2> (norm_1/Mcompar_GND_5_o_angle_in_int[24]_LessThan_5_o_cy<2>)
-     MUXCY:CI->O           1   0.253   0.379  norm_1/Mcompar_GND_5_o_angle_in_int[24]_LessThan_5_o_cy<3> (norm_1/Mcompar_GND_5_o_angle_in_int[24]_LessThan_5_o_cy<3>)
-     LUT6:I4->O            1   0.097   0.693  norm_1/Mcompar_GND_5_o_angle_in_int[24]_LessThan_5_o_cy<4> (norm_1/Mcompar_GND_5_o_angle_in_int[24]_LessThan_5_o_cy<4>)
-     LUT6:I0->O           36   0.097   0.487  norm_1/GND_5_o_angle_in_int[24]_AND_32_o (norm_1/GND_5_o_angle_in_int[24]_AND_32_o)
-     LUT3:I1->O            5   0.097   0.702  norm_1/quad<0>1 (quadrant<0>)
-     LUT6:I1->O            4   0.097   0.393  norm_1/adder/adder/CLA_block/C_OUT<1> (norm_1/adder/adder/c_group<1>)
-     LUT6:I4->O            4   0.097   0.309  norm_1/adder/adder/CLA_block/C_OUT<2>1 (norm_1/adder/adder/c_group<2>)
-     LUT6:I5->O            3   0.097   0.305  norm_1/adder/adder/CLA_block/C_OUT<3>1 (norm_1/adder/adder/CLA_block/C_OUT<3>)
-     LUT5:I4->O            3   0.097   0.305  norm_1/adder/adder/CLA_block/C_OUT<3>2 (norm_1/adder/adder/c_group<3>)
-     LUT6:I5->O            2   0.097   0.299  norm_1/adder/adder/CLA_block/C_OUT<4>2 (norm_1/adder/adder/c_group<4>)
-     LUT6:I5->O            1   0.097   0.295  norm_1/adder/adder/CLA_block/C_OUT<5>1 (norm_1/adder/adder/CLA_block/C_OUT<5>)
+     IBUF:I->O             7   0.001   0.711  angle_0_IBUF (angle_0_IBUF)
+     LUT5:I0->O            1   0.097   0.000  norm_1/Mcompar_n0001_lut<0> (norm_1/Mcompar_n0001_lut<0>)
+     MUXCY:S->O            1   0.353   0.000  norm_1/Mcompar_n0001_cy<0> (norm_1/Mcompar_n0001_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  norm_1/Mcompar_n0001_cy<1> (norm_1/Mcompar_n0001_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  norm_1/Mcompar_n0001_cy<2> (norm_1/Mcompar_n0001_cy<2>)
+     MUXCY:CI->O           1   0.253   0.379  norm_1/Mcompar_n0001_cy<3> (norm_1/Mcompar_n0001_cy<3>)
+     LUT6:I4->O           36   0.097   0.619  norm_1/Mcompar_n0001_cy<4> (norm_1/Mcompar_n0001_cy<4>)
+     LUT4:I1->O            2   0.097   0.688  norm_1/adder/Mmux_b_feed121 (norm_1/adder/b_feed<1>)
+     LUT5:I0->O            4   0.097   0.570  norm_1/adder/adder/CLA_block/C_OUT<1>1 (norm_1/adder/adder/c_group<1>)
+     LUT6:I2->O            4   0.097   0.570  norm_1/adder/adder/CLA_block/C_OUT<2>1 (norm_1/adder/adder/c_group<2>)
+     LUT6:I2->O            4   0.097   0.570  norm_1/adder/adder/CLA_block/C_OUT<3>1 (norm_1/adder/adder/c_group<3>)
+     LUT6:I2->O            4   0.097   0.525  norm_1/adder/adder/CLA_block/C_OUT<4>1 (norm_1/adder/adder/c_group<4>)
+     LUT6:I3->O            1   0.097   0.295  norm_1/adder/adder/CLA_block/C_OUT<5>1 (norm_1/adder/adder/CLA_block/C_OUT<5>)
      LUT5:I4->O            3   0.097   0.566  norm_1/adder/adder/CLA_block/C_OUT<5>2 (norm_1/adder/adder/c_group<5>)
      LUT6:I2->O            2   0.097   0.515  norm_1/adder/adder/sixth_4bits/c<2>1 (norm_1/adder/adder/sixth_4bits/c<2>)
      LUT6:I3->O            1   0.097   0.511  Mmux__n0538331 (Mmux__n053833)
      LUT4:I1->O            1   0.097   0.000  Mmux__n0538332 (_n0538<39>)
      FDRE:D                    0.008          z_last_39
     ----------------------------------------
-    Total                      8.487ns (2.019ns logic, 6.468ns route)
-                                       (23.8% logic, 76.2% route)
+    Total                      8.346ns (1.825ns logic, 6.521ns route)
+                                       (21.9% logic, 78.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
@@ -570,13 +568,13 @@ clk            |    3.542|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 21.00 secs
-Total CPU time to Xst completion: 20.97 secs
+Total REAL time to Xst completion: 24.00 secs
+Total CPU time to Xst completion: 21.83 secs
  
 --> 
 
 
-Total memory usage is 517568 kilobytes
+Total memory usage is 517592 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    8 (   0 filtered)
