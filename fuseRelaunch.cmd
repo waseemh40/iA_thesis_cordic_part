@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_hyperbolic_comb_isim_beh.exe" -prj "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_hyperbolic_comb_beh.prj" "work.tb_hyperbolic_comb" 
+-intstyle "ise" -incremental -lib "secureip" -o "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_hyper_seq_module_isim_beh.exe" -prj "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_hyper_seq_module_beh.prj" "work.tb_hyper_seq_module" 

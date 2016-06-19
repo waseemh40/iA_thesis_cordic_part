@@ -2,14 +2,14 @@ Command line:
    tb_hyperbolic_comb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  46684
+     -socket  54404
 
-Fri Jun 17 18:30:26 2016
+Sun Jun 19 16:58:00 2016
 
 
- Elaboration Time: 0.06 sec
+ Elaboration Time: 0.1 sec
 
- Current Memory Usage: 217.879 Meg
+ Current Memory Usage: 217.87 Meg
 
  Total Signals          : 3158
  Total Nets             : 9732
@@ -22,9 +22,9 @@ Fri Jun 17 18:30:26 2016
 Total Line Count : 5238
 Total Line Count : 5238
 
- Total Simulation Time: 4.57 sec
+ Total Simulation Time: 10.35 sec
 
- Current Memory Usage: 293.515 Meg
+ Current Memory Usage: 293.507 Meg
 
-Fri Jun 17 18:38:17 2016
+Sun Jun 19 17:04:48 2016
 

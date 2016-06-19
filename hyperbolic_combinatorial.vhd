@@ -88,7 +88,7 @@ norm_1: entity work.norm_hyper_mode
 			  );
 			  
 GEN_X_ADDERS: 
-   for I in 0 to 12 generate
+   for I in 1 to 13 generate
       x_adder : entity work.forty_bit_add_sub
 		port map
 			( operand_a 	=> x_sig(I),
@@ -101,7 +101,7 @@ GEN_X_ADDERS:
 		
 		--y adders
 GEN_Y_ADDERS: 
-   for I in 0 to 12 generate
+   for I in 1 to 13 generate
       y_adder : entity work.forty_bit_add_sub
 		port map
 			( operand_a 	=> y_sig(I),
@@ -126,7 +126,7 @@ adder_offset: entity work.forty_bit_add_sub
 	z_0			<= x"0000000000";	
 	--x signals update
 	x_sig(0)		<= x_0;
-	x_sig(1)		<= x_addr_rslt(0);
+	x_sig(1)		<= x_0;--x_addr_rslt(0);
 	x_sig(2)		<= x_addr_rslt(1);
 	x_sig(3)		<= x_addr_rslt(2);
 	x_sig(4)		<= x_addr_rslt(3);
@@ -143,7 +143,7 @@ adder_offset: entity work.forty_bit_add_sub
 	x_sig(15)	<= x_addr_rslt(14);
 	--y signals update
 	y_sig(0)		<= y_0;
-	y_sig(1)		<= y_addr_rslt(0);
+	y_sig(1)		<= y_0;--y_addr_rslt(0);
 	y_sig(2)		<= y_addr_rslt(1);
 	y_sig(3)		<= y_addr_rslt(2);
 	y_sig(4)		<= y_addr_rslt(3);

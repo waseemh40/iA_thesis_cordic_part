@@ -1595,36 +1595,26 @@ static void work_a_2166126699_3212880686_p_29(char *t0)
 {
     char *t1;
     char *t2;
-    int t3;
-    unsigned int t4;
-    unsigned int t5;
-    unsigned int t6;
+    char *t3;
+    char *t4;
+    char *t5;
+    char *t6;
     char *t7;
-    char *t8;
-    char *t9;
-    char *t10;
-    char *t11;
-    char *t12;
 
 LAB0:    xsi_set_current_line(129, ng0);
 
-LAB3:    t1 = (t0 + 9336U);
+LAB3:    t1 = (t0 + 8216U);
     t2 = *((char **)t1);
-    t3 = (0 - 0);
-    t4 = (t3 * 1);
-    t5 = (40U * t4);
-    t6 = (0 + t5);
-    t1 = (t2 + t6);
-    t7 = (t0 + 44920);
-    t8 = (t7 + 56U);
-    t9 = *((char **)t8);
-    t10 = (t9 + 56U);
-    t11 = *((char **)t10);
-    memcpy(t11, t1, 40U);
-    xsi_driver_first_trans_delta(t7, 40U, 40U, 0LL);
+    t1 = (t0 + 44920);
+    t3 = (t1 + 56U);
+    t4 = *((char **)t3);
+    t5 = (t4 + 56U);
+    t6 = *((char **)t5);
+    memcpy(t6, t2, 40U);
+    xsi_driver_first_trans_delta(t1, 40U, 40U, 0LL);
 
-LAB2:    t12 = (t0 + 41976);
-    *((int *)t12) = 1;
+LAB2:    t7 = (t0 + 41976);
+    *((int *)t7) = 1;
 
 LAB1:    return;
 LAB4:    goto LAB2;
@@ -2225,36 +2215,26 @@ static void work_a_2166126699_3212880686_p_45(char *t0)
 {
     char *t1;
     char *t2;
-    int t3;
-    unsigned int t4;
-    unsigned int t5;
-    unsigned int t6;
+    char *t3;
+    char *t4;
+    char *t5;
+    char *t6;
     char *t7;
-    char *t8;
-    char *t9;
-    char *t10;
-    char *t11;
-    char *t12;
 
 LAB0:    xsi_set_current_line(146, ng0);
 
-LAB3:    t1 = (t0 + 9496U);
+LAB3:    t1 = (t0 + 8376U);
     t2 = *((char **)t1);
-    t3 = (0 - 0);
-    t4 = (t3 * 1);
-    t5 = (40U * t4);
-    t6 = (0 + t5);
-    t1 = (t2 + t6);
-    t7 = (t0 + 45944);
-    t8 = (t7 + 56U);
-    t9 = *((char **)t8);
-    t10 = (t9 + 56U);
-    t11 = *((char **)t10);
-    memcpy(t11, t1, 40U);
-    xsi_driver_first_trans_delta(t7, 40U, 40U, 0LL);
+    t1 = (t0 + 45944);
+    t3 = (t1 + 56U);
+    t4 = *((char **)t3);
+    t5 = (t4 + 56U);
+    t6 = *((char **)t5);
+    memcpy(t6, t2, 40U);
+    xsi_driver_first_trans_delta(t1, 40U, 40U, 0LL);
 
-LAB2:    t12 = (t0 + 42232);
-    *((int *)t12) = 1;
+LAB2:    t7 = (t0 + 42232);
+    *((int *)t7) = 1;
 
 LAB1:    return;
 LAB4:    goto LAB2;

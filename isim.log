@@ -1,5 +1,6 @@
 ISim log file
-Running: /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_hyperbolic_comb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_hyperbolic_comb_isim_beh.wdb 
+Running: /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_hyper_seq_module_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_hyper_seq_module_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
 ISim P.20131013 (signature 0xfbc00daa)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -15,10 +16,9 @@ Finished circuit initialization process.
 # run 1.00us
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# run 1.00us
-# run 1.00us
-# run 1.00us
-# run 1.00us
-# run 1.00us
+# run all
+Stopped at time : 3350 ns : File "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_add_sub.vhd" Line 37
+# run all
+Stopped at time : 66250 ns : File "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/four_bits_CLA_adder.vhd" Line 60
 # exit 0
 # exit 0
