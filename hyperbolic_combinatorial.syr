@@ -1,0 +1,645 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Reading design: hyperbolic_combinatorial.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "hyperbolic_combinatorial.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "hyperbolic_combinatorial"
+Output Format                      : NGC
+Target Device                      : xc6slx16-2-csg324
+
+---- Source Options
+Top Module Name                    : hyperbolic_combinatorial
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/four_bits_CLA_adder.vhd" into library work
+Parsing entity <four_bits_CLA_adder>.
+Parsing architecture <Behavioral> of entity <four_bits_cla_adder>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/carry_look_ahead_block_extended.vhd" into library work
+Parsing entity <carry_look_ahead_block_extended>.
+Parsing architecture <Behavioral> of entity <carry_look_ahead_block_extended>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_adder.vhd" into library work
+Parsing entity <forty_bit_adder>.
+Parsing architecture <Behavioral> of entity <forty_bit_adder>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_hyper_mode.vhd" into library work
+Parsing entity <norm_hyper_mode>.
+Parsing architecture <Behavioral> of entity <norm_hyper_mode>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_add_sub.vhd" into library work
+Parsing entity <forty_bit_add_sub>.
+Parsing architecture <Behavioral> of entity <forty_bit_add_sub>.
+Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" into library work
+Parsing entity <hyperbolic_combinatorial>.
+Parsing architecture <Behavioral> of entity <hyperbolic_combinatorial>.
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" Line 96: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" Line 109: Actual for formal port mode is neither a static name nor a globally static expression
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <hyperbolic_combinatorial> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <norm_hyper_mode> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <forty_bit_adder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <four_bits_CLA_adder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <carry_look_ahead_block_extended> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <forty_bit_add_sub> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:1127 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" Line 126: Assignment to z_0 ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" Line 64: Net <x_addr_rslt[14][39]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" Line 70: Net <y_addr_rslt[14][39]> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <hyperbolic_combinatorial>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd".
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <over_flow> of the instance <GEN_X_ADDERS[1].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <carry_out> of the instance <GEN_X_ADDERS[1].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <over_flow> of the instance <GEN_X_ADDERS[2].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <carry_out> of the instance <GEN_X_ADDERS[2].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <over_flow> of the instance <GEN_X_ADDERS[3].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <carry_out> of the instance <GEN_X_ADDERS[3].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <over_flow> of the instance <GEN_X_ADDERS[4].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <carry_out> of the instance <GEN_X_ADDERS[4].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <over_flow> of the instance <GEN_X_ADDERS[5].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <carry_out> of the instance <GEN_X_ADDERS[5].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <over_flow> of the instance <GEN_X_ADDERS[6].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <carry_out> of the instance <GEN_X_ADDERS[6].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <over_flow> of the instance <GEN_X_ADDERS[7].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <carry_out> of the instance <GEN_X_ADDERS[7].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <over_flow> of the instance <GEN_X_ADDERS[8].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <carry_out> of the instance <GEN_X_ADDERS[8].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <over_flow> of the instance <GEN_X_ADDERS[9].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <carry_out> of the instance <GEN_X_ADDERS[9].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <over_flow> of the instance <GEN_X_ADDERS[10].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <carry_out> of the instance <GEN_X_ADDERS[10].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <over_flow> of the instance <GEN_X_ADDERS[11].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <carry_out> of the instance <GEN_X_ADDERS[11].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <over_flow> of the instance <GEN_X_ADDERS[12].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <carry_out> of the instance <GEN_X_ADDERS[12].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <over_flow> of the instance <GEN_X_ADDERS[13].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 92: Output port <carry_out> of the instance <GEN_X_ADDERS[13].x_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <over_flow> of the instance <GEN_Y_ADDERS[1].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <carry_out> of the instance <GEN_Y_ADDERS[1].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <over_flow> of the instance <GEN_Y_ADDERS[2].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <carry_out> of the instance <GEN_Y_ADDERS[2].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <over_flow> of the instance <GEN_Y_ADDERS[3].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <carry_out> of the instance <GEN_Y_ADDERS[3].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <over_flow> of the instance <GEN_Y_ADDERS[4].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <carry_out> of the instance <GEN_Y_ADDERS[4].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <over_flow> of the instance <GEN_Y_ADDERS[5].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <carry_out> of the instance <GEN_Y_ADDERS[5].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <over_flow> of the instance <GEN_Y_ADDERS[6].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <carry_out> of the instance <GEN_Y_ADDERS[6].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <over_flow> of the instance <GEN_Y_ADDERS[7].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <carry_out> of the instance <GEN_Y_ADDERS[7].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <over_flow> of the instance <GEN_Y_ADDERS[8].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <carry_out> of the instance <GEN_Y_ADDERS[8].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <over_flow> of the instance <GEN_Y_ADDERS[9].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <carry_out> of the instance <GEN_Y_ADDERS[9].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <over_flow> of the instance <GEN_Y_ADDERS[10].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <carry_out> of the instance <GEN_Y_ADDERS[10].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <over_flow> of the instance <GEN_Y_ADDERS[11].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <carry_out> of the instance <GEN_Y_ADDERS[11].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <over_flow> of the instance <GEN_Y_ADDERS[12].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <carry_out> of the instance <GEN_Y_ADDERS[12].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <over_flow> of the instance <GEN_Y_ADDERS[13].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 105: Output port <carry_out> of the instance <GEN_Y_ADDERS[13].y_adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 115: Output port <over_flow> of the instance <adder_offset> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd" line 115: Output port <carry_out> of the instance <adder_offset> is unconnected or connected to loadless signal.
+WARNING:Xst:2935 - Signal 'x_addr_rslt<14>', unconnected in block 'hyperbolic_combinatorial', is tied to its initial value (0000000000000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'y_addr_rslt<14>', unconnected in block 'hyperbolic_combinatorial', is tied to its initial value (0000000000000000000000000000000000000000).
+    Summary:
+	no macro.
+Unit <hyperbolic_combinatorial> synthesized.
+
+Synthesizing Unit <norm_hyper_mode>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_hyper_mode.vhd".
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_hyper_mode.vhd" line 48: Output port <ovf> of the instance <adder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/norm_hyper_mode.vhd" line 48: Output port <carry_out> of the instance <adder> is unconnected or connected to loadless signal.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <norm_hyper_mode> synthesized.
+
+Synthesizing Unit <forty_bit_adder>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_adder.vhd".
+    Summary:
+	no macro.
+Unit <forty_bit_adder> synthesized.
+
+Synthesizing Unit <four_bits_CLA_adder>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/four_bits_CLA_adder.vhd".
+    Summary:
+Unit <four_bits_CLA_adder> synthesized.
+
+Synthesizing Unit <carry_look_ahead_block_extended>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/carry_look_ahead_block_extended.vhd".
+    Summary:
+	no macro.
+Unit <carry_look_ahead_block_extended> synthesized.
+
+Synthesizing Unit <forty_bit_add_sub>.
+    Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/forty_bit_add_sub.vhd".
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal result<39> may hinder XST clustering optimizations.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <forty_bit_add_sub> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 28
+ 40-bit 2-to-1 multiplexer                             : 28
+# Xors                                                 : 2240
+ 1-bit xor2                                            : 2240
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <GEN_Y_ADDERS[11].y_adder> is unconnected in block <hyperbolic_combinatorial>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <GEN_Y_ADDERS[12].y_adder> is unconnected in block <hyperbolic_combinatorial>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <ninth_4bits> is unconnected in block <adder>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <tenth_4bits> is unconnected in block <adder>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <GEN_Y_ADDERS[13].y_adder> is unconnected in block <hyperbolic_combinatorial>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <ninth_4bits> is unconnected in block <adder>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <tenth_4bits> is unconnected in block <adder>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <GEN_X_ADDERS[12].x_adder> is unconnected in block <hyperbolic_combinatorial>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <ninth_4bits> is unconnected in block <adder>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <tenth_4bits> is unconnected in block <adder>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <GEN_X_ADDERS[13].x_adder> is unconnected in block <hyperbolic_combinatorial>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 28
+ 40-bit 2-to-1 multiplexer                             : 28
+# Xors                                                 : 2240
+ 1-bit xor2                                            : 2240
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <hyperbolic_combinatorial> ...
+
+Optimizing unit <norm_hyper_mode> ...
+
+Optimizing unit <forty_bit_adder> ...
+
+Optimizing unit <forty_bit_add_sub> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block hyperbolic_combinatorial, actual ratio is 32.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : hyperbolic_combinatorial.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1698
+#      LUT2                        : 53
+#      LUT3                        : 104
+#      LUT4                        : 187
+#      LUT5                        : 517
+#      LUT6                        : 836
+#      VCC                         : 1
+# IO Buffers                       : 64
+#      IBUF                        : 32
+#      OBUF                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                 1697  out of   9112    18%  
+    Number used as Logic:              1697  out of   9112    18%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1697
+   Number with an unused Flip Flop:    1697  out of   1697   100%  
+   Number with an unused LUT:             0  out of   1697     0%  
+   Number of fully used LUT-FF pairs:     0  out of   1697     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          64
+ Number of bonded IOBs:                  64  out of    232    27%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 250.266ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 210678911964204949831680 / 32
+-------------------------------------------------------------------------
+Delay:               250.266ns (Levels of Logic = 198)
+  Source:            operand_a<0> (PAD)
+  Destination:       sqrt<31> (PAD)
+
+  Data Path: operand_a<0> to sqrt<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.328   1.410  operand_a_0_IBUF (y_0<0>)
+     LUT4:I1->O            9   0.235   1.084  norm_1/adder/CLA_block/C_OUT<1>1 (norm_1/adder/c_group<1>)
+     LUT5:I3->O           14   0.250   1.235  norm_1/adder/CLA_block/C_OUT<2>1 (norm_1/adder/c_group<2>)
+     LUT5:I3->O           14   0.250   1.235  norm_1/adder/CLA_block/C_OUT<3>1 (norm_1/adder/c_group<3>)
+     LUT5:I3->O           18   0.250   1.343  norm_1/adder/CLA_block/C_OUT<4>1 (norm_1/adder/c_group<4>)
+     LUT5:I3->O           17   0.250   1.317  norm_1/adder/CLA_block/C_OUT<5>1 (norm_1/adder/c_group<5>)
+     LUT5:I3->O           16   0.250   1.458  norm_1/adder/CLA_block/C_OUT<6>1 (norm_1/adder/c_group<6>)
+     LUT6:I2->O           15   0.254   1.585  norm_1/Mmux_norm_operand201 (y_0<27>)
+     LUT5:I0->O           24   0.254   1.380  GEN_Y_ADDERS[1].y_adder/adder/CLA_block/C_OUT<7>1 (GEN_Y_ADDERS[1].y_adder/adder/c_group<7>)
+     LUT5:I4->O          127   0.254   2.520  GEN_Y_ADDERS[1].y_adder/adder/CLA_block/C_OUT<8>1 (GEN_Y_ADDERS[1].y_adder/adder/c_group<8>)
+     LUT6:I3->O            5   0.235   1.069  GEN_Y_ADDERS[2].y_adder/adder/first_4bits/c<2>1 (GEN_Y_ADDERS[2].y_adder/adder/first_4bits/c<2>)
+     LUT6:I3->O            5   0.235   0.841  GEN_Y_ADDERS[2].y_adder/adder/CLA_block/C_OUT<1> (GEN_Y_ADDERS[2].y_adder/adder/c_group<1>)
+     LUT6:I5->O            6   0.254   1.104  GEN_Y_ADDERS[2].y_adder/adder/second_4bits/c<2>1 (GEN_Y_ADDERS[2].y_adder/adder/second_4bits/c<2>)
+     LUT6:I3->O            4   0.235   0.804  GEN_Y_ADDERS[2].y_adder/adder/CLA_block/C_OUT<2> (GEN_Y_ADDERS[2].y_adder/adder/c_group<2>)
+     LUT6:I5->O            8   0.254   1.172  GEN_Y_ADDERS[2].y_adder/adder/third_4bits/c<2>1 (GEN_Y_ADDERS[2].y_adder/adder/third_4bits/c<2>)
+     LUT6:I3->O            4   0.235   0.804  GEN_Y_ADDERS[2].y_adder/adder/CLA_block/C_OUT<3> (GEN_Y_ADDERS[2].y_adder/adder/c_group<3>)
+     LUT6:I5->O            9   0.254   1.204  GEN_Y_ADDERS[2].y_adder/adder/fourth_4bits/c<2>1 (GEN_Y_ADDERS[2].y_adder/adder/fourth_4bits/c<2>)
+     LUT5:I2->O            5   0.235   0.841  GEN_Y_ADDERS[2].y_adder/adder/CLA_block/C_OUT<4> (GEN_Y_ADDERS[2].y_adder/adder/c_group<4>)
+     LUT6:I5->O            9   0.254   1.204  GEN_Y_ADDERS[2].y_adder/adder/fifth_4bits/c<2>1 (GEN_Y_ADDERS[2].y_adder/adder/fifth_4bits/c<2>)
+     LUT6:I3->O            5   0.235   0.841  GEN_Y_ADDERS[2].y_adder/adder/CLA_block/C_OUT<5> (GEN_Y_ADDERS[2].y_adder/adder/c_group<5>)
+     LUT6:I5->O            7   0.254   1.138  GEN_Y_ADDERS[2].y_adder/adder/sixth_4bits/c<2>1 (GEN_Y_ADDERS[2].y_adder/adder/sixth_4bits/c<2>)
+     LUT6:I3->O            5   0.235   0.841  GEN_Y_ADDERS[2].y_adder/adder/CLA_block/C_OUT<6> (GEN_Y_ADDERS[2].y_adder/adder/c_group<6>)
+     LUT6:I5->O            8   0.254   1.172  GEN_Y_ADDERS[2].y_adder/adder/seventh_4bits/c<2>1 (GEN_Y_ADDERS[2].y_adder/adder/seventh_4bits/c<2>)
+     LUT6:I3->O            6   0.235   1.306  GEN_Y_ADDERS[2].y_adder/adder/CLA_block/C_OUT<7> (GEN_Y_ADDERS[2].y_adder/adder/c_group<7>)
+     LUT5:I0->O            1   0.254   0.790  GEN_Y_ADDERS[2].y_adder/adder/CLA_block/C_OUT<8>3_SW0 (N318)
+     LUT5:I3->O           15   0.250   1.383  GEN_Y_ADDERS[2].y_adder/adder/CLA_block/C_OUT<8>31 (GEN_Y_ADDERS[2].y_adder/adder/CLA_block/C_OUT<8>2)
+     LUT4:I1->O          123   0.235   2.280  GEN_Y_ADDERS[2].y_adder/adder/ninth_4bits/Mxor_sum<1>_xo<0>11 (y_addr_rslt<2><33>)
+     LUT5:I4->O            2   0.254   1.181  GEN_Y_ADDERS[3].y_adder/Mmux_b_feed341 (GEN_Y_ADDERS[3].y_adder/b_feed<3>)
+     LUT6:I0->O            3   0.254   1.221  GEN_Y_ADDERS[3].y_adder/adder/first_4bits/Mxor_p<3>_xo<0>1 (GEN_Y_ADDERS[3].y_adder/adder/first_4bits/p<3>)
+     LUT6:I0->O            3   0.254   0.766  GEN_Y_ADDERS[3].y_adder/adder/CLA_block/C_OUT<1> (GEN_Y_ADDERS[3].y_adder/adder/c_group<1>)
+     LUT6:I5->O            9   0.254   1.204  GEN_Y_ADDERS[3].y_adder/adder/second_4bits/c<2>1 (GEN_Y_ADDERS[3].y_adder/adder/second_4bits/c<2>)
+     LUT6:I3->O            6   0.235   0.876  GEN_Y_ADDERS[3].y_adder/adder/CLA_block/C_OUT<2> (GEN_Y_ADDERS[3].y_adder/adder/c_group<2>)
+     LUT6:I5->O            7   0.254   1.138  GEN_Y_ADDERS[3].y_adder/adder/third_4bits/c<2>1 (GEN_Y_ADDERS[3].y_adder/adder/third_4bits/c<2>)
+     LUT6:I3->O            5   0.235   0.841  GEN_Y_ADDERS[3].y_adder/adder/CLA_block/C_OUT<3> (GEN_Y_ADDERS[3].y_adder/adder/c_group<3>)
+     LUT6:I5->O            8   0.254   1.172  GEN_Y_ADDERS[3].y_adder/adder/fourth_4bits/c<2>1 (GEN_Y_ADDERS[3].y_adder/adder/fourth_4bits/c<2>)
+     LUT6:I3->O            4   0.235   0.804  GEN_Y_ADDERS[3].y_adder/adder/CLA_block/C_OUT<4> (GEN_Y_ADDERS[3].y_adder/adder/c_group<4>)
+     LUT6:I5->O            9   0.254   1.204  GEN_Y_ADDERS[3].y_adder/adder/fifth_4bits/c<2>1 (GEN_Y_ADDERS[3].y_adder/adder/fifth_4bits/c<2>)
+     LUT6:I3->O            4   0.235   0.804  GEN_Y_ADDERS[3].y_adder/adder/CLA_block/C_OUT<5> (GEN_Y_ADDERS[3].y_adder/adder/c_group<5>)
+     LUT6:I5->O            9   0.254   1.204  GEN_Y_ADDERS[3].y_adder/adder/sixth_4bits/c<2>1 (GEN_Y_ADDERS[3].y_adder/adder/sixth_4bits/c<2>)
+     LUT6:I3->O            4   0.235   0.804  GEN_Y_ADDERS[3].y_adder/adder/CLA_block/C_OUT<6> (GEN_Y_ADDERS[3].y_adder/adder/c_group<6>)
+     LUT6:I5->O            7   0.254   1.138  GEN_Y_ADDERS[3].y_adder/adder/seventh_4bits/c<2>1 (GEN_Y_ADDERS[3].y_adder/adder/seventh_4bits/c<2>)
+     LUT6:I3->O            4   0.235   0.804  GEN_Y_ADDERS[3].y_adder/adder/CLA_block/C_OUT<7> (GEN_Y_ADDERS[3].y_adder/adder/c_group<7>)
+     LUT6:I5->O            8   0.254   1.172  GEN_Y_ADDERS[3].y_adder/adder/eighth_4bits/c<2>1 (GEN_Y_ADDERS[3].y_adder/adder/eighth_4bits/c<2>)
+     LUT6:I3->O            5   0.235   0.949  GEN_Y_ADDERS[3].y_adder/adder/CLA_block/C_OUT<8> (GEN_Y_ADDERS[3].y_adder/adder/c_group<8>)
+     LUT5:I3->O            8   0.250   1.052  GEN_Y_ADDERS[3].y_adder/adder/ninth_4bits/c<2>11 (GEN_Y_ADDERS[3].y_adder/adder/ninth_4bits/c<2>)
+     LUT3:I1->O            8   0.250   1.172  GEN_Y_ADDERS[3].y_adder/adder/CLA_block/C_OUT<9>1 (GEN_Y_ADDERS[3].y_adder/adder/c_group<9>)
+     LUT4:I1->O          109   0.235   2.513  GEN_Y_ADDERS[3].y_adder/adder/tenth_4bits/Mxor_sum<3>_xo<0>111 (y_addr_rslt<3><39>)
+     LUT6:I2->O            2   0.254   1.181  GEN_Y_ADDERS[4].y_adder/Mmux_b_feed341 (GEN_Y_ADDERS[4].y_adder/b_feed<3>)
+     LUT6:I0->O            2   0.254   1.181  GEN_Y_ADDERS[4].y_adder/adder/first_4bits/Mxor_p<3>_xo<0>1 (GEN_Y_ADDERS[4].y_adder/adder/first_4bits/p<3>)
+     LUT6:I0->O            4   0.254   0.804  GEN_Y_ADDERS[4].y_adder/adder/CLA_block/C_OUT<1> (GEN_Y_ADDERS[4].y_adder/adder/c_group<1>)
+     LUT6:I5->O            5   0.254   1.069  GEN_Y_ADDERS[4].y_adder/adder/second_4bits/c<2>1 (GEN_Y_ADDERS[4].y_adder/adder/second_4bits/c<2>)
+     LUT6:I3->O            5   0.235   0.841  GEN_Y_ADDERS[4].y_adder/adder/CLA_block/C_OUT<2> (GEN_Y_ADDERS[4].y_adder/adder/c_group<2>)
+     LUT6:I5->O            4   0.254   1.032  GEN_Y_ADDERS[4].y_adder/adder/third_4bits/c<2>1 (GEN_Y_ADDERS[4].y_adder/adder/third_4bits/c<2>)
+     LUT6:I3->O            7   0.235   0.910  GEN_Y_ADDERS[4].y_adder/adder/CLA_block/C_OUT<3> (GEN_Y_ADDERS[4].y_adder/adder/c_group<3>)
+     LUT6:I5->O            4   0.254   1.032  GEN_Y_ADDERS[4].y_adder/adder/fourth_4bits/c<2>1 (GEN_Y_ADDERS[4].y_adder/adder/fourth_4bits/c<2>)
+     LUT6:I3->O            7   0.235   0.910  GEN_Y_ADDERS[4].y_adder/adder/CLA_block/C_OUT<4> (GEN_Y_ADDERS[4].y_adder/adder/c_group<4>)
+     LUT6:I5->O            4   0.254   1.032  GEN_Y_ADDERS[4].y_adder/adder/fifth_4bits/c<2>1 (GEN_Y_ADDERS[4].y_adder/adder/fifth_4bits/c<2>)
+     LUT6:I3->O            6   0.235   0.876  GEN_Y_ADDERS[4].y_adder/adder/CLA_block/C_OUT<5> (GEN_Y_ADDERS[4].y_adder/adder/c_group<5>)
+     LUT6:I5->O            4   0.254   1.032  GEN_Y_ADDERS[4].y_adder/adder/sixth_4bits/c<2>1 (GEN_Y_ADDERS[4].y_adder/adder/sixth_4bits/c<2>)
+     LUT6:I3->O            6   0.235   0.876  GEN_Y_ADDERS[4].y_adder/adder/CLA_block/C_OUT<6> (GEN_Y_ADDERS[4].y_adder/adder/c_group<6>)
+     LUT6:I5->O            4   0.254   1.032  GEN_Y_ADDERS[4].y_adder/adder/seventh_4bits/c<2>1 (GEN_Y_ADDERS[4].y_adder/adder/seventh_4bits/c<2>)
+     LUT6:I3->O            7   0.235   0.910  GEN_Y_ADDERS[4].y_adder/adder/CLA_block/C_OUT<7> (GEN_Y_ADDERS[4].y_adder/adder/c_group<7>)
+     LUT6:I5->O            4   0.254   1.032  GEN_Y_ADDERS[4].y_adder/adder/eighth_4bits/c<2>1 (GEN_Y_ADDERS[4].y_adder/adder/eighth_4bits/c<2>)
+     LUT6:I3->O            7   0.235   0.910  GEN_Y_ADDERS[4].y_adder/adder/CLA_block/C_OUT<8> (GEN_Y_ADDERS[4].y_adder/adder/c_group<8>)
+     LUT6:I5->O            4   0.254   1.032  GEN_Y_ADDERS[4].y_adder/adder/ninth_4bits/c<2>1 (GEN_Y_ADDERS[4].y_adder/adder/ninth_4bits/c<2>)
+     LUT6:I3->O            6   0.235   0.984  GEN_Y_ADDERS[4].y_adder/adder/CLA_block/C_OUT<9> (GEN_Y_ADDERS[4].y_adder/adder/c_group<9>)
+     LUT6:I4->O          131   0.250   2.580  GEN_Y_ADDERS[4].y_adder/adder/tenth_4bits/Mxor_sum<3>_xo<0>11 (y_addr_rslt<4><39>)
+     LUT6:I2->O            3   0.254   0.994  GEN_Y_ADDERS[5].y_adder/Mmux_b_feed231 (GEN_Y_ADDERS[5].y_adder/b_feed<2>)
+     LUT5:I2->O            3   0.235   0.766  GEN_Y_ADDERS[5].y_adder/adder/CLA_block/C_OUT<1> (GEN_Y_ADDERS[5].y_adder/adder/c_group<1>)
+     LUT6:I5->O            3   0.254   0.766  GEN_Y_ADDERS[5].y_adder/adder/second_4bits/c<2>1 (GEN_Y_ADDERS[5].y_adder/adder/second_4bits/c<2>)
+     LUT5:I4->O            7   0.254   0.910  GEN_Y_ADDERS[5].y_adder/adder/CLA_block/C_OUT<2> (GEN_Y_ADDERS[5].y_adder/adder/c_group<2>)
+     LUT6:I5->O            8   0.254   0.944  GEN_Y_ADDERS[5].y_adder/adder/third_4bits/c<2>1 (GEN_Y_ADDERS[5].y_adder/adder/third_4bits/c<2>)
+     LUT5:I4->O            6   0.254   0.876  GEN_Y_ADDERS[5].y_adder/adder/CLA_block/C_OUT<3> (GEN_Y_ADDERS[5].y_adder/adder/c_group<3>)
+     LUT6:I5->O            8   0.254   0.944  GEN_Y_ADDERS[5].y_adder/adder/fourth_4bits/c<2>1 (GEN_Y_ADDERS[5].y_adder/adder/fourth_4bits/c<2>)
+     LUT5:I4->O            6   0.254   0.876  GEN_Y_ADDERS[5].y_adder/adder/CLA_block/C_OUT<4> (GEN_Y_ADDERS[5].y_adder/adder/c_group<4>)
+     LUT6:I5->O            8   0.254   0.944  GEN_Y_ADDERS[5].y_adder/adder/fifth_4bits/c<2>1 (GEN_Y_ADDERS[5].y_adder/adder/fifth_4bits/c<2>)
+     LUT5:I4->O            7   0.254   0.910  GEN_Y_ADDERS[5].y_adder/adder/CLA_block/C_OUT<5> (GEN_Y_ADDERS[5].y_adder/adder/c_group<5>)
+     LUT6:I5->O            6   0.254   0.876  GEN_Y_ADDERS[5].y_adder/adder/sixth_4bits/c<2>1 (GEN_Y_ADDERS[5].y_adder/adder/sixth_4bits/c<2>)
+     LUT6:I5->O            7   0.254   0.910  GEN_Y_ADDERS[5].y_adder/adder/CLA_block/C_OUT<6> (GEN_Y_ADDERS[5].y_adder/adder/c_group<6>)
+     LUT6:I5->O            6   0.254   0.876  GEN_Y_ADDERS[5].y_adder/adder/seventh_4bits/c<2>1 (GEN_Y_ADDERS[5].y_adder/adder/seventh_4bits/c<2>)
+     LUT6:I5->O            6   0.254   0.876  GEN_Y_ADDERS[5].y_adder/adder/CLA_block/C_OUT<7> (GEN_Y_ADDERS[5].y_adder/adder/c_group<7>)
+     LUT6:I5->O            8   0.254   0.944  GEN_Y_ADDERS[5].y_adder/adder/eighth_4bits/c<2>1 (GEN_Y_ADDERS[5].y_adder/adder/eighth_4bits/c<2>)
+     LUT5:I4->O            6   0.254   0.876  GEN_Y_ADDERS[5].y_adder/adder/CLA_block/C_OUT<8> (GEN_Y_ADDERS[5].y_adder/adder/c_group<8>)
+     LUT6:I5->O            9   0.254   0.976  GEN_Y_ADDERS[5].y_adder/adder/ninth_4bits/c<2>1 (GEN_Y_ADDERS[5].y_adder/adder/ninth_4bits/c<2>)
+     LUT5:I4->O            4   0.254   0.912  GEN_Y_ADDERS[5].y_adder/adder/CLA_block/C_OUT<9>1 (GEN_Y_ADDERS[5].y_adder/adder/c_group<9>)
+     LUT6:I4->O          110   0.250   2.516  GEN_Y_ADDERS[5].y_adder/adder/tenth_4bits/Mxor_sum<3>_xo<0>11 (y_addr_rslt<5><39>)
+     LUT5:I1->O            4   0.254   0.804  GEN_Y_ADDERS[6].y_adder/adder/first_4bits/c<2>1 (GEN_Y_ADDERS[6].y_adder/adder/first_4bits/c<2>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[6].y_adder/adder/CLA_block/C_OUT<1> (GEN_Y_ADDERS[6].y_adder/adder/c_group<1>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[6].y_adder/adder/second_4bits/c<2>1 (GEN_Y_ADDERS[6].y_adder/adder/second_4bits/c<2>)
+     LUT6:I5->O            5   0.254   0.841  GEN_Y_ADDERS[6].y_adder/adder/CLA_block/C_OUT<2> (GEN_Y_ADDERS[6].y_adder/adder/c_group<2>)
+     LUT6:I5->O            6   0.254   0.876  GEN_Y_ADDERS[6].y_adder/adder/third_4bits/c<2>1 (GEN_Y_ADDERS[6].y_adder/adder/third_4bits/c<2>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[6].y_adder/adder/CLA_block/C_OUT<3> (GEN_Y_ADDERS[6].y_adder/adder/c_group<3>)
+     LUT6:I5->O            6   0.254   0.876  GEN_Y_ADDERS[6].y_adder/adder/fourth_4bits/c<2>1 (GEN_Y_ADDERS[6].y_adder/adder/fourth_4bits/c<2>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[6].y_adder/adder/CLA_block/C_OUT<4> (GEN_Y_ADDERS[6].y_adder/adder/c_group<4>)
+     LUT6:I5->O            6   0.254   0.876  GEN_Y_ADDERS[6].y_adder/adder/fifth_4bits/c<2>1 (GEN_Y_ADDERS[6].y_adder/adder/fifth_4bits/c<2>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[6].y_adder/adder/CLA_block/C_OUT<5> (GEN_Y_ADDERS[6].y_adder/adder/c_group<5>)
+     LUT6:I5->O            7   0.254   0.910  GEN_Y_ADDERS[6].y_adder/adder/sixth_4bits/c<2>1 (GEN_Y_ADDERS[6].y_adder/adder/sixth_4bits/c<2>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[6].y_adder/adder/CLA_block/C_OUT<6> (GEN_Y_ADDERS[6].y_adder/adder/c_group<6>)
+     LUT6:I5->O            9   0.254   0.976  GEN_Y_ADDERS[6].y_adder/adder/seventh_4bits/c<2>1 (GEN_Y_ADDERS[6].y_adder/adder/seventh_4bits/c<2>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[6].y_adder/adder/CLA_block/C_OUT<7> (GEN_Y_ADDERS[6].y_adder/adder/c_group<7>)
+     LUT6:I5->O            6   0.254   0.876  GEN_Y_ADDERS[6].y_adder/adder/eighth_4bits/c<2>1 (GEN_Y_ADDERS[6].y_adder/adder/eighth_4bits/c<2>)
+     LUT5:I4->O            4   0.254   0.804  GEN_Y_ADDERS[6].y_adder/adder/CLA_block/C_OUT<8> (GEN_Y_ADDERS[6].y_adder/adder/c_group<8>)
+     LUT6:I5->O            6   0.254   0.876  GEN_Y_ADDERS[6].y_adder/adder/ninth_4bits/c<2>1 (GEN_Y_ADDERS[6].y_adder/adder/ninth_4bits/c<2>)
+     LUT4:I3->O            4   0.254   0.912  GEN_Y_ADDERS[6].y_adder/adder/CLA_block/C_OUT<9>1 (GEN_Y_ADDERS[6].y_adder/adder/c_group<9>)
+     LUT6:I4->O          143   0.250   2.341  GEN_Y_ADDERS[6].y_adder/adder/tenth_4bits/Mxor_sum<3>_xo<0>11 (y_addr_rslt<6><39>)
+     LUT6:I5->O            2   0.254   1.156  GEN_Y_ADDERS[7].y_adder/Mmux_b_feed341 (GEN_Y_ADDERS[7].y_adder/b_feed<3>)
+     LUT6:I1->O            3   0.254   0.766  GEN_Y_ADDERS[7].y_adder/adder/CLA_block/C_OUT<1> (GEN_Y_ADDERS[7].y_adder/adder/c_group<1>)
+     LUT6:I5->O            3   0.254   0.766  GEN_Y_ADDERS[7].y_adder/adder/second_4bits/c<2>1 (GEN_Y_ADDERS[7].y_adder/adder/second_4bits/c<2>)
+     LUT6:I5->O            3   0.254   0.766  GEN_Y_ADDERS[7].y_adder/adder/CLA_block/C_OUT<2> (GEN_Y_ADDERS[7].y_adder/adder/c_group<2>)
+     LUT6:I5->O            8   0.254   0.944  GEN_Y_ADDERS[7].y_adder/adder/third_4bits/c<2>1 (GEN_Y_ADDERS[7].y_adder/adder/third_4bits/c<2>)
+     LUT6:I5->O            5   0.254   0.841  GEN_Y_ADDERS[7].y_adder/adder/CLA_block/C_OUT<3> (GEN_Y_ADDERS[7].y_adder/adder/c_group<3>)
+     LUT6:I5->O            8   0.254   0.944  GEN_Y_ADDERS[7].y_adder/adder/fourth_4bits/c<2>1 (GEN_Y_ADDERS[7].y_adder/adder/fourth_4bits/c<2>)
+     LUT6:I5->O            5   0.254   0.841  GEN_Y_ADDERS[7].y_adder/adder/CLA_block/C_OUT<4> (GEN_Y_ADDERS[7].y_adder/adder/c_group<4>)
+     LUT6:I5->O            8   0.254   0.944  GEN_Y_ADDERS[7].y_adder/adder/fifth_4bits/c<2>1 (GEN_Y_ADDERS[7].y_adder/adder/fifth_4bits/c<2>)
+     LUT6:I5->O            5   0.254   0.841  GEN_Y_ADDERS[7].y_adder/adder/CLA_block/C_OUT<5> (GEN_Y_ADDERS[7].y_adder/adder/c_group<5>)
+     LUT6:I5->O            8   0.254   0.944  GEN_Y_ADDERS[7].y_adder/adder/sixth_4bits/c<2>1 (GEN_Y_ADDERS[7].y_adder/adder/sixth_4bits/c<2>)
+     LUT6:I5->O            5   0.254   0.841  GEN_Y_ADDERS[7].y_adder/adder/CLA_block/C_OUT<6> (GEN_Y_ADDERS[7].y_adder/adder/c_group<6>)
+     LUT6:I5->O            8   0.254   0.944  GEN_Y_ADDERS[7].y_adder/adder/seventh_4bits/c<2>1 (GEN_Y_ADDERS[7].y_adder/adder/seventh_4bits/c<2>)
+     LUT5:I4->O            5   0.254   0.841  GEN_Y_ADDERS[7].y_adder/adder/CLA_block/C_OUT<7> (GEN_Y_ADDERS[7].y_adder/adder/c_group<7>)
+     LUT6:I5->O            8   0.254   0.944  GEN_Y_ADDERS[7].y_adder/adder/eighth_4bits/c<2>1 (GEN_Y_ADDERS[7].y_adder/adder/eighth_4bits/c<2>)
+     LUT6:I5->O           11   0.254   1.039  GEN_Y_ADDERS[7].y_adder/adder/CLA_block/C_OUT<8> (GEN_Y_ADDERS[7].y_adder/adder/c_group<8>)
+     LUT6:I5->O            3   0.254   0.874  GEN_Y_ADDERS[7].y_adder/adder/CLA_block/C_OUT<9>1 (GEN_Y_ADDERS[7].y_adder/adder/c_group<9>)
+     LUT6:I4->O          105   0.250   2.500  GEN_Y_ADDERS[7].y_adder/adder/tenth_4bits/Mxor_sum<3>_xo<0>11 (y_addr_rslt<7><39>)
+     LUT6:I2->O            2   0.254   1.002  GEN_Y_ADDERS[8].y_adder/Mmux_b_feed341 (GEN_Y_ADDERS[8].y_adder/b_feed<3>)
+     LUT5:I1->O            4   0.254   0.804  GEN_Y_ADDERS[8].y_adder/adder/CLA_block/C_OUT<1> (GEN_Y_ADDERS[8].y_adder/adder/c_group<1>)
+     LUT6:I5->O            5   0.254   0.841  GEN_Y_ADDERS[8].y_adder/adder/second_4bits/c<2>1 (GEN_Y_ADDERS[8].y_adder/adder/second_4bits/c<2>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[8].y_adder/adder/CLA_block/C_OUT<2> (GEN_Y_ADDERS[8].y_adder/adder/c_group<2>)
+     LUT6:I5->O            5   0.254   0.841  GEN_Y_ADDERS[8].y_adder/adder/third_4bits/c<2>1 (GEN_Y_ADDERS[8].y_adder/adder/third_4bits/c<2>)
+     LUT6:I5->O            6   0.254   0.876  GEN_Y_ADDERS[8].y_adder/adder/CLA_block/C_OUT<3> (GEN_Y_ADDERS[8].y_adder/adder/c_group<3>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[8].y_adder/adder/fourth_4bits/c<2>1 (GEN_Y_ADDERS[8].y_adder/adder/fourth_4bits/c<2>)
+     LUT5:I4->O            7   0.254   0.910  GEN_Y_ADDERS[8].y_adder/adder/CLA_block/C_OUT<4> (GEN_Y_ADDERS[8].y_adder/adder/c_group<4>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[8].y_adder/adder/fifth_4bits/c<2>1 (GEN_Y_ADDERS[8].y_adder/adder/fifth_4bits/c<2>)
+     LUT5:I4->O            7   0.254   0.910  GEN_Y_ADDERS[8].y_adder/adder/CLA_block/C_OUT<5> (GEN_Y_ADDERS[8].y_adder/adder/c_group<5>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[8].y_adder/adder/sixth_4bits/c<2>1 (GEN_Y_ADDERS[8].y_adder/adder/sixth_4bits/c<2>)
+     LUT6:I5->O            7   0.254   0.910  GEN_Y_ADDERS[8].y_adder/adder/CLA_block/C_OUT<6> (GEN_Y_ADDERS[8].y_adder/adder/c_group<6>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[8].y_adder/adder/seventh_4bits/c<2>1 (GEN_Y_ADDERS[8].y_adder/adder/seventh_4bits/c<2>)
+     LUT6:I5->O            7   0.254   0.910  GEN_Y_ADDERS[8].y_adder/adder/CLA_block/C_OUT<7> (GEN_Y_ADDERS[8].y_adder/adder/c_group<7>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[8].y_adder/adder/eighth_4bits/c<2>1 (GEN_Y_ADDERS[8].y_adder/adder/eighth_4bits/c<2>)
+     LUT5:I4->O            8   0.254   0.944  GEN_Y_ADDERS[8].y_adder/adder/CLA_block/C_OUT<8> (GEN_Y_ADDERS[8].y_adder/adder/c_group<8>)
+     LUT6:I5->O            3   0.254   0.874  GEN_Y_ADDERS[8].y_adder/adder/CLA_block/C_OUT<9>1 (GEN_Y_ADDERS[8].y_adder/adder/c_group<9>)
+     LUT6:I4->O          110   0.250   2.516  GEN_Y_ADDERS[8].y_adder/adder/tenth_4bits/Mxor_sum<3>_xo<0>11 (y_addr_rslt<8><39>)
+     LUT6:I2->O            3   0.254   0.994  GEN_Y_ADDERS[9].y_adder/Mmux_b_feed231 (GEN_Y_ADDERS[9].y_adder/b_feed<2>)
+     LUT5:I2->O            3   0.235   0.766  GEN_Y_ADDERS[9].y_adder/adder/CLA_block/C_OUT<1> (GEN_Y_ADDERS[9].y_adder/adder/c_group<1>)
+     LUT6:I5->O            3   0.254   0.766  GEN_Y_ADDERS[9].y_adder/adder/second_4bits/c<2>1 (GEN_Y_ADDERS[9].y_adder/adder/second_4bits/c<2>)
+     LUT5:I4->O            3   0.254   0.766  GEN_Y_ADDERS[9].y_adder/adder/CLA_block/C_OUT<2> (GEN_Y_ADDERS[9].y_adder/adder/c_group<2>)
+     LUT6:I5->O            3   0.254   0.766  GEN_Y_ADDERS[9].y_adder/adder/third_4bits/c<2>1 (GEN_Y_ADDERS[9].y_adder/adder/third_4bits/c<2>)
+     LUT5:I4->O            6   0.254   0.876  GEN_Y_ADDERS[9].y_adder/adder/CLA_block/C_OUT<3> (GEN_Y_ADDERS[9].y_adder/adder/c_group<3>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[9].y_adder/adder/fourth_4bits/c<2>1 (GEN_Y_ADDERS[9].y_adder/adder/fourth_4bits/c<2>)
+     LUT6:I5->O            5   0.254   0.841  GEN_Y_ADDERS[9].y_adder/adder/CLA_block/C_OUT<4> (GEN_Y_ADDERS[9].y_adder/adder/c_group<4>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[9].y_adder/adder/fifth_4bits/c<2>1 (GEN_Y_ADDERS[9].y_adder/adder/fifth_4bits/c<2>)
+     LUT6:I5->O            5   0.254   0.841  GEN_Y_ADDERS[9].y_adder/adder/CLA_block/C_OUT<5> (GEN_Y_ADDERS[9].y_adder/adder/c_group<5>)
+     LUT6:I5->O            5   0.254   0.841  GEN_Y_ADDERS[9].y_adder/adder/sixth_4bits/c<2>1 (GEN_Y_ADDERS[9].y_adder/adder/sixth_4bits/c<2>)
+     LUT5:I4->O            5   0.254   0.841  GEN_Y_ADDERS[9].y_adder/adder/CLA_block/C_OUT<6> (GEN_Y_ADDERS[9].y_adder/adder/c_group<6>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[9].y_adder/adder/seventh_4bits/c<2>1 (GEN_Y_ADDERS[9].y_adder/adder/seventh_4bits/c<2>)
+     LUT6:I5->O            5   0.254   0.841  GEN_Y_ADDERS[9].y_adder/adder/CLA_block/C_OUT<7> (GEN_Y_ADDERS[9].y_adder/adder/c_group<7>)
+     LUT6:I5->O            8   0.254   0.944  GEN_Y_ADDERS[9].y_adder/adder/eighth_4bits/c<2>1 (GEN_Y_ADDERS[9].y_adder/adder/eighth_4bits/c<2>)
+     LUT6:I5->O            5   0.254   0.841  GEN_Y_ADDERS[9].y_adder/adder/ninth_4bits/c<2>11 (GEN_Y_ADDERS[9].y_adder/adder/ninth_4bits/c<2>)
+     LUT4:I3->O            3   0.254   0.874  GEN_Y_ADDERS[9].y_adder/adder/CLA_block/C_OUT<9>1 (GEN_Y_ADDERS[9].y_adder/adder/c_group<9>)
+     LUT6:I4->O           77   0.250   2.486  GEN_Y_ADDERS[9].y_adder/adder/tenth_4bits/Mxor_sum<3>_xo<0>11 (y_addr_rslt<9><39>)
+     LUT6:I0->O            1   0.254   1.137  GEN_Y_ADDERS[10].y_adder/adder/CLA_block/C_OUT<2>8_SW0 (N314)
+     LUT6:I0->O            1   0.254   0.682  GEN_Y_ADDERS[10].y_adder/adder/CLA_block/C_OUT<2>8_SW1 (N328)
+     LUT6:I5->O            1   0.254   0.790  GEN_Y_ADDERS[10].y_adder/adder/CLA_block/C_OUT<2>8 (GEN_Y_ADDERS[10].y_adder/adder/CLA_block/C_OUT<2>7)
+     LUT6:I4->O            1   0.250   1.137  GEN_Y_ADDERS[10].y_adder/adder/CLA_block/C_OUT<2>9_SW0 (N316)
+     LUT6:I0->O            1   0.254   0.682  GEN_Y_ADDERS[10].y_adder/adder/CLA_block/C_OUT<2>9 (GEN_Y_ADDERS[10].y_adder/adder/c_group<2>)
+     LUT6:I5->O            2   0.254   0.726  GEN_Y_ADDERS[10].y_adder/adder/third_4bits/c<2>1 (GEN_Y_ADDERS[10].y_adder/adder/third_4bits/c<2>)
+     LUT6:I5->O            3   0.254   0.766  GEN_Y_ADDERS[10].y_adder/adder/CLA_block/C_OUT<3> (GEN_Y_ADDERS[10].y_adder/adder/c_group<3>)
+     LUT6:I5->O            3   0.254   0.766  GEN_Y_ADDERS[10].y_adder/adder/fourth_4bits/c<2>1 (GEN_Y_ADDERS[10].y_adder/adder/fourth_4bits/c<2>)
+     LUT6:I5->O            3   0.254   0.766  GEN_Y_ADDERS[10].y_adder/adder/CLA_block/C_OUT<4> (GEN_Y_ADDERS[10].y_adder/adder/c_group<4>)
+     LUT6:I5->O            3   0.254   0.766  GEN_Y_ADDERS[10].y_adder/adder/fifth_4bits/c<2>1 (GEN_Y_ADDERS[10].y_adder/adder/fifth_4bits/c<2>)
+     LUT6:I5->O            3   0.254   0.766  GEN_Y_ADDERS[10].y_adder/adder/CLA_block/C_OUT<5> (GEN_Y_ADDERS[10].y_adder/adder/c_group<5>)
+     LUT6:I5->O            3   0.254   0.766  GEN_Y_ADDERS[10].y_adder/adder/sixth_4bits/c<2>1 (GEN_Y_ADDERS[10].y_adder/adder/sixth_4bits/c<2>)
+     LUT5:I4->O            3   0.254   0.766  GEN_Y_ADDERS[10].y_adder/adder/CLA_block/C_OUT<6> (GEN_Y_ADDERS[10].y_adder/adder/c_group<6>)
+     LUT5:I4->O            3   0.254   0.766  GEN_Y_ADDERS[10].y_adder/adder/seventh_4bits/c<2>1 (GEN_Y_ADDERS[10].y_adder/adder/seventh_4bits/c<2>)
+     LUT5:I4->O            3   0.254   0.766  GEN_Y_ADDERS[10].y_adder/adder/CLA_block/C_OUT<7> (GEN_Y_ADDERS[10].y_adder/adder/c_group<7>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[10].y_adder/adder/eighth_4bits/c<2>1 (GEN_Y_ADDERS[10].y_adder/adder/eighth_4bits/c<2>)
+     LUT4:I3->O            2   0.254   0.726  GEN_Y_ADDERS[10].y_adder/adder/CLA_block/C_OUT<8>1 (GEN_Y_ADDERS[10].y_adder/adder/c_group<8>)
+     LUT6:I5->O            4   0.254   0.804  GEN_Y_ADDERS[10].y_adder/adder/ninth_4bits/c<2>11 (GEN_Y_ADDERS[10].y_adder/adder/ninth_4bits/c<2>)
+     LUT4:I3->O            3   0.254   0.874  GEN_Y_ADDERS[10].y_adder/adder/CLA_block/C_OUT<9>1 (GEN_Y_ADDERS[10].y_adder/adder/c_group<9>)
+     LUT6:I4->O           32   0.250   1.520  GEN_Y_ADDERS[10].y_adder/adder/tenth_4bits/Mxor_sum<3>_xo<0>11 (y_addr_rslt<10><39>)
+     LUT4:I3->O            4   0.254   1.234  GEN_X_ADDERS[11].x_adder/Mmux_b_feed121 (GEN_X_ADDERS[11].x_adder/b_feed<1>)
+     LUT6:I1->O            4   0.254   0.804  GEN_X_ADDERS[11].x_adder/adder/first_4bits/c<2>1 (GEN_X_ADDERS[11].x_adder/adder/first_4bits/c<2>)
+     LUT5:I4->O            6   0.254   0.876  GEN_X_ADDERS[11].x_adder/adder/CLA_block/C_OUT<1> (GEN_X_ADDERS[11].x_adder/adder/c_group<1>)
+     LUT5:I4->O            5   0.254   0.841  GEN_X_ADDERS[11].x_adder/adder/second_4bits/c<2>1 (GEN_X_ADDERS[11].x_adder/adder/second_4bits/c<2>)
+     LUT5:I4->O            5   0.254   0.841  GEN_X_ADDERS[11].x_adder/adder/CLA_block/C_OUT<2> (GEN_X_ADDERS[11].x_adder/adder/c_group<2>)
+     LUT5:I4->O            5   0.254   0.841  GEN_X_ADDERS[11].x_adder/adder/third_4bits/c<2>1 (GEN_X_ADDERS[11].x_adder/adder/third_4bits/c<2>)
+     LUT5:I4->O            6   0.254   0.876  GEN_X_ADDERS[11].x_adder/adder/CLA_block/C_OUT<3> (GEN_X_ADDERS[11].x_adder/adder/c_group<3>)
+     LUT5:I4->O            4   0.254   0.804  GEN_X_ADDERS[11].x_adder/adder/fourth_4bits/c<2>1 (GEN_X_ADDERS[11].x_adder/adder/fourth_4bits/c<2>)
+     LUT5:I4->O            6   0.254   0.876  GEN_X_ADDERS[11].x_adder/adder/CLA_block/C_OUT<4> (GEN_X_ADDERS[11].x_adder/adder/c_group<4>)
+     LUT5:I4->O            4   0.254   0.804  GEN_X_ADDERS[11].x_adder/adder/fifth_4bits/c<2>1 (GEN_X_ADDERS[11].x_adder/adder/fifth_4bits/c<2>)
+     LUT5:I4->O            5   0.254   0.841  GEN_X_ADDERS[11].x_adder/adder/CLA_block/C_OUT<5> (GEN_X_ADDERS[11].x_adder/adder/c_group<5>)
+     LUT5:I4->O            5   0.254   0.841  GEN_X_ADDERS[11].x_adder/adder/sixth_4bits/c<2>1 (GEN_X_ADDERS[11].x_adder/adder/sixth_4bits/c<2>)
+     LUT5:I4->O            5   0.254   0.841  GEN_X_ADDERS[11].x_adder/adder/CLA_block/C_OUT<6> (GEN_X_ADDERS[11].x_adder/adder/c_group<6>)
+     LUT5:I4->O            5   0.254   0.949  GEN_X_ADDERS[11].x_adder/adder/seventh_4bits/c<2>1 (GEN_X_ADDERS[11].x_adder/adder/seventh_4bits/c<2>)
+     LUT4:I2->O            1   0.250   1.112  GEN_X_ADDERS[11].x_adder/adder/seventh_4bits/Mxor_sum<3>_xo<0>1 (x_addr_rslt<11><27>)
+     LUT5:I0->O            4   0.254   0.804  adder_offset/adder/CLA_block/C_OUT<7>1 (adder_offset/adder/c_group<7>)
+     LUT4:I3->O            1   0.254   0.682  adder_offset/adder/eighth_4bits/c<2>1 (adder_offset/adder/eighth_4bits/c<2>)
+     LUT5:I4->O            1   0.254   0.681  adder_offset/adder/eighth_4bits/Mxor_sum<3>_xo<0>1 (sqrt_31_OBUF)
+     OBUF:I->O                 2.912          sqrt_31_OBUF (sqrt<31>)
+    ----------------------------------------
+    Total                    250.266ns (53.424ns logic, 196.842ns route)
+                                       (21.3% logic, 78.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 12.64 secs
+ 
+--> 
+
+
+Total memory usage is 397084 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   18 (   0 filtered)
+Number of infos    :   57 (   0 filtered)
+

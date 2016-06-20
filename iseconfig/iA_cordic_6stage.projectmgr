@@ -89,6 +89,7 @@
          <ClosedNode>/tb_forty_bits_adder - behavior |home|waseemh|Xilinx_Proj|iA_cordic_6stage|tb_thirty2_bits_adder.vhd/uut - forty_bit_adder - Behavioral</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
+<<<<<<< HEAD
          <SelectedItem>/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
@@ -96,6 +97,15 @@
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000358000000020000000000000000000000000200000064ffffffff000000810000000300000002000003580000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd)</CurrentItem>
+=======
+         <SelectedItem>tan_combinatorial - Behavioral (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tan_combinatorial.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >7</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000358000000020000000000000000000000000200000064ffffffff000000810000000300000002000003580000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>tan_combinatorial - Behavioral (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tan_combinatorial.vhd)</CurrentItem>
+>>>>>>> c41f6b552df92ab3c13905de5392eb35a66d2750
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -107,13 +117,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -250,6 +260,7 @@
          <ClosedNode>/testbench - behavior |home|waseemh|Xilinx_Proj|iA_cordic_6stage|testbench.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
+<<<<<<< HEAD
          <SelectedItem>/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >10</ScrollbarPosition>
@@ -257,6 +268,15 @@
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000034f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000034f0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_combinatorial.vhd)</CurrentItem>
+=======
+         <SelectedItem>tb_hyperbolic_comb - behavior (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_hyperbolic_comb.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >5</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000034f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000034f0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>tb_hyperbolic_comb - behavior (/home/waseemh/Xilinx_Proj/iA_cordic_6stage/tb_hyperbolic_comb.vhd)</CurrentItem>
+>>>>>>> c41f6b552df92ab3c13905de5392eb35a66d2750
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
