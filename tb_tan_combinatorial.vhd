@@ -47,8 +47,7 @@ ARCHITECTURE behavior OF tb_tan_combinatorial IS
          operand_a : IN  std_logic_vector(31 downto 0);
          operand_b : IN  std_logic_vector(31 downto 0);
          angle : OUT  std_logic_vector(31 downto 0);
-         sqrt : OUT  std_logic_vector(31 downto 0);
-         reset : IN  std_logic
+         sqrt : OUT  std_logic_vector(31 downto 0)
         );
     END COMPONENT;
     
@@ -86,8 +85,7 @@ BEGIN
           operand_a => operand_a,
           operand_b => operand_b,
           angle => angle,
-          sqrt => sqrt,
-          reset => reset
+          sqrt => sqrt
         );
    -- Clock process definitions
    clk_process :process

@@ -1,0 +1,30 @@
+Command line:
+   tb_tan_comb_new_version_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  41620
+
+Mon Jun 20 14:54:47 2016
+
+
+ Elaboration Time: 0.09 sec
+
+ Current Memory Usage: 232.854 Meg
+
+ Total Signals          : 5396
+ Total Nets             : 15761
+ Total Signal Drivers   : 8943
+ Total Blocks           : 674
+ Total Primitive Blocks : 531
+ Total Processes        : 8939
+ Total Traceable Variables  : 60
+ Total Scalar Nets and Variables : 16930
+Total Line Count : 8947
+Total Line Count : 8947
+
+ Total Simulation Time: 7.31 sec
+
+ Current Memory Usage: 308.625 Meg
+
+Mon Jun 20 18:23:49 2016
+

@@ -59,15 +59,11 @@ signal dummy_out_1		: std_logic;
 signal dummy_out_2		: std_logic;
 
 	--adder part	
-signal ovf_x				: std_logic;
-signal cout_x				: std_logic;
 signal x_add_result		: std_logic_vector(39 downto 0);
-signal ovf_y				: std_logic;
-signal cout_y				: std_logic;
 signal y_add_result		: std_logic_vector(39 downto 0);
-signal ovf_z				: std_logic;
-signal cout_z				: std_logic;
 signal z_add_result		: std_logic_vector(39 downto 0);
+signal z_oprnd_b	      : std_logic_vector(39 downto 0);
+signal y_addr_mode		: std_logic;						
 signal loop_var 			: integer range 0 to 31;
 	--result adder
 signal r_add_result		: std_logic_vector(39 downto 0);
@@ -86,14 +82,14 @@ type angle_array is array (0 to 16) of std_logic_vector(39 downto 0);
 --												"0000000000000000000000000011111111111111", "0000000000000000000000000010000000000000",
 --												"0000000000000000000000000000111111111111", "0000000000000000000000000000011111111111",
 --												"0000000000000000000000000000010000000000", "0000000000000000000000000000001000000000");
-constant angles	: angle_array :=(	"0000000000000000000000000000000000000000","0010110011111111111111111111111111111111", "0001101010010000101001110011000110100110",	
+constant angles	: angle_array :=(	"0010110011111111111111111111111111111111", "0001101010010000101001110011000110100110",	
 												"0000111000001001010001110100000001111101", "0000011100100000000000010001001001001001", 
 												"0000001110010011100010101010011001001100", "0000000111001010001101111001010011100101",
 												"0000000011100101001010100001101010110001", "0000000001110010100101101101011110100001",
 												"0000000000111001010010111010010100011011", "0000000000011100101001011101100110110111",
 												"0000000000001110010100101110110111000000", "0000000000000111001010010111011011111101",
 												"0000000000000011100101001011101110000010", "0000000000000001110010100101110111000001",
-												"0000000000000000111001010010111011100000", "0000000000000000011100101001011101110000");
+												"0000000000000000111001010010111011100000", "0000000000000000011100101001011101110000","0000000000000000000000000000000000000000");
 ---------------------------------------------------------------------
 	
 	--FSM signals
@@ -122,33 +118,33 @@ adder_x: entity work.forty_bit_add_sub
 			  operand_a 	=> x_last,
            operand_b 	=> y_last_shftd,--(std_logic_vector(signed(y_last) srl loop_var)),
            mode 			=> (y_last_shftd(39)),			-- y <0 => sub else add
-           over_flow 	=> ovf_x,
-			  carry_out 	=> cout_x,
+           over_flow 	=> open,
+			  carry_out 	=> open,
            result 		=> x_add_result);
 
 adder_y: entity work.forty_bit_add_sub
 	Port map ( 
 			  operand_a 	=> y_last,
            operand_b 	=> x_last_shftd,--(std_logic_vector(signed(x_last) srl loop_var)),
-           mode 			=> not(y_last_shftd(39)),			-- y >0 => sub else add
-           over_flow 	=> ovf_y,
-			  carry_out 	=> cout_y,
+           mode 			=> y_addr_mode,			-- y >0 => sub else add
+           over_flow 	=> open,
+			  carry_out 	=> open,
            result 		=> y_add_result);
 adder_z: entity work.forty_bit_add_sub
 	Port map ( 
 			  operand_a 	=> z_last,
-           operand_b 	=> angles(loop_var),
+           operand_b 	=> z_oprnd_b,
            mode 			=> (y_last_shftd(39)),			-- y <0 => sub else add
-           over_flow 	=> ovf_z,
-			  carry_out 	=> cout_z,
+           over_flow 	=> open,
+			  carry_out 	=> open,
            result 		=> z_add_result);
 adder_result: entity work.forty_bit_add_sub
 	Port map ( 
 			  operand_a 	=> scale,
            operand_b 	=> result,
            mode 			=> result_sign, -- change this please!!! verified logic, just change scale in DONE state
-           over_flow 	=> ovf_rslt,
-			  carry_out 	=> cout_rslt,
+           over_flow 	=> open,
+			  carry_out 	=> open,
            result 		=> r_add_result);			  
 			  
 --actual FSM
@@ -170,9 +166,11 @@ fsm_process: process (clk, operand_a,operand_b,mode)
 				y_last_shftd	<= (others => '0');				
 				z_current		<= (others => '0');
 				z_last			<= (others => '0');
+				z_oprnd_b		<= (others => '0');
 				result			<= (others => '0');
 				angle				<= (others => '0');
-				sqrt				<= (others => '0');				
+				sqrt				<= (others => '0');
+				scale				<= (others => '0');
 				
 			else
 				case state is
@@ -198,12 +196,14 @@ fsm_process: process (clk, operand_a,operand_b,mode)
 						x_last		<= x_0;
 						y_last  		<= y_0;
 						z_last		<= (others => '0');
+						z_oprnd_b	<= (others => '0');
 						angle			<= (others => '0');		--keep result till next computation
 						sqrt			<= (others => '0');		--keep result till next computation
 						result_sign	<= operand_a(31) xor operand_b(31);
 						mode_latched <= mode;
 						oprnd_a_msb	<= operand_a(31);
 						oprnd_b_msb	<= operand_b(31);
+--						y_addr_mode	<= not(y_last_shftd(39));
 						state 		<= CURR_CALC;
  					when CURR_CALC  =>		
 						x_current	<= x_add_result;
@@ -299,6 +299,7 @@ fsm_process: process (clk, operand_a,operand_b,mode)
 						end case;
 						end if;
 						loop_var		<= loop_var + 1;
+						z_oprnd_b	<= angles(loop_var);	
 						if loop_var = 15 then
 							result 	<= "00000000" & z_current(39 downto 8) ;
 							if (oprnd_a_msb= '0' and oprnd_b_msb='0') then
@@ -329,4 +330,5 @@ fsm_process: process (clk, operand_a,operand_b,mode)
 			end if;		--rst='1'
 		end if; 			--rising_edge(clk)
 	end process; 
+y_addr_mode	<= not(y_last_shftd(39));																		
 end Behavioral; 
