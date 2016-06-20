@@ -44,7 +44,6 @@ architecture Behavioral of cordic_hyperbolic_seq is
 	--computational signals
 signal x_current,x_last : std_logic_vector(39 downto 0);
 signal y_current,y_last : std_logic_vector(39 downto 0);
-signal z_current,z_last : std_logic_vector(39 downto 0);
 signal x_last_shftd 		: std_logic_vector(39 downto 0);
 signal y_last_shftd 		: std_logic_vector(39 downto 0);
 signal result				: std_logic_vector(39 downto 0);
@@ -152,8 +151,6 @@ fsm_process: process (clk, operand_a)
 				y_current		<= (others => '0');
 				y_last			<= (others => '0');
 				y_last_shftd	<= (others => '0');				
-				z_current		<= (others => '0');
-				z_last			<= (others => '0');
 				result			<= (others => '0');
 				sqrt				<= (others => '0');				
 				
@@ -171,8 +168,6 @@ fsm_process: process (clk, operand_a)
 						y_current	<= (others => '0');
 						y_last		<= (others => '0');
 						y_last_shftd <=(others => '0');
-						z_current	<= (others => '0');
-						z_last		<= (others => '0');
 						result		<= (others => '0');
 						state 		<= IDLE;
 					 end if;
@@ -180,19 +175,16 @@ fsm_process: process (clk, operand_a)
 						loop_var		<= 1;
 						x_last		<= operand_b;
 						y_last  		<= y_0;
-						z_last		<=(others => '0');
 						sqrt			<= (others => '0');		--keep result till next computation
 						state 		<= CURR_CALC;
  					when CURR_CALC  =>		
 						x_current	<=x_add_result;
 						y_current	<=y_add_result;
---						z_current  	<=z_add_result;
 						state 		<=LAST_UPDATE;
 					when 	LAST_UPDATE =>
 						if loop_var < 14 then
 							x_last		<=x_current;
 							y_last		<=y_current;
---							z_last  		<=z_current;
 						else 
 							null;
 						end if;

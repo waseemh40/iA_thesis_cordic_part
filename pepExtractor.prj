@@ -1,1 +1,6 @@
-work	"rot_combinatorial.vhd"
+work	"carry_look_ahead_block_extended.vhd"
+work	"forty_bit_add_sub.vhd"
+work	"forty_bit_adder.vhd"
+work	"four_bits_CLA_adder.vhd"
+work	"hyperbolic_combinatorial.vhd"
+work	"norm_hyper_mode.vhd"

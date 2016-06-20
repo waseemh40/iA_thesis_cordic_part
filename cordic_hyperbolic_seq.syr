@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.05 secs
  
 --> 
 Reading design: cordic_hyperbolic_seq.prj
@@ -49,7 +49,7 @@ Ignore Synthesis Constraint File   : NO
 ---- Target Parameters
 Output File Name                   : "cordic_hyperbolic_seq"
 Output Format                      : NGC
-Target Device                      : xc7a100t-3-csg324
+Target Device                      : xc6slx16-2-csg324
 
 ---- Source Options
 Top Module Name                    : cordic_hyperbolic_seq
@@ -73,7 +73,7 @@ LUT Combining                      : Auto
 Reduce Control Sets                : Auto
 Add IO Buffers                     : YES
 Global Maximum Fanout              : 100000
-Add Generic Clock Buffer(BUFG)     : 32
+Add Generic Clock Buffer(BUFG)     : 16
 Register Duplication               : YES
 Optimize Instantiated Primitives   : NO
 Use Clock Enable                   : Auto
@@ -126,8 +126,8 @@ Parsing architecture <Behavioral> of entity <forty_bit_add_sub>.
 Parsing VHDL file "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" into library work
 Parsing entity <cordic_hyperbolic_seq>.
 Parsing architecture <Behavioral> of entity <cordic_hyperbolic_seq>.
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" Line 133: Actual for formal port operand_b is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" Line 134: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" Line 116: Actual for formal port mode is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" Line 125: Actual for formal port mode is neither a static name nor a globally static expression
 
 =========================================================================
 *                            HDL Elaboration                            *
@@ -144,7 +144,7 @@ Elaborating entity <four_bits_CLA_adder> (architecture <Behavioral>) from librar
 Elaborating entity <carry_look_ahead_block_extended> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <forty_bit_add_sub> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:1127 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" Line 139: Assignment to result ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" Line 138: Assignment to result ignored, since the identifier is never used
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -152,12 +152,12 @@ WARNING:HDLCompiler:1127 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hy
 
 Synthesizing Unit <cordic_hyperbolic_seq>.
     Related source file is "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd".
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" line 113: Output port <over_flow> of the instance <adder_x> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" line 113: Output port <carry_out> of the instance <adder_x> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" line 122: Output port <over_flow> of the instance <adder_y> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" line 122: Output port <carry_out> of the instance <adder_y> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" line 130: Output port <over_flow> of the instance <adder_z> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" line 130: Output port <carry_out> of the instance <adder_z> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" line 112: Output port <over_flow> of the instance <adder_x> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" line 112: Output port <carry_out> of the instance <adder_x> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" line 121: Output port <over_flow> of the instance <adder_y> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" line 121: Output port <carry_out> of the instance <adder_y> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" line 129: Output port <over_flow> of the instance <adder_offset> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.vhd" line 129: Output port <carry_out> of the instance <adder_offset> is unconnected or connected to loadless signal.
     Found 5-bit register for signal <loop_var>.
     Found 1-bit register for signal <opr_done>.
     Found 40-bit register for signal <x_current>.
@@ -166,8 +166,6 @@ INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_se
     Found 40-bit register for signal <y_current>.
     Found 40-bit register for signal <y_last>.
     Found 40-bit register for signal <y_last_shftd>.
-    Found 40-bit register for signal <z_current>.
-    Found 40-bit register for signal <z_last>.
     Found 32-bit register for signal <sqrt>.
     Found 3-bit register for signal <state>.
     Found finite state machine <FSM_0> for signal <state>.
@@ -175,7 +173,7 @@ INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_se
     | States             | 6                                              |
     | Transitions        | 8                                              |
     | Inputs             | 2                                              |
-    | Outputs            | 6                                              |
+    | Outputs            | 5                                              |
     | Clock              | clk (rising_edge)                              |
     | Reset              | rst (positive)                                 |
     | Reset type         | synchronous                                    |
@@ -184,13 +182,13 @@ INFO:Xst:3210 - "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_se
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 5-bit adder for signal <loop_var[4]_GND_3_o_add_19_OUT> created at line 279.
-    Found 32x40-bit Read Only RAM for signal <loop_var[4]_X_3_o_wide_mux_1_OUT>
+    Found 5-bit adder for signal <loop_var[4]_GND_3_o_add_18_OUT> created at line 275.
+    Found 5-bit comparator lessequal for signal <loop_var[4]_GND_3_o_LessThan_10_o> created at line 185
     Summary:
-	inferred   1 RAM(s).
 	inferred   1 Adder/Subtractor(s).
-	inferred 358 D-type flip-flop(s).
-	inferred  73 Multiplexer(s).
+	inferred 278 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  71 Multiplexer(s).
 	inferred   1 Finite State Machine(s).
 Unit <cordic_hyperbolic_seq> synthesized.
 
@@ -230,18 +228,18 @@ Unit <forty_bit_add_sub> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 1
- 32x40-bit single-port Read Only RAM                   : 1
 # Adders/Subtractors                                   : 1
  5-bit adder                                           : 1
-# Registers                                            : 11
+# Registers                                            : 9
  1-bit register                                        : 1
  32-bit register                                       : 1
- 40-bit register                                       : 8
+ 40-bit register                                       : 6
  5-bit register                                        : 1
-# Multiplexers                                         : 77
+# Comparators                                          : 1
+ 5-bit comparator lessequal                            : 1
+# Multiplexers                                         : 75
  32-bit 2-to-1 multiplexer                             : 1
- 40-bit 2-to-1 multiplexer                             : 75
+ 40-bit 2-to-1 multiplexer                             : 73
  5-bit 2-to-1 multiplexer                              : 1
 # FSMs                                                 : 1
 # Xors                                                 : 320
@@ -253,37 +251,28 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-WARNING:Xst:1290 - Hierarchical block <adder_z> is unconnected in block <cordic_hyperbolic_seq>.
+WARNING:Xst:1290 - Hierarchical block <ninth_4bits> is unconnected in block <adder>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <tenth_4bits> is unconnected in block <adder>.
    It will be removed from the design.
 
 Synthesizing (advanced) Unit <cordic_hyperbolic_seq>.
 The following registers are absorbed into counter <loop_var>: 1 register on signal <loop_var>.
-INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_loop_var[4]_X_3_o_wide_mux_1_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
-    -----------------------------------------------------------------------
-    | ram_type           | Distributed                         |          |
-    -----------------------------------------------------------------------
-    | Port A                                                              |
-    |     aspect ratio   | 32-word x 40-bit                    |          |
-    |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <loop_var>      |          |
-    |     diA            | connected to signal <GND>           |          |
-    |     doA            | connected to internal node          |          |
-    -----------------------------------------------------------------------
 Unit <cordic_hyperbolic_seq> synthesized (advanced).
 
 =========================================================================
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 1
- 32x40-bit single-port distributed Read Only RAM       : 1
 # Counters                                             : 1
  5-bit up counter                                      : 1
-# Registers                                            : 353
- Flip-Flops                                            : 353
-# Multiplexers                                         : 76
+# Registers                                            : 273
+ Flip-Flops                                            : 273
+# Comparators                                          : 1
+ 5-bit comparator lessequal                            : 1
+# Multiplexers                                         : 74
  32-bit 2-to-1 multiplexer                             : 1
- 40-bit 2-to-1 multiplexer                             : 75
+ 40-bit 2-to-1 multiplexer                             : 73
 # FSMs                                                 : 1
 # Xors                                                 : 320
  1-bit xor2                                            : 320
@@ -313,91 +302,11 @@ Optimizing unit <norm_hyper_mode> ...
 Optimizing unit <forty_bit_adder> ...
 
 Optimizing unit <forty_bit_add_sub> ...
-WARNING:Xst:2677 - Node <z_last_0> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_1> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_2> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_3> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_4> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_5> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_6> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_7> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_8> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_9> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_10> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_11> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_12> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_13> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_14> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_15> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_16> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_17> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_18> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_19> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_20> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_21> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_22> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_23> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_24> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_25> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_26> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_27> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_28> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_29> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_30> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_31> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_32> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_33> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_34> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_35> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_36> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_37> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_38> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_last_39> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_0> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_1> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_2> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_3> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_4> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_5> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_6> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_7> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_8> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_9> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_10> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_11> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_12> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_13> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_14> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_15> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_16> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_17> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_18> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_19> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_20> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_21> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_22> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_23> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_24> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_25> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_26> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_27> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_28> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_29> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_30> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_31> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_32> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_33> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_34> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_35> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_36> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_37> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_38> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
-WARNING:Xst:2677 - Node <z_current_39> of sequential type is unconnected in block <cordic_hyperbolic_seq>.
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block cordic_hyperbolic_seq, actual ratio is 1.
-FlipFlop y_last_shftd_39 has been replicated 1 time(s)
+Found area constraint ratio of 100 (+ 5) on block cordic_hyperbolic_seq, actual ratio is 7.
+FlipFlop y_last_shftd_39 has been replicated 6 time(s)
 
 Final Macro Processing ...
 
@@ -405,8 +314,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 282
- Flip-Flops                                            : 282
+# Registers                                            : 287
+ Flip-Flops                                            : 287
 
 =========================================================================
 
@@ -429,17 +338,17 @@ Top Level Output File Name         : cordic_hyperbolic_seq.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 807
-#      LUT2                        : 156
-#      LUT3                        : 76
-#      LUT4                        : 44
-#      LUT5                        : 84
-#      LUT6                        : 410
-#      MUXF7                       : 37
-# FlipFlops/Latches                : 282
+# BELS                             : 843
+#      LUT2                        : 122
+#      LUT3                        : 83
+#      LUT4                        : 51
+#      LUT5                        : 100
+#      LUT6                        : 436
+#      MUXF7                       : 51
+# FlipFlops/Latches                : 287
+#      FD                          : 1
 #      FDR                         : 3
-#      FDRE                        : 278
-#      FDSE                        : 1
+#      FDRE                        : 283
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 67
@@ -449,27 +358,27 @@ Primitive and Black Box Usage:
 Device utilization summary:
 ---------------------------
 
-Selected Device : 7a100tcsg324-3 
+Selected Device : 6slx16csg324-2 
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             282  out of  126800     0%  
- Number of Slice LUTs:                  770  out of  63400     1%  
-    Number used as Logic:               770  out of  63400     1%  
+ Number of Slice Registers:             287  out of  18224     1%  
+ Number of Slice LUTs:                  792  out of   9112     8%  
+    Number used as Logic:               792  out of   9112     8%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    771
-   Number with an unused Flip Flop:     489  out of    771    63%  
-   Number with an unused LUT:             1  out of    771     0%  
-   Number of fully used LUT-FF pairs:   281  out of    771    36%  
-   Number of unique control sets:         8
+ Number of LUT Flip Flop pairs used:    796
+   Number with an unused Flip Flop:     509  out of    796    63%  
+   Number with an unused LUT:             4  out of    796     0%  
+   Number of fully used LUT-FF pairs:   283  out of    796    35%  
+   Number of unique control sets:         9
 
 IO Utilization: 
  Number of IOs:                          68
- Number of bonded IOBs:                  68  out of    210    32%  
+ Number of bonded IOBs:                  68  out of    232    29%  
 
 Specific Feature Utilization:
- Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
 
 ---------------------------
 Partition Resource Summary:
@@ -492,7 +401,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clk                                | BUFGP                  | 282   |
+clk                                | BUFGP                  | 287   |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -501,11 +410,11 @@ No asynchronous control signals found in this design
 
 Timing Summary:
 ---------------
-Speed Grade: -3
+Speed Grade: -2
 
-   Minimum period: 3.667ns (Maximum Frequency: 272.717MHz)
-   Minimum input arrival time before clock: 4.601ns
-   Maximum output required time after clock: 0.640ns
+   Minimum period: 7.689ns (Maximum Frequency: 130.056MHz)
+   Minimum input arrival time before clock: 13.100ns
+   Maximum output required time after clock: 4.118ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -514,64 +423,64 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 3.667ns (frequency: 272.717MHz)
-  Total number of paths / destination ports: 17812 / 562
+  Clock period: 7.689ns (frequency: 130.056MHz)
+  Total number of paths / destination ports: 20327 / 571
 -------------------------------------------------------------------------
-Delay:               3.667ns (Levels of Logic = 6)
-  Source:            x_last_1 (FF)
-  Destination:       x_current_25 (FF)
+Delay:               7.689ns (Levels of Logic = 6)
+  Source:            x_last_shftd_1 (FF)
+  Destination:       y_current_30 (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: x_last_1 to x_current_25
+  Data Path: x_last_shftd_1 to y_current_30
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             4   0.361   0.697  x_last_1 (x_last_1)
-     LUT5:I0->O            3   0.097   0.305  adder_x/adder/first_4bits/c<2>1 (adder_x/adder/first_4bits/c<2>)
-     LUT6:I5->O            4   0.097   0.309  adder_x/adder/CLA_block/C_OUT<1> (adder_x/adder/c_group<1>)
-     LUT6:I5->O            4   0.097   0.293  adder_x/adder/second_4bits/c<2>1 (adder_x/adder/second_4bits/c<2>)
-     MUXF7:S->O           13   0.335   0.351  adder_x/adder/fourth_4bits/c<2>1 (adder_x/adder/fourth_4bits/c<2>)
-     LUT6:I5->O            2   0.097   0.284  adder_x/adder/CLA_block/C_OUT<6> (adder_x/adder/c_group<6>)
-     MUXF7:S->O            1   0.335   0.000  Mmux__n0200181 (_n0200<25>)
-     FDRE:D                    0.008          x_current_25
+     FDRE:C->Q             2   0.525   1.156  x_last_shftd_1 (x_last_shftd_1)
+     LUT5:I0->O            3   0.254   0.766  adder_y/adder/first_4bits/c<2>1 (adder_y/adder/first_4bits/c<2>)
+     LUT6:I5->O            4   0.254   0.804  adder_y/adder/CLA_block/C_OUT<1> (adder_y/adder/c_group<1>)
+     LUT6:I5->O            4   0.254   0.803  adder_y/adder/second_4bits/c<2>1 (adder_y/adder/second_4bits/c<2>)
+     MUXF7:S->O           13   0.185   1.098  adder_y/adder/fourth_4bits/c<2>1 (adder_y/adder/fourth_4bits/c<2>)
+     LUT6:I5->O           10   0.254   1.008  adder_y/adder/eighth_4bits/c<2>1 (adder_y/adder/eighth_4bits/c<2>)
+     LUT6:I5->O            1   0.254   0.000  Mmux__n0307251 (_n0307<31>)
+     FDRE:D                    0.074          y_current_31
     ----------------------------------------
-    Total                      3.667ns (1.427ns logic, 2.240ns route)
-                                       (38.9% logic, 61.1% route)
+    Total                      7.689ns (2.054ns logic, 5.635ns route)
+                                       (26.7% logic, 73.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 1088 / 562
+  Total number of paths / destination ports: 1098 / 571
 -------------------------------------------------------------------------
-Offset:              4.601ns (Levels of Logic = 10)
-  Source:            operand_a<3> (PAD)
+Offset:              13.100ns (Levels of Logic = 10)
+  Source:            operand_a<0> (PAD)
   Destination:       y_last_30 (FF)
   Destination Clock: clk rising
 
-  Data Path: operand_a<3> to y_last_30
+  Data Path: operand_a<0> to y_last_30
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             3   0.001   0.566  operand_a_3_IBUF (operand_a_3_IBUF)
-     LUT4:I0->O            3   0.097   0.389  norm_1/adder/CLA_block/C_OUT<1>1 (norm_1/adder/c_group<1>)
-     LUT5:I3->O            5   0.097   0.398  norm_1/adder/CLA_block/C_OUT<2>1 (norm_1/adder/c_group<2>)
-     LUT5:I3->O            5   0.097   0.398  norm_1/adder/CLA_block/C_OUT<3>1 (norm_1/adder/c_group<3>)
-     LUT5:I3->O            5   0.097   0.398  norm_1/adder/CLA_block/C_OUT<4>1 (norm_1/adder/c_group<4>)
-     LUT5:I3->O            5   0.097   0.398  norm_1/adder/CLA_block/C_OUT<5>1 (norm_1/adder/c_group<5>)
-     LUT5:I3->O            5   0.097   0.398  norm_1/adder/CLA_block/C_OUT<6>1 (norm_1/adder/c_group<6>)
-     LUT5:I3->O            3   0.097   0.389  norm_1/adder/CLA_block/C_OUT<7>1 (norm_1/adder/c_group<7>)
-     LUT3:I1->O            2   0.097   0.383  norm_1/adder/eighth_4bits/c<2>1 (norm_1/adder/eighth_4bits/c<2>)
-     LUT6:I4->O            1   0.097   0.000  Mmux__n0333251 (_n0333<31>)
-     FDRE:D                    0.008          y_last_31
+     IBUF:I->O             6   1.328   1.104  operand_a_0_IBUF (norm_1/adder_result<0>)
+     LUT4:I1->O            3   0.235   1.042  norm_1/adder/CLA_block/C_OUT<1>1 (norm_1/adder/c_group<1>)
+     LUT5:I1->O            5   0.254   1.117  norm_1/adder/CLA_block/C_OUT<2>1 (norm_1/adder/c_group<2>)
+     LUT5:I1->O            5   0.254   1.117  norm_1/adder/CLA_block/C_OUT<3>1 (norm_1/adder/c_group<3>)
+     LUT5:I1->O            5   0.254   1.117  norm_1/adder/CLA_block/C_OUT<4>1 (norm_1/adder/c_group<4>)
+     LUT5:I1->O            5   0.254   1.117  norm_1/adder/CLA_block/C_OUT<5>1 (norm_1/adder/c_group<5>)
+     LUT5:I1->O            5   0.254   1.117  norm_1/adder/CLA_block/C_OUT<6>1 (norm_1/adder/c_group<6>)
+     LUT5:I1->O            3   0.254   0.874  norm_1/adder/CLA_block/C_OUT<7>1 (norm_1/adder/c_group<7>)
+     LUT3:I1->O            2   0.250   0.834  norm_1/adder/eighth_4bits/c<2>1 (norm_1/adder/eighth_4bits/c<2>)
+     LUT6:I4->O            1   0.250   0.000  Mmux__n0323251 (_n0323<31>)
+     FDRE:D                    0.074          y_last_31
     ----------------------------------------
-    Total                      4.601ns (0.882ns logic, 3.719ns route)
-                                       (19.2% logic, 80.8% route)
+    Total                     13.100ns (3.661ns logic, 9.439ns route)
+                                       (27.9% logic, 72.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
   Total number of paths / destination ports: 33 / 33
 -------------------------------------------------------------------------
-Offset:              0.640ns (Levels of Logic = 1)
+Offset:              4.118ns (Levels of Logic = 1)
   Source:            sqrt_31 (FF)
   Destination:       sqrt<31> (PAD)
   Source Clock:      clk rising
@@ -580,11 +489,11 @@ Offset:              0.640ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             1   0.361   0.279  sqrt_31 (sqrt_31)
-     OBUF:I->O                 0.000          sqrt_31_OBUF (sqrt<31>)
+     FDRE:C->Q             1   0.525   0.681  sqrt_31 (sqrt_31)
+     OBUF:I->O                 2.912          sqrt_31_OBUF (sqrt<31>)
     ----------------------------------------
-    Total                      0.640ns (0.361ns logic, 0.279ns route)
-                                       (56.4% logic, 43.6% route)
+    Total                      4.118ns (3.437ns logic, 0.681ns route)
+                                       (83.5% logic, 16.5% route)
 
 =========================================================================
 
@@ -596,21 +505,21 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    3.667|         |         |         |
+clk            |    7.689|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 20.00 secs
-Total CPU time to Xst completion: 17.66 secs
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.47 secs
  
 --> 
 
 
-Total memory usage is 515428 kilobytes
+Total memory usage is 396644 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   84 (   0 filtered)
-Number of infos    :   10 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    9 (   0 filtered)
 

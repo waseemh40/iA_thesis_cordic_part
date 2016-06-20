@@ -2,3 +2,14 @@ xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperb
 xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.syr" 
 xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.syr" 
 xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.syr" 
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm norm_linear_module.bmm -p xc6slx16-csg324-2 cordic_hyperbolic_seq.ngc cordic_hyperbolic_seq.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cordic_hyperbolic_seq_map.ncd cordic_hyperbolic_seq.ngd cordic_hyperbolic_seq.pcf 
+par -w -intstyle ise -ol high -mt off cordic_hyperbolic_seq_map.ncd cordic_hyperbolic_seq.ncd cordic_hyperbolic_seq.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml cordic_hyperbolic_seq.twx cordic_hyperbolic_seq.ncd -o cordic_hyperbolic_seq.twr cordic_hyperbolic_seq.pcf 
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.syr" 
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/cordic_hyperbolic_seq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm norm_linear_module.bmm -p xc6slx16-csg324-2 cordic_hyperbolic_seq.ngc cordic_hyperbolic_seq.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cordic_hyperbolic_seq_map.ncd cordic_hyperbolic_seq.ngd cordic_hyperbolic_seq.pcf 
+par -w -intstyle ise -ol high -mt off cordic_hyperbolic_seq_map.ncd cordic_hyperbolic_seq.ncd cordic_hyperbolic_seq.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml cordic_hyperbolic_seq.twx cordic_hyperbolic_seq.ncd -o cordic_hyperbolic_seq.twr cordic_hyperbolic_seq.pcf 

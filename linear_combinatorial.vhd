@@ -33,8 +33,6 @@ entity linear_combinatorial is
     Port ( operand_a : in  STD_LOGIC_VECTOR (31 downto 0);
            operand_b : in  STD_LOGIC_VECTOR (31 downto 0);
            result 	: out STD_LOGIC_VECTOR (31 downto 0);
-           reset 		: in  STD_LOGIC;
-			  clk			: in 	STD_LOGIC;
            ovf 		: out STD_LOGIC);
 end linear_combinatorial;
 
