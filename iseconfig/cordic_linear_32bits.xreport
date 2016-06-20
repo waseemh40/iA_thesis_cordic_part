@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-06-04T19:14:13</DateModified>
-  <ModuleName>cordic_tan_combinatorial</ModuleName>
+  <DateModified>2016-06-20T14:25:48</DateModified>
+  <ModuleName>hyperbolic_comb</ModuleName>
   <SummaryTimeStamp>2016-06-04T18:05:57</SummaryTimeStamp>
   <SavedFilePath>/home/waseemh/Xilinx_Proj/iA_cordic_6stage/iseconfig/cordic_linear_32bits.xreport</SavedFilePath>
   <ImplementationReportsDirectory>/home/waseemh/Xilinx_Proj/iA_cordic_6stage/</ImplementationReportsDirectory>
-  <DateInitialized>2016-06-04T18:05:36</DateInitialized>
+  <DateInitialized>2016-06-20T14:25:48</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

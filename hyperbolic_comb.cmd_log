@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_comb.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_comb.syr" 
+xst -intstyle ise -ifn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_comb.xst" -ofn "/home/waseemh/Xilinx_Proj/iA_cordic_6stage/hyperbolic_comb.syr" 

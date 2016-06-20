@@ -3,17 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<<<<<<< HEAD
-<application name="pn" timeStamp="Mon Jun 20 13:32:03 2016">
+<application name="pn" timeStamp="Mon Jun 20 14:26:22 2016">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="8B4C0EBD853AF92B4A542B9F999AFCB5" type="project"/>
-<property name="ProjectIteration" value="24" type="project"/>
-=======
-<application name="pn" timeStamp="Sun Jun 19 17:06:18 2016">
-<section name="Project Information" visible="false">
-<property name="ProjectID" value="8B4C0EBD853AF92B4A542B9F999AFCB5" type="project"/>
-<property name="ProjectIteration" value="22" type="project"/>
->>>>>>> c41f6b552df92ab3c13905de5392eb35a66d2750
+<property name="ProjectIteration" value="0" type="project"/>
 <property name="ProjectFile" value="/home/waseemh/Xilinx_Proj/iA_cordic_6stage/iA_cordic_6stage.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2016-05-05T00:55:48" type="project"/>
 </section>
@@ -25,11 +18,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_LastAppliedStrategy" value="Xilinx Default (unlocked)" type="design"/>
 <property name="PROP_ManualCompileOrderImp" value="false" type="design"/>
 <property name="PROP_PropSpecInProjFile" value="Store all values" type="design"/>
-<<<<<<< HEAD
-<property name="PROP_SelectedInstanceHierarchicalPath" value="/tb_hyperbolic_comb" type="process"/>
-=======
-<property name="PROP_SelectedInstanceHierarchicalPath" value="/tb_hyper_seq_module" type="process"/>
->>>>>>> c41f6b552df92ab3c13905de5392eb35a66d2750
+<property name="PROP_SelectedInstanceHierarchicalPath" value="/testbench" type="process"/>
 <property name="PROP_Simulator" value="ISim (VHDL/Verilog)" type="design"/>
 <property name="PROP_SynthTopFile" value="changed" type="process"/>
 <property name="PROP_Top_Level_Module_Type" value="HDL" type="design"/>
@@ -37,21 +26,11 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2016-05-05T00:55:48" type="design"/>
 <property name="PROP_intWbtProjectID" value="8B4C0EBD853AF92B4A542B9F999AFCB5" type="design"/>
-<<<<<<< HEAD
-<property name="PROP_intWbtProjectIteration" value="24" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
-<property name="PROP_selectedSimRootSourceNode_behav" value="work.tb_hyperbolic_comb" type="process"/>
-<property name="PROP_xilxBitgStart_IntDone" value="true" type="process"/>
-<property name="PROP_AutoTop" value="true" type="design"/>
-=======
-<property name="PROP_intWbtProjectIteration" value="22" type="process"/>
-<property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
-<property name="PROP_intWorkingDirUsed" value="No" type="design"/>
-<property name="PROP_selectedSimRootSourceNode_behav" value="work.tb_hyper_seq_module" type="process"/>
+<property name="PROP_selectedSimRootSourceNode_behav" value="work.testbench" type="process"/>
 <property name="PROP_xilxBitgStart_IntDone" value="true" type="process"/>
 <property name="PROP_AutoTop" value="false" type="design"/>
->>>>>>> c41f6b552df92ab3c13905de5392eb35a66d2750
 <property name="PROP_DevFamily" value="Spartan6" type="design"/>
 <property name="PROP_DevDevice" value="xc6slx16" type="design"/>
 <property name="PROP_DevFamilyPMName" value="spartan6" type="design"/>
@@ -60,7 +39,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_DevSpeed" value="-2" type="design"/>
 <property name="PROP_PreferredLanguage" value="VHDL" type="design"/>
 <property name="FILE_BMM" value="1" type="source"/>
-<property name="FILE_VHDL" value="40" type="source"/>
+<property name="FILE_VHDL" value="41" type="source"/>
 </section>
 </application>
 </document>
