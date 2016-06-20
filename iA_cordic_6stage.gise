@@ -53,7 +53,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1466425665" xil_pn:in_ck="6153219044652749977" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1466425665">
+    <transform xil_pn:end_ts="1466425898" xil_pn:in_ck="6153219044652749977" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1466425898">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="carry_look_ahead_block.vhd"/>
@@ -113,6 +113,10 @@
     <transform xil_pn:end_ts="1466425669" xil_pn:in_ck="6153219044652749977" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1466425669">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="carry_look_ahead_block.vhd"/>
       <outfile xil_pn:name="carry_look_ahead_block_extended.vhd"/>
       <outfile xil_pn:name="cordic_hyperbolic_seq.vhd"/>
@@ -158,7 +162,10 @@
     <transform xil_pn:end_ts="1466425674" xil_pn:in_ck="6153219044652749977" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2463433016230802776" xil_pn:start_ts="1466425669">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
@@ -170,6 +177,9 @@
     <transform xil_pn:end_ts="1466425674" xil_pn:in_ck="8425425928853530677" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3995059194576533989" xil_pn:start_ts="1466425674">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="tb_hyperbolic_comb_isim_beh.wdb"/>

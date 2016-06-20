@@ -60,7 +60,7 @@ ARCHITECTURE behavior OF tb_hyperbolic_comb IS
    -- appropriate port name 
  
    constant clk_period : time := 10 ns;
- 	signal x 			: std_logic_vector(31 downto 0):=x"FFFF0000";		--(-1)	
+ 	signal x 			: std_logic_vector(31 downto 0):=x"FFFEF333";		--(-1)	
 	--file IO part
 	signal 	endoffile : bit := '0';
 	--data read from the file.
